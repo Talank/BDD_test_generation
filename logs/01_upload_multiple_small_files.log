@@ -1,0 +1,33 @@
+npm warn Unknown project config "auto-install-peers". This will stop working in the next major version of npm.
+npm warn Unknown project config "shared-workspace-lockfile". This will stop working in the next major version of npm.
+npm warn Unknown project config "hoist-pattern". This will stop working in the next major version of npm.
+npm warn Unknown project config "public-hoist-pattern". This will stop working in the next major version of npm.
+
+Running 1 test using 1 worker
+
+(node:80702) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  1 [chromium] › tests/e2e/specs/smoke/_check_upload_multiple.spec.ts:127:3 › internal link share › upload multiple small files (6.9s)
+
+
+  1) [chromium] › tests/e2e/specs/smoke/_check_upload_multiple.spec.ts:127:3 › internal link share › upload multiple small files 
+
+    Error: TODO: fixture files
+
+       at ../support/environment/file.ts:10
+
+       8 |     const relPath = path.join(config.assets, name)
+       9 |     if (!fs.existsSync(relPath)) {
+    > 10 |       throw new Error('TODO: fixture files')
+         |             ^
+      11 |     }
+      12 |
+      13 |     return { name, path: path.resolve(relPath) }
+        at FilesEnvironment.getFile (/home/muhaimeen/Personal/UIUC/BDD/Projects/web/tests/e2e/support/environment/file.ts:10:13)
+        at Module.userUploadsResources (/home/muhaimeen/Personal/UIUC/BDD/Projects/web/tests/e2e/steps/ui/resources.ts:34:42)
+        at /home/muhaimeen/Personal/UIUC/BDD/Projects/web/tests/e2e/specs/smoke/_check_upload_multiple.spec.ts:133:14
+
+    Error Context: reports/e2e/smoke-_check_upload_multip-8875a-upload-multiple-small-files-chromium/error-context.md
+
+  1 failed
+    [chromium] › tests/e2e/specs/smoke/_check_upload_multiple.spec.ts:127:3 › internal link share › upload multiple small files 

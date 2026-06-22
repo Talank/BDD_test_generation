@@ -1,0 +1,35 @@
+npm warn Unknown project config "auto-install-peers". This will stop working in the next major version of npm.
+npm warn Unknown project config "shared-workspace-lockfile". This will stop working in the next major version of npm.
+npm warn Unknown project config "hoist-pattern". This will stop working in the next major version of npm.
+npm warn Unknown project config "public-hoist-pattern". This will stop working in the next major version of npm.
+
+Running 1 test using 1 worker
+
+(node:82028) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  1 [chromium] › tests/e2e/specs/shares/_check_two_shares_same_name.spec.ts:388:3 › share › receive two shares with same name (1.2s)
+
+
+  1) [chromium] › tests/e2e/specs/shares/_check_two_shares_same_name.spec.ts:388:3 › share › receive two shares with same name 
+
+    Error: HTTP Request Failed: Failed while creating user, Status: 409
+
+       at ../support/api/http.ts:65
+
+      63 |   // response.status >= 200 && response.status < 300
+      64 |   if (!response.ok) {
+    > 65 |     throw Error(`HTTP Request Failed: ${message}, Status: ${response.status}`)
+         |           ^
+      66 |   }
+      67 | }
+      68 |
+        at checkResponseStatus (/home/muhaimeen/Personal/UIUC/BDD/Projects/web/tests/e2e/support/api/http.ts:65:11)
+        at createUser (/home/muhaimeen/Personal/UIUC/BDD/Projects/web/tests/e2e/support/api/graph/userManagement.ts:39:3)
+        at Module.createUser (/home/muhaimeen/Personal/UIUC/BDD/Projects/web/tests/e2e/support/api/provision/user.ts:21:10)
+        at Module.usersHaveBeenCreated (/home/muhaimeen/Personal/UIUC/BDD/Projects/web/tests/e2e/steps/api/api.ts:22:7)
+        at /home/muhaimeen/Personal/UIUC/BDD/Projects/web/tests/e2e/specs/shares/_check_two_shares_same_name.spec.ts:393:3
+
+    Error Context: reports/e2e/shares-_check_two_shares_s-201f2-e-two-shares-with-same-name-chromium/error-context.md
+
+  1 failed
+    [chromium] › tests/e2e/specs/shares/_check_two_shares_same_name.spec.ts:388:3 › share › receive two shares with same name 

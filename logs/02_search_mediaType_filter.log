@@ -1,0 +1,36 @@
+npm warn Unknown project config "auto-install-peers". This will stop working in the next major version of npm.
+npm warn Unknown project config "shared-workspace-lockfile". This will stop working in the next major version of npm.
+npm warn Unknown project config "hoist-pattern". This will stop working in the next major version of npm.
+npm warn Unknown project config "public-hoist-pattern". This will stop working in the next major version of npm.
+
+Running 1 test using 1 worker
+
+(node:80954) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  1 [chromium] › tests/e2e/specs/search/_check_mediatype.spec.ts:412:3 › Search › Search using mediaType filter @predefined-users (3.0m)
+
+
+  1) [chromium] › tests/e2e/specs/search/_check_mediatype.spec.ts:412:3 › Search › Search using mediaType filter @predefined-users 
+
+    [31mTest timeout of 180000ms exceeded.[39m
+
+    Error: page.waitForResponse: Target page, context or browser has been closed
+
+       at ../support/objects/app-files/search/actions.ts:63
+
+      61 |   )
+      62 |   await Promise.all([
+    > 63 |     page.waitForResponse(
+         |          ^
+      64 |       (resp) =>
+      65 |         resp.url().includes('/dav/spaces') &&
+      66 |         resp.status() === 207 &&
+        at Module.selectMediaTypeFilter (/home/muhaimeen/Personal/UIUC/BDD/Projects/web/tests/e2e/support/objects/app-files/search/actions.ts:63:10)
+        at Search.selectMediaTypeFilter (/home/muhaimeen/Personal/UIUC/BDD/Projects/web/tests/e2e/support/objects/app-files/search/index.ts:20:5)
+        at Module.userFiltersSearchByMediaType (/home/muhaimeen/Personal/UIUC/BDD/Projects/web/tests/e2e/steps/ui/search.ts:76:3)
+        at /home/muhaimeen/Personal/UIUC/BDD/Projects/web/tests/e2e/specs/search/_check_mediatype.spec.ts:469:3
+
+    Error Context: reports/e2e/search-_check_mediatype-Search-Search-using-mediaType-filter-chromium/error-context.md
+
+  1 failed
+    [chromium] › tests/e2e/specs/search/_check_mediatype.spec.ts:412:3 › Search › Search using mediaType filter @predefined-users 

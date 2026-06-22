@@ -1,0 +1,40 @@
+npm warn Unknown project config "auto-install-peers". This will stop working in the next major version of npm.
+npm warn Unknown project config "shared-workspace-lockfile". This will stop working in the next major version of npm.
+npm warn Unknown project config "hoist-pattern". This will stop working in the next major version of npm.
+npm warn Unknown project config "public-hoist-pattern". This will stop working in the next major version of npm.
+
+Running 1 test using 1 worker
+
+(node:81689) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  1 [chromium] › tests/e2e/specs/shares/_check_same_name_paths.spec.ts:519:3 › share › file with same name different paths (24.8s)
+
+
+  1) [chromium] › tests/e2e/specs/shares/_check_same_name_paths.spec.ts:519:3 › share › file with same name different paths 
+
+    Error: Waiting for resource "folderA/test.txt" to appear in Shares
+
+    [2mexpect([22m[31mreceived[39m[2m).[22mtoBe[2m([22m[32mexpected[39m[2m) // Object.is equality[22m
+
+    Expected: [32mtrue[39m
+    Received: [31mfalse[39m
+
+    Call Log:
+    - Timeout 10000ms exceeded while waiting on the predicate
+
+       at ../steps/ui/resources.ts:202
+
+      200 |
+      201 |   for (const resource of resources) {
+    > 202 |     await expect
+          |     ^
+      203 |       .poll(
+      204 |         async () => {
+      205 |           const actualList = await resourceObject.getDisplayedResources({
+        at Module.userShouldSeeResources (/home/muhaimeen/Personal/UIUC/BDD/Projects/web/tests/e2e/steps/ui/resources.ts:202:5)
+        at /home/muhaimeen/Personal/UIUC/BDD/Projects/web/tests/e2e/specs/shares/_check_same_name_paths.spec.ts:591:5
+
+    Error Context: reports/e2e/shares-_check_same_name_pa-6d1e1-h-same-name-different-paths-chromium/error-context.md
+
+  1 failed
+    [chromium] › tests/e2e/specs/shares/_check_same_name_paths.spec.ts:519:3 › share › file with same name different paths 
