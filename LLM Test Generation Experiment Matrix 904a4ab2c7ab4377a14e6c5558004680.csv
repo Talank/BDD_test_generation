@@ -1,0 +1,6 @@
+﻿Test Description,Target Component/File,Total tests in that file(excluding itself)),Semantically Same?(has the same intention as the original test),Syntactically correct?(compiles or not),Successfully executed?(do the testcase pass?),Chat Session Link 1,Chat Session Link 2
+check file with same name but different paths are displayed correctly in shared with others page,tests/e2e/specs/shares/share.spec.ts,4,No,Yes,No,https://chatgpt.com/share/6a23c035-d948-8323-b78c-105b25582f64,https://chatgpt.com/share/6a23c061-cb3c-8321-962a-37a72ea9ef29
+receive two shares with same name,tests/e2e/specs/shares/share.spec.ts,4,No,Yes,No,https://chatgpt.com/share/6a23c1e3-dab0-8321-98f5-d30319aee80e,https://chatgpt.com/share/6a23c231-b3f4-8321-b1ec-947423da0390
+share with expiration date,tests/e2e/specs/shares/share.spec.ts,4,No,No,Yes,https://chatgpt.com/share/6a23c7a8-e06c-8322-a066-2c6a527962fd,https://chatgpt.com/share/6a23c7e4-0ba4-8321-a969-436b1eb3aaca
+upload multiple small files,tests/e2e/specs/smoke/upload.spec.ts,3,No,Yes,No,https://chatgpt.com/share/6a23c39d-9ac0-8321-93bf-635488b23474,https://chatgpt.com/share/6a23c3d8-01c4-8323-92d6-64ffc830ea61
+Search using mediaType filter,tests/e2e/specs/search/search.spec.ts,3,No,Yes,No,https://chatgpt.com/share/6a23c57f-1930-8324-8e6b-81dfb0ef116f,https://chatgpt.com/share/6a23c5b2-fb14-8321-9b97-632f78b29678
