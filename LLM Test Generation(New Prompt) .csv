@@ -1,0 +1,6 @@
+﻿Test Description,Target Component/File,Total tests in that file(excluding itself)),Semantically Same?(has the same intention as the original test),Chat Session Link 1,Chat Session Link 2
+check file with same name but different paths are displayed correctly in shared with others page,tests/e2e/specs/shares/share.spec.ts,4,No,https://chatgpt.com/share/6a467198-7104-83ee-bada-bf7ae1202226,https://chatgpt.com/share/6a4671a2-f7dc-83ee-aabb-6c8ddbe00983
+receive two shares with same name,tests/e2e/specs/shares/share.spec.ts,4,No,https://chatgpt.com/share/6a467364-6fc0-83ee-8e70-db4da9afe13d,https://chatgpt.com/share/6a467372-2414-83ee-af6c-aa75ec5bc7b8
+share with expiration date,tests/e2e/specs/shares/share.spec.ts,4,Yes,https://chatgpt.com/share/6a467455-0740-83ee-b677-bd2c77bbc8ba,https://chatgpt.com/share/6a46745e-12f8-83ee-8c5b-b2b4f239c789
+upload multiple small files,tests/e2e/specs/smoke/upload.spec.ts,3,Yes,https://chatgpt.com/share/6a467524-f278-83ee-942b-16047a48e4cc,https://chatgpt.com/share/6a467531-abbc-83ee-a556-45a6eab749fb
+Search using mediaType filter,tests/e2e/specs/search/search.spec.ts,3,Yes,https://chatgpt.com/share/6a46761d-40dc-83ee-ab21-3b4133ffbc60,https://chatgpt.com/share/6a467626-2338-83ee-aa48-028bef07c2db
