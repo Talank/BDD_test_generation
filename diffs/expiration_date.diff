@@ -1,0 +1,204 @@
+diff --git a/tests/e2e/specs/shares/expiration_date.spec.ts b/tests/e2e/specs/shares/_check_expiration_date.spec.ts
+index bbf757e07..1a4f1b4e0 100644
+--- a/tests/e2e/specs/shares/expiration_date.spec.ts
++++ b/tests/e2e/specs/shares/_check_expiration_date.spec.ts
+@@ -231,67 +231,168 @@ test.describe('share', () => {
+   })
+ 
+   test('share with expiration date', async ({ world }) => {
+-  // Given "Alice" creates the following folder in personal space using API
+-  //   | name         |
+-  //   | exp-folder   |
++  // Given "Admin" creates following group using API
++  //   | id    |
++  //   | sales |
++  await api.groupsHaveBeenCreated({
++    world,
++    groupIds: ['sales'],
++    stepUser: 'Admin'
++  })
++
++  // And "Admin" adds user to the group using API
++  //   | user  | group |
++  //   | Brian | sales |
++  await api.usersHaveBeenAddedToGroup({
++    world,
++    stepUser: 'Admin',
++    usersToAdd: [{ user: 'Brian', group: 'sales' }]
++  })
++
++  // And "Alice" creates the following folder in personal space using API
++  //   | name       |
++  //   | myfolder   |
++  //   | mainFolder |
+   await api.userHasCreatedFolders({
+     world,
+     stepUser: 'Alice',
+-    folderNames: ['exp-folder']
++    folderNames: ['myfolder', 'mainFolder']
+   })
+ 
+   // And "Alice" creates the following files into personal space using API
+-  //   | pathToFile   | content      |
+-  //   | exp.txt      | example text |
++  //   | pathToFile           | content      |
++  //   | new.txt              | some content |
++  //   | mainFolder/lorem.txt | lorem epsum  |
+   await api.userHasCreatedFiles({
+     world,
+     stepUser: 'Alice',
+     files: [
+-      {
+-        pathToFile: 'exp.txt',
+-        content: 'example text'
+-      }
++      { pathToFile: 'new.txt', content: 'some content' },
++      { pathToFile: 'mainFolder/lorem.txt', content: 'lorem epsum' }
+     ]
+   })
+ 
+-  // And "Alice" shares the following resource using API with expiration date
+-  //   | resource  | recipient | type | role     | expirationDate |
+-  //   | exp.txt   | Brian     | user | Can view | tomorrow       |
+-  await api.userHasSharedResources({
++  // And "Alice" logs In
++  await ui.userLogsIn({ world, stepUser: 'Alice' })
++
++  // When "Alice" shares the following resource using the sidebar panel
++  //   | resource   | recipient | type  | role                   | resourceType | expirationDate |
++  //   | new.txt    | Brian     | user  | Can edit with trashbin | file         | +5 days        |
++  //   | myfolder   | sales     | group | Can view               | folder       | +10 days       |
++  //   | mainFolder | Brian     | user  | Can edit with trashbin | folder       |                |
++  await ui.userSharesResources({
+     world,
+     stepUser: 'Alice',
++    actionType: fileAction.sideBarPanel,
+     shares: [
+       {
+-        resource: 'exp.txt',
++        resource: 'new.txt',
+         recipient: 'Brian',
+         type: 'user',
+-        role: 'Can view',
++        role: 'Can edit with trashbin',
+         resourceType: 'file',
+-        expirationDate: 'tomorrow'
++        expirationDate: '+5 days'
++      },
++      {
++        resource: 'myfolder',
++        recipient: 'sales',
++        type: 'group',
++        role: 'Can view',
++        resourceType: 'folder',
++        expirationDate: '+10 days'
++      },
++      {
++        resource: 'mainFolder',
++        recipient: 'Brian',
++        type: 'user',
++        role: 'Can edit with trashbin',
++        resourceType: 'folder'
+       }
+     ]
+   })
+ 
+-  // When "Brian" logs in
+-  await ui.userLogsIn({ world, stepUser: 'Brian' })
++  // set expirationDate to existing share
++  // And "Alice" sets the expiration date of share "mainFolder" of user "Brian" to "+5 days"
++  await ui.userSetsExpirationDateOfShare({
++    world,
++    stepUser: 'Alice',
++    resource: 'mainFolder',
++    collaboratorName: 'Brian',
++    collaboratorType: 'user',
++    expirationDate: '+5 days'
++  })
++
++  // And "Alice" checks the following access details of share "mainFolder" for user "Brian"
++  //   | Name | Brian Murphy |
++  //   | Type | User         |
++  await ui.userChecksAccessDetailsOfShare({
++    world,
++    stepUser: 'Alice',
++    resource: 'mainFolder',
++    sharee: { name: 'Brian', type: 'user' },
++    accessDetails: {
++      Name: 'Brian Murphy',
++      Type: 'User'
++    }
++  })
+ 
+-  // And "Brian" navigates to the shared with me page
+-  await ui.userNavigatesToSharedWithMePage({ world, stepUser: 'Brian' })
++  // And "Alice" checks the following access details of share "mainFolder/lorem.txt" for user "Brian"
++  //   | Name | Brian Murphy |
++  //   | Type | User         |
++  await ui.userChecksAccessDetailsOfShare({
++    world,
++    stepUser: 'Alice',
++    resource: 'mainFolder/lorem.txt',
++    sharee: { name: 'Brian', type: 'user' },
++    accessDetails: {
++      Name: 'Brian Murphy',
++      Type: 'User'
++    }
++  })
+ 
+-  // Then following resources should be displayed in the Shares for user "Brian"
+-  //   | resource |
+-  //   | exp.txt  |
+-  await ui.userShouldSeeResources({
++  // And "Alice" sets the expiration date of share "myfolder" of group "sales" to "+3 days"
++  await ui.userSetsExpirationDateOfShare({
+     world,
+-    listType: resourcePage.shares,
+-    stepUser: 'Brian',
+-    resources: ['exp.txt']
++    stepUser: 'Alice',
++    resource: 'myfolder',
++    collaboratorName: 'sales',
++    collaboratorType: 'group',
++    expirationDate: '+3 days'
+   })
+ 
+-  // And "Brian" logs out
+-  await ui.userLogsOut({ world, stepUser: 'Brian' })
+-})
++  // And "Alice" checks the following access details of share "myfolder" for group "sales"
++  //   | Name | sales department |
++  //   | Type | Group            |
++  await ui.userChecksAccessDetailsOfShare({
++    world,
++    stepUser: 'Alice',
++    resource: 'myfolder',
++    sharee: { name: 'sales', type: 'group' },
++    accessDetails: {
++      Name: 'sales department',
++      Type: 'Group'
++    }
++  })
+ 
++  // remove share with group
++  // When "Alice" removes following sharee
++  //   | resource | recipient | type  |
++  //   | myfolder | sales     | group |
++  await ui.userRemovesSharees({
++    world,
++    stepUser: 'Alice',
++    sharees: [
++      {
++        resource: 'myfolder',
++        recipient: 'sales',
++        type: 'group'
++      }
++    ]
++  })
++
++  // And "Alice" logs out
++  await ui.userLogsOut({ world, stepUser: 'Alice' })
++})
+   test('receive two shares with same name', async ({ world }) => {
+     //    Given "Admin" creates following users using API
+     //   | id    |

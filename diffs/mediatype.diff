@@ -1,0 +1,69 @@
+diff --git a/tests/e2e/specs/search/mediatype.spec.ts b/tests/e2e/specs/search/_check_mediatype.spec.ts
+index dfcad48fe..5607f90d5 100644
+--- a/tests/e2e/specs/search/mediatype.spec.ts
++++ b/tests/e2e/specs/search/_check_mediatype.spec.ts
+@@ -409,7 +409,7 @@ test.describe('Search', { tag: '@predefined-users' }, () => {
+     await ui.userLogsOut({ world, stepUser: 'Alice' })
+   })
+ 
+-  test('Search using mediaType filter', async ({ world }) => {
++test('Search using mediaType filter', async ({ world }) => {
+   // And "Alice" logs in
+   await ui.userLogsIn({ world, stepUser: 'Alice' })
+ 
+@@ -465,11 +465,11 @@ test.describe('Search', { tag: '@predefined-users' }, () => {
+   // And "Alice" enables the option to search title only
+   await ui.userEnablesTitleOnlySearch({ world, stepUser: 'Alice' })
+ 
+-  // And "Alice" selects mediaType "images" from the search result filter chip
++  // And "Alice" selects mediaType "Image" from the search result filter chip
+   await ui.userFiltersSearchByMediaType({
+     world,
+     stepUser: 'Alice',
+-    mediaType: 'images'
++    mediaType: 'Image'
+   })
+ 
+   // Then following resources should be displayed in the files list for user "Alice"
+@@ -493,32 +493,35 @@ test.describe('Search', { tag: '@predefined-users' }, () => {
+     resources: ['mainFolder/docTest.pdf', 'mainFolder/textTest.txt']
+   })
+ 
+-  // And "Alice" selects mediaType "documents" from the search result filter chip
++  // And "Alice" clears mediaType filter
++  await ui.userClearsFilter({ world, stepUser: 'Alice', filter: searchFilter.mediaType })
++
++  // And "Alice" selects mediaType "Document" from the search result filter chip
+   await ui.userFiltersSearchByMediaType({
+     world,
+     stepUser: 'Alice',
+-    mediaType: 'documents'
++    mediaType: 'Document'
+   })
+ 
+   // Then following resources should be displayed in the files list for user "Alice"
+-  //   | resource               |
+-  //   | mainFolder/docTest.pdf |
++  //   | resource                |
+   //   | mainFolder/textTest.txt |
+   await ui.userShouldSeeResources({
+     world,
+     listType: resourcePage.filesList,
+     stepUser: 'Alice',
+-    resources: ['mainFolder/docTest.pdf', 'mainFolder/textTest.txt']
++    resources: ['mainFolder/textTest.txt']
+   })
+ 
+   // And following resources should not be displayed in the files list for user "Alice"
+   //   | resource                 |
+   //   | mainFolder/imageTest.png |
++  //   | mainFolder/docTest.pdf   |
+   await ui.userShouldNotSeeTheResources({
+     world,
+     listType: resourcePage.searchList,
+     stepUser: 'Alice',
+-    resources: ['mainFolder/imageTest.png']
++    resources: ['mainFolder/imageTest.png', 'mainFolder/docTest.pdf']
+   })
+ 
+   // And "Alice" clears mediaType filter

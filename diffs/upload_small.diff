@@ -1,0 +1,53 @@
+diff --git a/tests/e2e/specs/smoke/_check_upload_multiple.spec.ts b/tests/e2e/specs/smoke/upload_small.spec.ts
+index ff4485728..53f6c3a8b 100644
+--- a/tests/e2e/specs/smoke/_check_upload_multiple.spec.ts
++++ b/tests/e2e/specs/smoke/upload_small.spec.ts
+@@ -124,34 +124,22 @@ test.describe('internal link share', () => {
+     // And "Alice" logs out
+     await ui.userLogsOut({ world, stepUser: 'Alice' })
+   })
+-  test('upload multiple small files', async ({ world }) => {
+-    // When "Alice" uploads the following resources
+-    //   | resource        |
+-    //   | small1.txt      |
+-    //   | small2.txt      |
+-    //   | small3.txt      |
+-    await ui.userUploadsResources({
+-      world,
+-      stepUser: 'Alice',
+-      resources: [
+-        { name: 'small1.txt' },
+-        { name: 'small2.txt' },
+-        { name: 'small3.txt' }
+-      ]
+-    })
+-
+-    // Then following resources should be displayed in the files list for user "Alice"
+-    await ui.userShouldSeeResources({
+-      world,
+-      listType: resourcePage.filesList,
+-      stepUser: 'Alice',
+-      resources: ['small1.txt', 'small2.txt', 'small3.txt']
+-    })
++  test('upload multiple small files', { tag: '@predefined-users' }, async ({ world }) => {
++  await ui.userUploadsMultipleFilesInPersonalSpace({
++    world,
++    stepUser: 'Alice',
++    numberOfFiles: 50
++  })
+ 
+-    // And "Alice" logs out
+-    await ui.userLogsOut({ world, stepUser: 'Alice' })
++  await ui.userShouldSeeNumberOfResources({
++    world,
++    stepUser: 'Alice',
++    expectedNumberOfResources: 50
+   })
+-  
++
++  // And "Alice" logs out
++  await ui.userLogsOut({ world, stepUser: 'Alice' })
++})
+   test('upload folder', async ({ world }) => {
+     // When "Alice" uploads the following resources
+     //   | resource | type   |

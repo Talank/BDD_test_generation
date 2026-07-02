@@ -1,0 +1,41 @@
+diff --git a/tests/e2e/specs/shares/_check_same_name_paths.spec.ts b/tests/e2e/specs/shares/same_name.spec.ts
+index 6c216b2f2..9fd525dba 100644
+--- a/tests/e2e/specs/shares/_check_same_name_paths.spec.ts
++++ b/tests/e2e/specs/shares/same_name.spec.ts
+@@ -575,27 +575,16 @@ test.describe('share', () => {
+       ]
+     })
+ 
+-    // And "Alice" logs out
+-    await ui.userLogsOut({ world, stepUser: 'Alice' })
+-
+-    // When "Brian" logs in
+-    await ui.userLogsIn({ world, stepUser: 'Brian' })
+-
+-    // And "Brian" navigates to the shared with others page
+-    await ui.userNavigatesToSharedWithMePage({ world, stepUser: 'Brian' })
++await ui.userNavigatesToSharedWithOthersPage({ world, stepUser: 'Alice' })
+ 
+-    // Then following resources should be displayed in the Shares for user "Brian"
+-    //   | resource          |
+-    //   | folderA/test.txt  |
+-    //   | folderB/test.txt  |
+-    await ui.userShouldSeeResources({
+-      world,
+-      listType: resourcePage.shares,
+-      stepUser: 'Brian',
+-      resources: ['folderA/test.txt', 'folderB/test.txt']
+-    })
++await ui.userShouldSeeResources({
++  world,
++  listType: resourcePage.filesList,
++  stepUser: 'Alice',
++  resources: ['folderA/test.txt', 'folderB/test.txt']
++})
+ 
+-    // And "Brian" logs out
+-    await ui.userLogsOut({ world, stepUser: 'Brian' })
++// And "Alice" logs out
++await ui.userLogsOut({ world, stepUser: 'Alice' })
+   })
+ })

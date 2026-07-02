@@ -1,0 +1,35 @@
+diff --git a/tests/e2e/specs/shares/receive_two_share.spec.ts b/tests/e2e/specs/shares/_check_two_shares_same_name.spec.ts
+index 9bbf34c8e..4e27bcd9c 100644
+--- a/tests/e2e/specs/shares/receive_two_share.spec.ts
++++ b/tests/e2e/specs/shares/_check_two_shares_same_name.spec.ts
+@@ -386,15 +386,6 @@ test.describe('share', () => {
+   })
+ 
+   test('receive two shares with same name', async ({ world }) => {
+-  // Given "Admin" creates following users using API
+-  //   | id    |
+-  //   | Alice |
+-  //   | Brian |
+-  await api.usersHaveBeenCreated({
+-    world,
+-    stepUser: 'Admin',
+-    users: ['Alice', 'Brian']
+-  })
+ 
+   // And "Alice" creates the following folder in personal space using API
+   //   | name    |
+@@ -459,11 +450,11 @@ test.describe('share', () => {
+   //   | resource            |
+   //   | testfile.txt        |
+   //   | folderA/testfile.txt|
+-  await ui.userShouldSeeResources({
++    await ui.userShouldSeeResources({
+     world,
+-    listType: resourcePage.filesList,
++    listType: resourcePage.shares,
+     stepUser: 'Brian',
+-    resources: ['testfile.txt', 'folderA/testfile.txt']
++    resources: ['testfile.txt', 'testfile (1).txt']
+   })
+ 
+   // And "Brian" logs out
