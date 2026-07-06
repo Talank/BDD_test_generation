@@ -1,0 +1,156 @@
+2026-07-06 12:00:42 - src.utils.dotenv - INFO - Loaded GITHUB_TOKEN from /home/muhaimeen/Personal/UIUC/BDD/Dataset/Subset/.env
+2026-07-06 12:00:42 - __main__ - INFO - ======================================================================
+2026-07-06 12:00:42 - __main__ - INFO - STAGE 3 — PLAYWRIGHT + CI FILTER
+2026-07-06 12:00:42 - __main__ - INFO - Input=../projects_selection.json  Repos=../repositories  Output=output  Languages=['java', 'nodejs']
+2026-07-06 12:00:42 - __main__ - INFO - ======================================================================
+2026-07-06 12:00:42 - __main__ - INFO - Loaded 1145 repositories (['java', 'nodejs'])
+2026-07-06 12:00:42 - src.repository_cloner - INFO - Cloning 1145 repositories...
+2026-07-06 12:00:42 - src.repository_cloner - WARNING - git clone error AdrienZianne/calculator-cucumber-2025: Cloning into '../repositories/java/adrienzianne_calculator-cucumber-2025'...
+fatal: could not read Username for 'https://github.com': No such device or address
+2026-07-06 12:00:42 - src.repository_cloner - WARNING - ✗ Failed: AdrienZianne/calculator-cucumber-2025
+2026-07-06 12:00:44 - src.repository_cloner - INFO - Progress: 25/1145 processed
+2026-07-06 12:01:40 - src.repository_cloner - INFO - Progress: 50/1145 processed
+2026-07-06 12:02:24 - src.repository_cloner - INFO - Progress: 75/1145 processed
+2026-07-06 12:02:45 - src.repository_cloner - INFO - Progress: 100/1145 processed
+2026-07-06 12:03:04 - src.repository_cloner - INFO - Progress: 125/1145 processed
+2026-07-06 12:03:30 - src.repository_cloner - INFO - Progress: 150/1145 processed
+2026-07-06 12:04:14 - src.repository_cloner - WARNING - git clone error MuhtarMahmut/Cucumber_FrameWork01: Cloning into '../repositories/java/muhtarmahmut_cucumber_framework01'...
+fatal: could not read Username for 'https://github.com': No such device or address
+2026-07-06 12:04:14 - src.repository_cloner - WARNING - ✗ Failed: MuhtarMahmut/Cucumber_FrameWork01
+2026-07-06 12:04:15 - src.repository_cloner - INFO - Progress: 175/1145 processed
+2026-07-06 12:04:54 - src.repository_cloner - INFO - Progress: 200/1145 processed
+2026-07-06 12:05:33 - src.repository_cloner - INFO - Progress: 225/1145 processed
+2026-07-06 12:05:33 - src.repository_cloner - WARNING - git clone error RaymondMouthaan/allure-cucumber: Cloning into '../repositories/java/raymondmouthaan_allure-cucumber'...
+fatal: could not read Username for 'https://github.com': No such device or address
+2026-07-06 12:05:33 - src.repository_cloner - WARNING - ✗ Failed: RaymondMouthaan/allure-cucumber
+2026-07-06 12:05:38 - src.repository_cloner - WARNING - git clone error RohithReacts/cucumber: Cloning into '../repositories/nodejs/rohithreacts_cucumber'...
+fatal: could not read Username for 'https://github.com': No such device or address
+2026-07-06 12:05:38 - src.repository_cloner - WARNING - ✗ Failed: RohithReacts/cucumber
+2026-07-06 12:06:07 - src.repository_cloner - INFO - Progress: 250/1145 processed
+2026-07-06 12:06:35 - src.repository_cloner - INFO - Progress: 275/1145 processed
+2026-07-06 12:07:00 - src.repository_cloner - INFO - Progress: 300/1145 processed
+2026-07-06 12:07:44 - src.repository_cloner - INFO - Progress: 325/1145 processed
+2026-07-06 12:08:27 - src.repository_cloner - INFO - Progress: 350/1145 processed
+2026-07-06 12:08:44 - src.repository_cloner - INFO - Progress: 375/1145 processed
+2026-07-06 12:09:12 - src.repository_cloner - INFO - Progress: 400/1145 processed
+2026-07-06 12:09:24 - src.repository_cloner - INFO - Progress: 425/1145 processed
+2026-07-06 12:09:54 - src.repository_cloner - INFO - Progress: 450/1145 processed
+2026-07-06 12:09:55 - src.repository_cloner - WARNING - git clone error cheetirala/bankingapptests: Cloning into '../repositories/java/cheetirala_bankingapptests'...
+fatal: could not read Username for 'https://github.com': No such device or address
+2026-07-06 12:09:55 - src.repository_cloner - WARNING - ✗ Failed: cheetirala/bankingapptests
+2026-07-06 12:10:06 - src.repository_cloner - INFO - Progress: 475/1145 processed
+2026-07-06 12:10:16 - src.repository_cloner - INFO - Progress: 500/1145 processed
+2026-07-06 12:10:22 - src.repository_cloner - WARNING - git clone error dimazelinskyi/jacoco-coverage-cucumber-unit-tests: Cloning into '../repositories/java/dimazelinskyi_jacoco-coverage-cucumber-unit-tests'...
+fatal: could not read Username for 'https://github.com': No such device or address
+2026-07-06 12:10:22 - src.repository_cloner - WARNING - ✗ Failed: dimazelinskyi/jacoco-coverage-cucumber-unit-tests
+2026-07-06 12:10:22 - src.repository_cloner - WARNING - git clone error dionisggr/saucedemo: Cloning into '../repositories/nodejs/dionisggr_saucedemo'...
+fatal: could not read Username for 'https://github.com': No such device or address
+2026-07-06 12:10:22 - src.repository_cloner - WARNING - ✗ Failed: dionisggr/saucedemo
+2026-07-06 12:10:29 - src.repository_cloner - INFO - Progress: 525/1145 processed
+2026-07-06 12:10:44 - src.repository_cloner - INFO - Progress: 550/1145 processed
+2026-07-06 12:10:47 - src.repository_cloner - WARNING - git clone error eroshenkoam/allure-cucumberjs: Cloning into '../repositories/nodejs/eroshenkoam_allure-cucumberjs'...
+fatal: could not read Username for 'https://github.com': No such device or address
+2026-07-06 12:10:47 - src.repository_cloner - WARNING - ✗ Failed: eroshenkoam/allure-cucumberjs
+2026-07-06 12:10:55 - src.repository_cloner - INFO - Progress: 575/1145 processed
+2026-07-06 12:10:56 - src.repository_cloner - WARNING - git clone error filland/social-network-java-spring-wiremock-cucumber-e2e-test: Cloning into '../repositories/java/filland_social-network-java-spring-wiremock-cucumber-e2e-test'...
+fatal: could not read Username for 'https://github.com': No such device or address
+2026-07-06 12:10:56 - src.repository_cloner - WARNING - ✗ Failed: filland/social-network-java-spring-wiremock-cucumber-e2e-test
+2026-07-06 12:11:13 - src.repository_cloner - WARNING - git clone error gdautoqa/playwright-ui-bdd-cucumber: Cloning into '../repositories/nodejs/gdautoqa_playwright-ui-bdd-cucumber'...
+fatal: could not read Username for 'https://github.com': No such device or address
+2026-07-06 12:11:13 - src.repository_cloner - WARNING - ✗ Failed: gdautoqa/playwright-ui-bdd-cucumber
+2026-07-06 12:11:30 - src.repository_cloner - INFO - Progress: 600/1145 processed
+2026-07-06 12:12:16 - src.repository_cloner - INFO - Progress: 625/1145 processed
+2026-07-06 12:12:18 - src.repository_cloner - WARNING - git clone error harigithub1/PlaywrightCucumber: Cloning into '../repositories/nodejs/harigithub1_playwrightcucumber'...
+fatal: could not read Username for 'https://github.com': No such device or address
+2026-07-06 12:12:18 - src.repository_cloner - WARNING - ✗ Failed: harigithub1/PlaywrightCucumber
+2026-07-06 12:12:27 - src.repository_cloner - WARNING - git clone error iamkrishnagawade/playwright-cucumber-ts-e2e-boilerplate: Cloning into '../repositories/nodejs/iamkrishnagawade_playwright-cucumber-ts-e2e-boilerplate'...
+fatal: could not read Username for 'https://github.com': No such device or address
+2026-07-06 12:12:27 - src.repository_cloner - WARNING - ✗ Failed: iamkrishnagawade/playwright-cucumber-ts-e2e-boilerplate
+2026-07-06 12:12:29 - src.repository_cloner - WARNING - git clone error imademethink/imademethink_cucumber_reporting_masterthought: Cloning into '../repositories/java/imademethink_imademethink_cucumber_reporting_masterthought'...
+fatal: could not read Username for 'https://github.com': No such device or address
+2026-07-06 12:12:29 - src.repository_cloner - WARNING - ✗ Failed: imademethink/imademethink_cucumber_reporting_masterthought
+2026-07-06 12:12:29 - src.repository_cloner - INFO - Progress: 650/1145 processed
+2026-07-06 12:12:46 - src.repository_cloner - INFO - Progress: 675/1145 processed
+2026-07-06 12:12:57 - src.repository_cloner - INFO - Progress: 700/1145 processed
+2026-07-06 12:13:19 - src.repository_cloner - INFO - Progress: 725/1145 processed
+2026-07-06 12:13:40 - src.repository_cloner - INFO - Progress: 750/1145 processed
+2026-07-06 12:13:54 - src.repository_cloner - INFO - Progress: 775/1145 processed
+2026-07-06 12:14:13 - src.repository_cloner - INFO - Progress: 800/1145 processed
+2026-07-06 12:14:49 - src.repository_cloner - INFO - Progress: 825/1145 processed
+2026-07-06 12:15:04 - src.repository_cloner - WARNING - git clone error ovcharski/cucumber-playwright: Cloning into '../repositories/nodejs/ovcharski_cucumber-playwright'...
+fatal: could not read Username for 'https://github.com': No such device or address
+2026-07-06 12:15:04 - src.repository_cloner - WARNING - ✗ Failed: ovcharski/cucumber-playwright
+2026-07-06 12:16:00 - src.repository_cloner - INFO - Progress: 850/1145 processed
+2026-07-06 12:16:41 - src.repository_cloner - INFO - Progress: 875/1145 processed
+2026-07-06 12:17:32 - src.repository_cloner - INFO - Progress: 900/1145 processed
+2026-07-06 12:17:59 - src.repository_cloner - INFO - Progress: 925/1145 processed
+2026-07-06 12:18:03 - src.repository_cloner - WARNING - git clone error s-santhoshkumar-sabarinathan/Automation: Cloning into '../repositories/nodejs/s-santhoshkumar-sabarinathan_automation'...
+fatal: could not read Username for 'https://github.com': No such device or address
+2026-07-06 12:18:03 - src.repository_cloner - WARNING - ✗ Failed: s-santhoshkumar-sabarinathan/Automation
+2026-07-06 12:18:38 - src.repository_cloner - WARNING - git clone error savula52/cucumberpractice: Cloning into '../repositories/nodejs/savula52_cucumberpractice'...
+fatal: could not read Username for 'https://github.com': No such device or address
+2026-07-06 12:18:38 - src.repository_cloner - WARNING - ✗ Failed: savula52/cucumberpractice
+2026-07-06 12:18:38 - src.repository_cloner - INFO - Progress: 950/1145 processed
+2026-07-06 12:19:01 - src.repository_cloner - INFO - Progress: 975/1145 processed
+2026-07-06 12:19:34 - src.repository_cloner - INFO - Progress: 1000/1145 processed
+2026-07-06 12:19:56 - src.repository_cloner - INFO - Progress: 1025/1145 processed
+2026-07-06 12:20:53 - src.repository_cloner - INFO - Progress: 1050/1145 processed
+2026-07-06 12:21:06 - src.repository_cloner - WARNING - git clone error tranvannhatnam97/PlaywrightCucumber: Cloning into '../repositories/nodejs/tranvannhatnam97_playwrightcucumber'...
+fatal: could not read Username for 'https://github.com': No such device or address
+2026-07-06 12:21:06 - src.repository_cloner - WARNING - ✗ Failed: tranvannhatnam97/PlaywrightCucumber
+2026-07-06 12:21:45 - src.repository_cloner - WARNING - git clone error tvarchive/AppiumCucumberDemo: Cloning into '../repositories/java/tvarchive_appiumcucumberdemo'...
+fatal: could not read Username for 'https://github.com': No such device or address
+2026-07-06 12:21:45 - src.repository_cloner - WARNING - ✗ Failed: tvarchive/AppiumCucumberDemo
+2026-07-06 12:21:55 - src.repository_cloner - INFO - Progress: 1075/1145 processed
+2026-07-06 12:22:19 - src.repository_cloner - INFO - Progress: 1100/1145 processed
+2026-07-06 12:22:24 - src.repository_cloner - WARNING - git clone error x-eight/BDD-cucumber: Cloning into '../repositories/nodejs/x-eight_bdd-cucumber'...
+fatal: could not read Username for 'https://github.com': No such device or address
+2026-07-06 12:22:24 - src.repository_cloner - WARNING - ✗ Failed: x-eight/BDD-cucumber
+2026-07-06 12:22:27 - src.repository_cloner - INFO - Progress: 1125/1145 processed
+2026-07-06 12:23:26 - src.repository_cloner - INFO - Cloning finished.
+2026-07-06 12:23:27 - __main__ - INFO - Static scan 50/1145
+2026-07-06 12:23:27 - __main__ - INFO - Static scan 100/1145
+2026-07-06 12:23:27 - __main__ - INFO - Static scan 150/1145
+2026-07-06 12:23:28 - __main__ - INFO - Static scan 200/1145
+2026-07-06 12:23:28 - __main__ - INFO - Static scan 250/1145
+2026-07-06 12:23:29 - __main__ - INFO - Static scan 300/1145
+2026-07-06 12:23:29 - __main__ - INFO - Static scan 350/1145
+2026-07-06 12:23:29 - __main__ - INFO - Static scan 400/1145
+2026-07-06 12:23:29 - __main__ - INFO - Static scan 450/1145
+2026-07-06 12:23:30 - __main__ - INFO - Static scan 500/1145
+2026-07-06 12:23:31 - __main__ - INFO - Static scan 550/1145
+2026-07-06 12:23:31 - __main__ - INFO - Static scan 600/1145
+2026-07-06 12:23:31 - __main__ - INFO - Static scan 650/1145
+2026-07-06 12:23:32 - __main__ - INFO - Static scan 700/1145
+2026-07-06 12:23:32 - __main__ - INFO - Static scan 750/1145
+2026-07-06 12:23:32 - __main__ - INFO - Static scan 800/1145
+2026-07-06 12:23:33 - __main__ - INFO - Static scan 850/1145
+2026-07-06 12:23:33 - __main__ - INFO - Static scan 900/1145
+2026-07-06 12:23:33 - __main__ - INFO - Static scan 950/1145
+2026-07-06 12:23:34 - __main__ - INFO - Static scan 1000/1145
+2026-07-06 12:23:34 - __main__ - INFO - Static scan 1050/1145
+2026-07-06 12:23:35 - __main__ - INFO - Static scan 1100/1145
+2026-07-06 12:23:35 - __main__ - INFO - Static scan done. Playwright-detected=291, with-workflows=150
+2026-07-06 12:23:35 - src.report - INFO - Wrote stage 1 (Playwright detected): output/stage1_playwright.json (291 repos)
+2026-07-06 12:23:35 - src.report - INFO - Wrote stage 2 (Playwright + workflows): output/stage2_with_workflows.json (150 repos)
+2026-07-06 12:23:35 - __main__ - INFO - Verifying CI run status for 150 survivors via Actions API...
+2026-07-06 12:23:52 - __main__ - INFO - API verify 20/150
+2026-07-06 12:24:13 - __main__ - INFO - API verify 40/150
+2026-07-06 12:24:34 - __main__ - INFO - API verify 60/150
+2026-07-06 12:24:56 - __main__ - INFO - API verify 80/150
+2026-07-06 12:25:16 - __main__ - INFO - API verify 100/150
+2026-07-06 12:25:36 - __main__ - INFO - API verify 120/150
+2026-07-06 12:25:58 - __main__ - INFO - API verify 140/150
+2026-07-06 12:26:09 - src.report - INFO - Wrote stage 3 (CI verified passing): output/stage3_ci_passing.json (26 repos)
+2026-07-06 12:26:09 - src.report - INFO - Wrote audit scan: output/playwright_ci_scan.json (1145 repos)
+2026-07-06 12:26:09 - src.report - INFO - Wrote filtered dataset: output/playwright_ci_projects.json (26 repos)
+2026-07-06 12:26:09 - src.report - INFO - Wrote CSV: output/playwright_ci_projects.csv
+2026-07-06 12:26:09 - src.report - INFO - Wrote summary: output/summary.log
+2026-07-06 12:26:09 - __main__ - INFO - ======================================================================
+2026-07-06 12:26:09 - __main__ - INFO - Loaded repositories                             1145
+2026-07-06 12:26:09 - __main__ - INFO - Cloned / present on disk                        1126
+2026-07-06 12:26:09 - __main__ - INFO - Playwright detected                              291
+2026-07-06 12:26:09 - __main__ - INFO - Playwright + has workflows                       150
+2026-07-06 12:26:09 - __main__ - INFO - Included (CI verified passing)                    26
+2026-07-06 12:26:09 - __main__ - INFO - ======================================================================
+2026-07-06 12:26:09 - __main__ - INFO - Done. Results in output

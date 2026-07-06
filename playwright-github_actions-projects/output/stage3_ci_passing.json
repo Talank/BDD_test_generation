@@ -1,0 +1,1193 @@
+{
+  "nodejs": [
+    {
+      "name": "ARAVINDMS444/web-automation-playwright-cucumber-typescript",
+      "url": "https://github.com/ARAVINDMS444/web-automation-playwright-cucumber-typescript",
+      "feature_files": [
+        "features/login.feature",
+        "features/multipleLogin.feature",
+        "features/sorting.feature"
+      ],
+      "directories": [
+        "features"
+      ],
+      "playwright": {
+        "detected": true,
+        "confidence": "STRONG",
+        "evidence": [
+          "package.json declares a Playwright package",
+          "package.json declares a Cucumber package",
+          "playwright.config.ts present",
+          "tests/step-definitions/sortingFunctionality.ts imports Playwright in a step/support file"
+        ],
+        "package_json_count": 1
+      },
+      "github_actions": {
+        "has_workflows": true,
+        "workflow_files": [
+          "playwright.yml"
+        ],
+        "mentions_test": true,
+        "test_markers": [
+          "\\bcucumber\\b",
+          "npx\\s+playwright",
+          "playwright\\s+install"
+        ]
+      },
+      "ci_status": {
+        "available": true,
+        "default_branch": "main",
+        "latest_run_conclusion": "success",
+        "latest_run_branch": "main",
+        "latest_run_workflow": "Playwright Cucumber Tests",
+        "latest_run_url": "https://github.com/ARAVINDMS444/web-automation-playwright-cucumber-typescript/actions/runs/18405284505",
+        "verified_passing": true
+      },
+      "included": true
+    },
+    {
+      "name": "BrowserStackCE/playwright-cucumber-browserstack",
+      "url": "https://github.com/BrowserStackCE/playwright-cucumber-browserstack",
+      "feature_files": [
+        "features/local.feature",
+        "features/sample.feature"
+      ],
+      "directories": [
+        "features"
+      ],
+      "playwright": {
+        "detected": true,
+        "confidence": "STRONG",
+        "evidence": [
+          "package.json declares a Playwright package",
+          "package.json declares a Cucumber package",
+          "setup/hooks.js imports Playwright in a step/support file"
+        ],
+        "package_json_count": 1
+      },
+      "github_actions": {
+        "has_workflows": true,
+        "workflow_files": [
+          "Semgrep.yml"
+        ],
+        "mentions_test": false,
+        "test_markers": []
+      },
+      "ci_status": {
+        "available": true,
+        "default_branch": "main",
+        "latest_run_conclusion": "success",
+        "latest_run_branch": "main",
+        "latest_run_workflow": "Semgrep",
+        "latest_run_url": "https://github.com/BrowserStackCE/playwright-cucumber-browserstack/actions/runs/28735467852",
+        "verified_passing": true
+      },
+      "included": true
+    },
+    {
+      "name": "FrankSantillan/ADT-Take-Home",
+      "url": "https://github.com/FrankSantillan/ADT-Take-Home",
+      "feature_files": [
+        "src/features/cucumber.feature"
+      ],
+      "directories": [
+        "src/features"
+      ],
+      "playwright": {
+        "detected": true,
+        "confidence": "MEDIUM",
+        "evidence": [
+          "package.json declares a Playwright package",
+          "package.json declares a Cucumber package"
+        ],
+        "package_json_count": 1
+      },
+      "github_actions": {
+        "has_workflows": true,
+        "workflow_files": [
+          "automated-tests.yml"
+        ],
+        "mentions_test": true,
+        "test_markers": [
+          "npm\\s+(run\\s+)?test"
+        ]
+      },
+      "ci_status": {
+        "available": true,
+        "default_branch": "main",
+        "latest_run_conclusion": "success",
+        "latest_run_branch": "main",
+        "latest_run_workflow": "Automated Tests",
+        "latest_run_url": "https://github.com/FrankSantillan/ADT-Take-Home/actions/runs/17699250513",
+        "verified_passing": true
+      },
+      "included": true
+    },
+    {
+      "name": "HarshaVardhankema/CucumberPlaywrightTypescript",
+      "url": "https://github.com/HarshaVardhankema/CucumberPlaywrightTypescript",
+      "feature_files": [
+        "src/test/features/ScenarioOutline.feature",
+        "src/test/features/flipkart.feature",
+        "src/test/features/login.feature"
+      ],
+      "directories": [
+        "src/test/features"
+      ],
+      "playwright": {
+        "detected": true,
+        "confidence": "STRONG",
+        "evidence": [
+          "package.json declares a Playwright package",
+          "package.json declares a Cucumber package",
+          "playwright.config.ts present",
+          "src/test/steps/Flipkart.ts imports Playwright in a step/support file"
+        ],
+        "package_json_count": 1
+      },
+      "github_actions": {
+        "has_workflows": true,
+        "workflow_files": [
+          "playwright.yml"
+        ],
+        "mentions_test": true,
+        "test_markers": [
+          "npx\\s+playwright",
+          "playwright\\s+install",
+          "playwright\\s+test"
+        ]
+      },
+      "ci_status": {
+        "available": true,
+        "default_branch": "main",
+        "latest_run_conclusion": "success",
+        "latest_run_branch": "main",
+        "latest_run_workflow": "Playwright Tests",
+        "latest_run_url": "https://github.com/HarshaVardhankema/CucumberPlaywrightTypescript/actions/runs/15432354462",
+        "verified_passing": true
+      },
+      "included": true
+    },
+    {
+      "name": "JakubRumpca/Cucumber-Store",
+      "url": "https://github.com/JakubRumpca/Cucumber-Store",
+      "feature_files": [
+        "features/order.feature",
+        "features/sorting.feature",
+        "features/user_login.feature"
+      ],
+      "directories": [
+        "features"
+      ],
+      "playwright": {
+        "detected": true,
+        "confidence": "STRONG",
+        "evidence": [
+          "package.json declares a Playwright package",
+          "package.json declares a Cucumber package",
+          "features/support/hooks.ts imports Playwright in a step/support file"
+        ],
+        "package_json_count": 1
+      },
+      "github_actions": {
+        "has_workflows": true,
+        "workflow_files": [
+          "pipeline.yml"
+        ],
+        "mentions_test": true,
+        "test_markers": [
+          "\\bcucumber\\b",
+          "npx\\s+playwright",
+          "playwright\\s+install"
+        ]
+      },
+      "ci_status": {
+        "available": true,
+        "default_branch": "main",
+        "latest_run_conclusion": "success",
+        "latest_run_branch": "main",
+        "latest_run_workflow": "Pipeline - Cucumber Tests",
+        "latest_run_url": "https://github.com/JakubRumpca/Cucumber-Store/actions/runs/19208333175",
+        "verified_passing": true
+      },
+      "included": true
+    },
+    {
+      "name": "ParthibanRajasekaran/playwright-cucumber",
+      "url": "https://github.com/ParthibanRajasekaran/playwright-cucumber",
+      "feature_files": [
+        "features/login.feature"
+      ],
+      "directories": [
+        "features"
+      ],
+      "playwright": {
+        "detected": true,
+        "confidence": "STRONG",
+        "evidence": [
+          "package.json declares a Playwright package",
+          "package.json declares a Cucumber package",
+          "playwright.config.ts present",
+          "features/step-definitions/auth-steps.ts imports Playwright in a step/support file"
+        ],
+        "package_json_count": 1
+      },
+      "github_actions": {
+        "has_workflows": true,
+        "workflow_files": [
+          "playwright-cucumber.yml"
+        ],
+        "mentions_test": true,
+        "test_markers": [
+          "\\bcucumber\\b",
+          "npm\\s+(run\\s+)?test",
+          "npx\\s+playwright",
+          "playwright\\s+install"
+        ]
+      },
+      "ci_status": {
+        "available": true,
+        "default_branch": "main",
+        "latest_run_conclusion": "success",
+        "latest_run_branch": "main",
+        "latest_run_workflow": "npm_and_yarn in /. for flatted, follow-redirects, glob, js-yaml, lodash, lodash, lodash, minimatch, minimatch, minimatch, picomatch, qs, qs - Update #1324646742",
+        "latest_run_url": "https://github.com/ParthibanRajasekaran/playwright-cucumber/actions/runs/24476241980",
+        "verified_passing": true
+      },
+      "included": true
+    },
+    {
+      "name": "RashmiSandamini/Group_18_Cucumber_PW",
+      "url": "https://github.com/RashmiSandamini/Group_18_Cucumber_PW",
+      "feature_files": [
+        "api-tests/tests/features/delete_admin.feature",
+        "api-tests/tests/features/delete_user.feature",
+        "api-tests/tests/features/get_admin.feature",
+        "api-tests/tests/features/get_user.feature",
+        "api-tests/tests/features/post_admin.feature",
+        "api-tests/tests/features/post_guest.feature",
+        "api-tests/tests/features/post_user.feature",
+        "api-tests/tests/features/put_admin.feature",
+        "api-tests/tests/features/put_guest.feature",
+        "api-tests/tests/features/put_user.feature",
+        "ui-tests/tests/features/addtocart-outofstock.feature",
+        "ui-tests/tests/features/blog.feature",
+        "ui-tests/tests/features/cart.feature",
+        "ui-tests/tests/features/checkout.feature",
+        "ui-tests/tests/features/register.feature",
+        "ui-tests/tests/features/returns.feature",
+        "ui-tests/tests/features/wishlist.feature"
+      ],
+      "directories": [
+        "api-tests/tests/features",
+        "ui-tests/tests/features"
+      ],
+      "playwright": {
+        "detected": true,
+        "confidence": "STRONG",
+        "evidence": [
+          "package.json declares a Playwright package",
+          "package.json declares a Cucumber package",
+          "ui-tests/tests/steps/returnpage.spec.ts imports Playwright in a step/support file"
+        ],
+        "package_json_count": 1
+      },
+      "github_actions": {
+        "has_workflows": true,
+        "workflow_files": [
+          "e2etests.yml"
+        ],
+        "mentions_test": true,
+        "test_markers": [
+          "npm\\s+(run\\s+)?test"
+        ]
+      },
+      "ci_status": {
+        "available": true,
+        "default_branch": "main",
+        "latest_run_conclusion": "success",
+        "latest_run_branch": "gh-pages",
+        "latest_run_workflow": "pages build and deployment",
+        "latest_run_url": "https://github.com/RashmiSandamini/Group_18_Cucumber_PW/actions/runs/16347904720",
+        "verified_passing": true
+      },
+      "included": true
+    },
+    {
+      "name": "Tallyb/cucumber-playwright",
+      "url": "https://github.com/Tallyb/cucumber-playwright",
+      "feature_files": [
+        "features/playwright.feature",
+        "features/playwright.outline.feature"
+      ],
+      "directories": [
+        "features"
+      ],
+      "playwright": {
+        "detected": true,
+        "confidence": "STRONG",
+        "evidence": [
+          "package.json declares a Playwright package",
+          "package.json declares a Cucumber package",
+          "src/support/custom-world.ts imports Playwright in a step/support file"
+        ],
+        "package_json_count": 1
+      },
+      "github_actions": {
+        "has_workflows": true,
+        "workflow_files": [
+          "test.yml"
+        ],
+        "mentions_test": true,
+        "test_markers": [
+          "npm\\s+(run\\s+)?test",
+          "npx\\s+playwright",
+          "playwright\\s+install"
+        ]
+      },
+      "ci_status": {
+        "available": true,
+        "default_branch": "master",
+        "latest_run_conclusion": "success",
+        "latest_run_branch": "renovate/tsx-4.x",
+        "latest_run_workflow": "Test",
+        "latest_run_url": "https://github.com/Tallyb/cucumber-playwright/actions/runs/28676304761",
+        "verified_passing": true
+      },
+      "included": true
+    },
+    {
+      "name": "YevShch/Espresso-Addict-Playwright-Cucumber",
+      "url": "https://github.com/YevShch/Espresso-Addict-Playwright-Cucumber",
+      "feature_files": [
+        "tests/features/buy_espresso.feature",
+        "tests/features/events.feature",
+        "tests/features/game_initialization.feature",
+        "tests/features/give_beer.feature",
+        "tests/features/health_scoring.feature",
+        "tests/features/help_function.feature",
+        "tests/features/hipster_bag.feature",
+        "tests/features/jam_with_bandBtn.feature",
+        "tests/features/location_transitions.feature",
+        "tests/features/lose_the_game.feature",
+        "tests/features/money_scoring.feature",
+        "tests/features/play_again.feature",
+        "tests/features/win_the_game.feature"
+      ],
+      "directories": [
+        "tests/features"
+      ],
+      "playwright": {
+        "detected": true,
+        "confidence": "MEDIUM",
+        "evidence": [
+          "package.json declares a Playwright package",
+          "package.json declares a Cucumber package"
+        ],
+        "package_json_count": 1
+      },
+      "github_actions": {
+        "has_workflows": true,
+        "workflow_files": [
+          "run-tests.yml"
+        ],
+        "mentions_test": true,
+        "test_markers": [
+          "npm\\s+(run\\s+)?test",
+          "npx\\s+playwright",
+          "playwright\\s+install"
+        ]
+      },
+      "ci_status": {
+        "available": true,
+        "default_branch": "main",
+        "latest_run_conclusion": "success",
+        "latest_run_branch": "main",
+        "latest_run_workflow": "Node.js CI",
+        "latest_run_url": "https://github.com/YevShch/Espresso-Addict-Playwright-Cucumber/actions/runs/24583391173",
+        "verified_passing": true
+      },
+      "included": true
+    },
+    {
+      "name": "Zstefanov/AE-Automation-TS-Playwright",
+      "url": "https://github.com/Zstefanov/AE-Automation-TS-Playwright",
+      "feature_files": [
+        "features/features/add_products_to_cart.feature",
+        "features/features/add_review_on_product.feature",
+        "features/features/add_to_cart_from_recommended_items.feature",
+        "features/features/download_invoice_after_purchase.feature",
+        "features/features/login_user_with_correct_email_pass.feature",
+        "features/features/login_user_with_icorrect_email_pass.feature",
+        "features/features/logout_user.feature",
+        "features/features/place_order_login_before_checkout.feature",
+        "features/features/place_order_register_before_checkout.feature",
+        "features/features/place_order_register_while_checkout.feature",
+        "features/features/register_user.feature",
+        "features/features/register_user_with_existing_email.feature",
+        "features/features/remove_products_from_cart.feature",
+        "features/features/search_prod_verify_cart_after_login.feature",
+        "features/features/search_product.feature",
+        "features/features/test_cases_page.feature",
+        "features/features/verify_address_details_in_checkout_page.feature",
+        "features/features/verify_all_products_and_products_detail_page.feature",
+        "features/features/verify_product_quantity_in_cart.feature",
+        "features/features/verify_scroll_up_using_arrow.feature",
+        "features/features/verify_scroll_up_without_arrow.feature",
+        "features/features/verify_subscription_in_cart_page.feature",
+        "features/features/verify_subscription_in_home_page.feature",
+        "features/features/view_and_cart_brand_products.feature",
+        "features/features/view_category_products.feature"
+      ],
+      "directories": [
+        "features/features"
+      ],
+      "playwright": {
+        "detected": true,
+        "confidence": "STRONG",
+        "evidence": [
+          "package.json declares a Playwright package",
+          "package.json declares a Cucumber package",
+          "playwright.config.ts present",
+          "features/support/world.ts imports Playwright in a step/support file"
+        ],
+        "package_json_count": 1
+      },
+      "github_actions": {
+        "has_workflows": true,
+        "workflow_files": [
+          "playwright.yml"
+        ],
+        "mentions_test": true,
+        "test_markers": [
+          "npx\\s+playwright",
+          "playwright\\s+install",
+          "playwright\\s+test"
+        ]
+      },
+      "ci_status": {
+        "available": true,
+        "default_branch": "main",
+        "latest_run_conclusion": "success",
+        "latest_run_branch": "main",
+        "latest_run_workflow": "Playwright Tests",
+        "latest_run_url": "https://github.com/Zstefanov/AE-Automation-TS-Playwright/actions/runs/16542093477",
+        "verified_passing": true
+      },
+      "included": true
+    },
+    {
+      "name": "ahmadmg/cucumberjs-playwright",
+      "url": "https://github.com/ahmadmg/cucumberjs-playwright",
+      "feature_files": [
+        "tests/features/test.feature",
+        "tests/features/testOutline.feature"
+      ],
+      "directories": [
+        "tests/features"
+      ],
+      "playwright": {
+        "detected": true,
+        "confidence": "STRONG",
+        "evidence": [
+          "package.json declares a Playwright package",
+          "package.json declares a Cucumber package",
+          "playwright.config.ts present",
+          "support/hooks.ts imports Playwright in a step/support file"
+        ],
+        "package_json_count": 1
+      },
+      "github_actions": {
+        "has_workflows": true,
+        "workflow_files": [
+          "test.yml"
+        ],
+        "mentions_test": true,
+        "test_markers": [
+          "\\bcucumber\\b",
+          "npm\\s+(run\\s+)?test"
+        ]
+      },
+      "ci_status": {
+        "available": true,
+        "default_branch": "main",
+        "latest_run_conclusion": "success",
+        "latest_run_branch": "main",
+        "latest_run_workflow": "CI",
+        "latest_run_url": "https://github.com/ahmadmg/cucumberjs-playwright/actions/runs/26783536914",
+        "verified_passing": true
+      },
+      "included": true
+    },
+    {
+      "name": "automationExamples/Playwright-Cucumber-Exercise",
+      "url": "https://github.com/automationExamples/Playwright-Cucumber-Exercise",
+      "feature_files": [
+        "features/login.feature",
+        "features/product.feature",
+        "features/purchase.feature"
+      ],
+      "directories": [
+        "features"
+      ],
+      "playwright": {
+        "detected": true,
+        "confidence": "MEDIUM",
+        "evidence": [
+          "package.json declares a Playwright package",
+          "package.json declares a Cucumber package",
+          "playwright.config.ts present"
+        ],
+        "package_json_count": 1
+      },
+      "github_actions": {
+        "has_workflows": true,
+        "workflow_files": [
+          "dispatch-to-grader.yml"
+        ],
+        "mentions_test": true,
+        "test_markers": [
+          "\\bcucumber\\b"
+        ]
+      },
+      "ci_status": {
+        "available": true,
+        "default_branch": "main",
+        "latest_run_conclusion": "success",
+        "latest_run_branch": "pranjal-playwright-assessment",
+        "latest_run_workflow": "Dispatch to Grader",
+        "latest_run_url": "https://github.com/automationExamples/Playwright-Cucumber-Exercise/actions/runs/28024228760",
+        "verified_passing": true
+      },
+      "included": true
+    },
+    {
+      "name": "chonglee30/Playwright-Cucumber",
+      "url": "https://github.com/chonglee30/Playwright-Cucumber",
+      "feature_files": [
+        "src/tests/features/login.feature"
+      ],
+      "directories": [
+        "src/tests/features"
+      ],
+      "playwright": {
+        "detected": true,
+        "confidence": "STRONG",
+        "evidence": [
+          "package.json declares a Playwright package",
+          "package.json declares a Cucumber package",
+          "playwright.config.ts present",
+          "src/tests/step-definitions/login.ts imports Playwright in a step/support file"
+        ],
+        "package_json_count": 1
+      },
+      "github_actions": {
+        "has_workflows": true,
+        "workflow_files": [
+          "playwright.yml"
+        ],
+        "mentions_test": true,
+        "test_markers": [
+          "\\bcucumber\\b",
+          "npx\\s+playwright",
+          "playwright\\s+install",
+          "playwright\\s+test"
+        ]
+      },
+      "ci_status": {
+        "available": true,
+        "default_branch": "main",
+        "latest_run_conclusion": "success",
+        "latest_run_branch": "main",
+        "latest_run_workflow": "Playwright Tests",
+        "latest_run_url": "https://github.com/chonglee30/Playwright-Cucumber/actions/runs/16580147534",
+        "verified_passing": true
+      },
+      "included": true
+    },
+    {
+      "name": "dntthuan064/playwright-bdd-project",
+      "url": "https://github.com/dntthuan064/playwright-bdd-project",
+      "feature_files": [
+        "src/features/todo/todo.feature"
+      ],
+      "directories": [
+        "src/features/todo"
+      ],
+      "playwright": {
+        "detected": true,
+        "confidence": "STRONG",
+        "evidence": [
+          "package.json declares \"playwright-bdd\"",
+          "package.json declares a Cucumber package",
+          "playwright.config.ts present",
+          "src/common/fixtures.ts imports Playwright in a step/support file"
+        ],
+        "package_json_count": 1
+      },
+      "github_actions": {
+        "has_workflows": true,
+        "workflow_files": [
+          "playwright.yml",
+          "slack-notify-2.yml",
+          "slack-notify.yml"
+        ],
+        "mentions_test": true,
+        "test_markers": [
+          "playwright\\s+install",
+          "playwright\\s+test"
+        ]
+      },
+      "ci_status": {
+        "available": true,
+        "default_branch": "main",
+        "latest_run_conclusion": "success",
+        "latest_run_branch": "chore/add-pull-request-template",
+        "latest_run_workflow": "Playwright Tests",
+        "latest_run_url": "https://github.com/dntthuan064/playwright-bdd-project/actions/runs/18881564760",
+        "verified_passing": true
+      },
+      "included": true
+    },
+    {
+      "name": "eyupUK/playwright-cucumber-nft",
+      "url": "https://github.com/eyupUK/playwright-cucumber-nft",
+      "feature_files": [
+        "src/test/features/accessibility/sauce_accessibility.feature",
+        "src/test/features/appSauceDemo/api/weather_bulk_and_errors.feature",
+        "src/test/features/appSauceDemo/api/weather_current.feature",
+        "src/test/features/appSauceDemo/api/weather_forecast.feature",
+        "src/test/features/appSauceDemo/ui/ui_cart.feature",
+        "src/test/features/appSauceDemo/ui/ui_checkout.feature",
+        "src/test/features/appSauceDemo/ui/ui_login.feature",
+        "src/test/features/appSauceDemo/ui/ui_sorting.feature",
+        "src/test/features/contract/weather_api_contracts.feature",
+        "src/test/features/security/jwt_security.feature",
+        "src/test/features/security/oauth_security.feature",
+        "src/test/features/security/saucedemo_security.feature",
+        "src/test/features/security/weather_api_security.feature"
+      ],
+      "directories": [
+        "src/test/features/accessibility",
+        "src/test/features/appSauceDemo/api",
+        "src/test/features/appSauceDemo/ui",
+        "src/test/features/contract",
+        "src/test/features/security"
+      ],
+      "playwright": {
+        "detected": true,
+        "confidence": "STRONG",
+        "evidence": [
+          "package.json declares a Playwright package",
+          "package.json declares a Cucumber package",
+          "src/hooks/hooks.ts imports Playwright in a step/support file"
+        ],
+        "package_json_count": 1
+      },
+      "github_actions": {
+        "has_workflows": true,
+        "workflow_files": [
+          "k6-grafana.yml",
+          "playwright.yml"
+        ],
+        "mentions_test": true,
+        "test_markers": [
+          "npm\\s+(run\\s+)?test",
+          "npx\\s+playwright",
+          "playwright\\s+install",
+          "playwright\\s+test"
+        ]
+      },
+      "ci_status": {
+        "available": true,
+        "default_branch": "main",
+        "latest_run_conclusion": "success",
+        "latest_run_branch": "main",
+        "latest_run_workflow": "k6 Performance Testing",
+        "latest_run_url": "https://github.com/eyupUK/playwright-cucumber-nft/actions/runs/18393234069",
+        "verified_passing": true
+      },
+      "included": true
+    },
+    {
+      "name": "ishansaini/playwright-dummy",
+      "url": "https://github.com/ishansaini/playwright-dummy",
+      "feature_files": [
+        "tests/features/explore-playwright.feature"
+      ],
+      "directories": [
+        "tests/features"
+      ],
+      "playwright": {
+        "detected": true,
+        "confidence": "STRONG",
+        "evidence": [
+          "package.json declares a Playwright package",
+          "package.json declares a Cucumber package",
+          "playwright.config.ts present",
+          "tests/step-definitions/simple-counter.steps.ts imports Playwright in a step/support file"
+        ],
+        "package_json_count": 1
+      },
+      "github_actions": {
+        "has_workflows": true,
+        "workflow_files": [
+          "playwright.yml"
+        ],
+        "mentions_test": true,
+        "test_markers": [
+          "npm\\s+(run\\s+)?test",
+          "npx\\s+playwright",
+          "playwright\\s+install",
+          "playwright\\s+test"
+        ]
+      },
+      "ci_status": {
+        "available": true,
+        "default_branch": "main",
+        "latest_run_conclusion": "success",
+        "latest_run_branch": "main",
+        "latest_run_workflow": "Playwright Tests",
+        "latest_run_url": "https://github.com/ishansaini/playwright-dummy/actions/runs/18967054755",
+        "verified_passing": true
+      },
+      "included": true
+    },
+    {
+      "name": "karthikautomationtester/playwright-cucumber",
+      "url": "https://github.com/karthikautomationtester/playwright-cucumber",
+      "feature_files": [
+        "features/ecommerce.feature"
+      ],
+      "directories": [
+        "features"
+      ],
+      "playwright": {
+        "detected": true,
+        "confidence": "MEDIUM",
+        "evidence": [
+          "package.json declares a Playwright package",
+          "package.json declares a Cucumber package"
+        ],
+        "package_json_count": 1
+      },
+      "github_actions": {
+        "has_workflows": true,
+        "workflow_files": [
+          "ci.yml"
+        ],
+        "mentions_test": true,
+        "test_markers": [
+          "\\bcucumber\\b",
+          "npx\\s+playwright",
+          "playwright\\s+install",
+          "playwright\\s+test"
+        ]
+      },
+      "ci_status": {
+        "available": true,
+        "default_branch": "main",
+        "latest_run_conclusion": "success",
+        "latest_run_branch": "main",
+        "latest_run_workflow": "CI",
+        "latest_run_url": "https://github.com/karthikautomationtester/playwright-cucumber/actions/runs/16919041208",
+        "verified_passing": true
+      },
+      "included": true
+    },
+    {
+      "name": "marcoturi/react-redux-boilerplate",
+      "url": "https://github.com/marcoturi/react-redux-boilerplate",
+      "feature_files": [
+        "e2e/features/app.feature",
+        "e2e/features/subscription.feature"
+      ],
+      "directories": [
+        "e2e/features"
+      ],
+      "playwright": {
+        "detected": true,
+        "confidence": "STRONG",
+        "evidence": [
+          "package.json declares a Playwright package",
+          "package.json declares a Cucumber package",
+          "e2e/support/custom-world.ts imports Playwright in a step/support file"
+        ],
+        "package_json_count": 1
+      },
+      "github_actions": {
+        "has_workflows": true,
+        "workflow_files": [
+          "codeql-analysis.yml",
+          "release.yml"
+        ],
+        "mentions_test": true,
+        "test_markers": [
+          "npm\\s+(run\\s+)?test",
+          "playwright\\s+install",
+          "pnpm\\s+(run\\s+)?test"
+        ]
+      },
+      "ci_status": {
+        "available": true,
+        "default_branch": "main",
+        "latest_run_conclusion": "success",
+        "latest_run_branch": "renovate/pnpm-11.x",
+        "latest_run_workflow": "CodeQL",
+        "latest_run_url": "https://github.com/marcoturi/react-redux-boilerplate/actions/runs/26658157842",
+        "verified_passing": true
+      },
+      "included": true
+    },
+    {
+      "name": "paul-chiggy/demo-e2e-testing-with-playwright-cucumber",
+      "url": "https://github.com/paul-chiggy/demo-e2e-testing-with-playwright-cucumber",
+      "feature_files": [
+        "tests/bdd/features/add-todo.feature",
+        "tests/bdd/features/complete-todo.feature",
+        "tests/bdd/features/delete-todo.feature",
+        "tests/bdd/features/filter-todo.feature",
+        "tests/bdd/features/update-todo.feature"
+      ],
+      "directories": [
+        "tests/bdd/features"
+      ],
+      "playwright": {
+        "detected": true,
+        "confidence": "STRONG",
+        "evidence": [
+          "package.json declares a Playwright package",
+          "package.json declares a Cucumber package",
+          "playwright.config.ts present",
+          "support/asserter.ts imports Playwright in a step/support file"
+        ],
+        "package_json_count": 1
+      },
+      "github_actions": {
+        "has_workflows": true,
+        "workflow_files": [
+          "playwright.yml"
+        ],
+        "mentions_test": true,
+        "test_markers": [
+          "npx\\s+playwright",
+          "playwright\\s+install",
+          "playwright\\s+test"
+        ]
+      },
+      "ci_status": {
+        "available": true,
+        "default_branch": "main",
+        "latest_run_conclusion": "success",
+        "latest_run_branch": "main",
+        "latest_run_workflow": "Playwright Tests",
+        "latest_run_url": "https://github.com/paul-chiggy/demo-e2e-testing-with-playwright-cucumber/actions/runs/16648942782",
+        "verified_passing": true
+      },
+      "included": true
+    },
+    {
+      "name": "qaPaschalE/playwright-cucumber-ts-steps",
+      "url": "https://github.com/qaPaschalE/playwright-cucumber-ts-steps",
+      "feature_files": [
+        "playwright/e2e/features/alert.feature",
+        "playwright/e2e/features/example.feature",
+        "playwright/e2e/features/forms.feature"
+      ],
+      "directories": [
+        "playwright/e2e/features"
+      ],
+      "playwright": {
+        "detected": true,
+        "confidence": "MEDIUM",
+        "evidence": [
+          "package.json declares a Playwright package",
+          "src/component/runner.ts imports Playwright in a step/support file"
+        ],
+        "package_json_count": 1
+      },
+      "github_actions": {
+        "has_workflows": true,
+        "workflow_files": [
+          "build.yml",
+          "doc.yml",
+          "release-please.yml"
+        ],
+        "mentions_test": true,
+        "test_markers": [
+          "\\bcucumber\\b"
+        ]
+      },
+      "ci_status": {
+        "available": true,
+        "default_branch": "main",
+        "latest_run_conclusion": "success",
+        "latest_run_branch": "gh-pages",
+        "latest_run_workflow": "pages build and deployment",
+        "latest_run_url": "https://github.com/qaPaschalE/playwright-cucumber-ts-steps/actions/runs/22731937220",
+        "verified_passing": true
+      },
+      "included": true
+    },
+    {
+      "name": "rogercopy/playwright-cucumber-TS-automation",
+      "url": "https://github.com/rogercopy/playwright-cucumber-TS-automation",
+      "feature_files": [
+        "src/test/features/trello-board.api.feature",
+        "src/test/features/trello-board.ui.feature",
+        "src/test/features/trello-cards.api.feature",
+        "src/test/features/trello-lists.api.feature",
+        "src/test/features/trello-login.ui.feature"
+      ],
+      "directories": [
+        "src/test/features"
+      ],
+      "playwright": {
+        "detected": true,
+        "confidence": "STRONG",
+        "evidence": [
+          "package.json declares a Playwright package",
+          "package.json declares a Cucumber package",
+          "src/test/support/custom-world.ts imports Playwright in a step/support file"
+        ],
+        "package_json_count": 1
+      },
+      "github_actions": {
+        "has_workflows": true,
+        "workflow_files": [
+          "e2e-test.yml"
+        ],
+        "mentions_test": true,
+        "test_markers": [
+          "\\bcucumber\\b",
+          "npx\\s+playwright",
+          "playwright\\s+install",
+          "playwright\\s+test"
+        ]
+      },
+      "ci_status": {
+        "available": true,
+        "default_branch": "master",
+        "latest_run_conclusion": "success",
+        "latest_run_branch": "master",
+        "latest_run_workflow": "Playwright Cucumber Tests",
+        "latest_run_url": "https://github.com/ranganath2602/playwright-cucumber-TS-automation/actions/runs/28661045827",
+        "verified_passing": true
+      },
+      "included": true
+    },
+    {
+      "name": "rsksmart/e2e_dapps_automation",
+      "url": "https://github.com/rsksmart/e2e_dapps_automation",
+      "feature_files": [
+        "src/test/features/Demo.feature"
+      ],
+      "directories": [
+        "src/test/features"
+      ],
+      "playwright": {
+        "detected": true,
+        "confidence": "STRONG",
+        "evidence": [
+          "package.json declares a Playwright package",
+          "package.json declares a Cucumber package",
+          "src/hooks/fixtures.js imports Playwright in a step/support file"
+        ],
+        "package_json_count": 1
+      },
+      "github_actions": {
+        "has_workflows": true,
+        "workflow_files": [
+          "playwright.yml"
+        ],
+        "mentions_test": true,
+        "test_markers": [
+          "\\bcucumber\\b",
+          "npx\\s+playwright",
+          "playwright\\s+install",
+          "playwright\\s+test"
+        ]
+      },
+      "ci_status": {
+        "available": true,
+        "default_branch": "main",
+        "latest_run_conclusion": "success",
+        "latest_run_branch": "main",
+        "latest_run_workflow": "Scheduled",
+        "latest_run_url": "https://github.com/rsksmart/e2e_dapps_automation/actions/runs/16091868678",
+        "verified_passing": true
+      },
+      "included": true
+    },
+    {
+      "name": "santoshkulkarni1986/playwright-cucumber-typescript-automation-framework",
+      "url": "https://github.com/santoshkulkarni1986/playwright-cucumber-typescript-automation-framework",
+      "feature_files": [
+        "src/test/features/Login.feature"
+      ],
+      "directories": [
+        "src/test/features"
+      ],
+      "playwright": {
+        "detected": true,
+        "confidence": "STRONG",
+        "evidence": [
+          "package.json declares a Playwright package",
+          "package.json declares a Cucumber package",
+          "src/hooks/hooks.ts imports Playwright in a step/support file"
+        ],
+        "package_json_count": 1
+      },
+      "github_actions": {
+        "has_workflows": true,
+        "workflow_files": [
+          "playwright.yml"
+        ],
+        "mentions_test": true,
+        "test_markers": [
+          "npm\\s+(run\\s+)?test",
+          "npx\\s+playwright",
+          "playwright\\s+install",
+          "playwright\\s+test"
+        ]
+      },
+      "ci_status": {
+        "available": true,
+        "default_branch": "main",
+        "latest_run_conclusion": "success",
+        "latest_run_branch": "main",
+        "latest_run_workflow": "Playwright Tests",
+        "latest_run_url": "https://github.com/santoshkulkarni1986/playwright-cucumber-typescript-automation-framework/actions/runs/17005378021",
+        "verified_passing": true
+      },
+      "included": true
+    },
+    {
+      "name": "srinivasguda4444-wq/playwright-cucumber",
+      "url": "https://github.com/srinivasguda4444-wq/playwright-cucumber",
+      "feature_files": [
+        "src/tests/features/login.feature"
+      ],
+      "directories": [
+        "src/tests/features"
+      ],
+      "playwright": {
+        "detected": true,
+        "confidence": "STRONG",
+        "evidence": [
+          "package.json declares a Playwright package",
+          "package.json declares a Cucumber package",
+          "src/tests/step-definitions/login.ts imports Playwright in a step/support file"
+        ],
+        "package_json_count": 1
+      },
+      "github_actions": {
+        "has_workflows": true,
+        "workflow_files": [
+          "playwright.yml"
+        ],
+        "mentions_test": true,
+        "test_markers": [
+          "\\bcucumber\\b",
+          "npx\\s+playwright",
+          "playwright\\s+install",
+          "playwright\\s+test"
+        ]
+      },
+      "ci_status": {
+        "available": true,
+        "default_branch": "master",
+        "latest_run_conclusion": "success",
+        "latest_run_branch": "master",
+        "latest_run_workflow": "Playwright Tests",
+        "latest_run_url": "https://github.com/srinivasguda4444-wq/playwright-cucumber/actions/runs/17357656109",
+        "verified_passing": true
+      },
+      "included": true
+    },
+    {
+      "name": "vaidasian/playwright-cucumberjs",
+      "url": "https://github.com/vaidasian/playwright-cucumberjs",
+      "feature_files": [
+        "src/features/login.feature"
+      ],
+      "directories": [
+        "src/features"
+      ],
+      "playwright": {
+        "detected": true,
+        "confidence": "MEDIUM",
+        "evidence": [
+          "package.json declares a Playwright package",
+          "package.json declares a Cucumber package",
+          "playwright.config.ts present"
+        ],
+        "package_json_count": 1
+      },
+      "github_actions": {
+        "has_workflows": true,
+        "workflow_files": [
+          "e2e-test.yml"
+        ],
+        "mentions_test": true,
+        "test_markers": [
+          "npm\\s+(run\\s+)?test",
+          "npx\\s+playwright",
+          "playwright\\s+install",
+          "playwright\\s+test"
+        ]
+      },
+      "ci_status": {
+        "available": true,
+        "default_branch": "main",
+        "latest_run_conclusion": "success",
+        "latest_run_branch": "main",
+        "latest_run_workflow": "Playwright E2E Tests",
+        "latest_run_url": "https://github.com/vaidasian/playwright-cucumberjs/actions/runs/17211050133",
+        "verified_passing": true
+      },
+      "included": true
+    },
+    {
+      "name": "zbcjackson/cucumber-ai",
+      "url": "https://github.com/zbcjackson/cucumber-ai",
+      "feature_files": [
+        "features/map.feature"
+      ],
+      "directories": [
+        "features"
+      ],
+      "playwright": {
+        "detected": true,
+        "confidence": "MEDIUM",
+        "evidence": [
+          "package.json declares a Playwright package",
+          "package.json declares a Cucumber package"
+        ],
+        "package_json_count": 1
+      },
+      "github_actions": {
+        "has_workflows": true,
+        "workflow_files": [
+          "ci.yml",
+          "release.yml"
+        ],
+        "mentions_test": true,
+        "test_markers": [
+          "npm\\s+(run\\s+)?test",
+          "pnpm\\s+(run\\s+)?test"
+        ]
+      },
+      "ci_status": {
+        "available": true,
+        "default_branch": "master",
+        "latest_run_conclusion": "success",
+        "latest_run_branch": "master",
+        "latest_run_workflow": "npm_and_yarn in /. for @isaacs/brace-expansion, @langchain/core, @modelcontextprotocol/sdk, @modelcontextprotocol/sdk, ajv, braces, diff, file-type, js-yaml, micromatch, minimatch, minimatch, minimatch, minimatch, minimatch, minimatch, qs, qs, rollup - Update #1274813631",
+        "latest_run_url": "https://github.com/zbcjackson/cucumber-ai/actions/runs/22931011940",
+        "verified_passing": true
+      },
+      "included": true
+    }
+  ]
+}
