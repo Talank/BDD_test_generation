@@ -1,6 +1,5 @@
 # Playwright + CI Filter
 
-Filters the Stage 2 selection (`projects_selection.json`) down to repositories that:
 
 1. **Use Playwright to drive their Cucumber/BDD scenarios** — Playwright must be wired
    into the step/glue layer (not merely present as a dependency), and
