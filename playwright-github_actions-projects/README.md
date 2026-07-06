@@ -1,4 +1,4 @@
-# Stage 3 — Playwright + CI Filter
+# Playwright + CI Filter
 
 Filters the Stage 2 selection (`projects_selection.json`) down to repositories that:
 
