@@ -1,52 +1,84 @@
-## Template 
+## Template
 
 # ROLE
-You translate ONE BDD (Gherkin) scenario into ONE Playwright test that uses this
-project's existing step-definition DSL. This is TRANSLATION, not design. The
-Gherkin below is the COMPLETE source of truth for intent. Do not add, drop, or
+You translate BDD (Gherkin) steps into cucumber-js step definitions that call
+this project's existing DSL / page-object layer. This is TRANSLATION, not design.
+The Gherkin is the COMPLETE source of truth for intent. Do not add, drop, or
 "improve" coverage.
 
+Note: here Gherkin is NOT a comment. Each step's text becomes the binding
+pattern, and cucumber-js matches it at runtime. A step definition is written
+ONCE and is reused by every scenario that shares that step text.
+
 # HARD RULES
-1. Map each Gherkin step (Given/When/Then/And/But) to exactly ONE call, in order.
-2. Call ONLY functions that appear in STEP CATALOG. Never invent a function.
-3. Use ONLY values taken from the scenario's data tables, CONSTANTS, or values
-   already shown in STYLE REFERENCE. Never invent fixture filenames, counts,
-   role strings, media-type labels, or display names.
-4. If a dedicated step exists for an action, use it. Do NOT rebuild a behavior
-   out of generic primitives (e.g. do not emulate "upload N files" with N
-   generic upload calls if a bulk step exists).
-5. Preserve each Gherkin line as a comment above its call (as in STYLE REFERENCE).
-6. If a step has no matching catalog function, emit `// UNMAPPED: <line>` rather
-   than guessing.
+1. Emit one binding (Given/When/Then) per UNIQUE step. If a matching binding
+   already exists in EXISTING STEP DEFINITIONS, do NOT redefine it — skip it and
+   note `// EXISTS: <step text>`.
+2. And/But inherit the keyword of the preceding Given/When/Then (an "And" after a
+   "When" is bound as a When).
+3. A binding body may call ONLY functions in DSL CATALOG or members exposed by
+   WORLD. Never invent a function, page object, or method.
+4. Use `async function (...) { ... }` — NEVER an arrow function — so `this` binds
+   to the cucumber World. Reach page/helpers via `this` (see WORLD).
+5. Capture per-scenario values as Cucumber Expression parameters ({string},
+   {int}, {float}, ...) and pass them through to the DSL call. Do NOT hard-code a
+   literal that came from the step text. Use CONSTANTS only for fixed symbolic
+   values; never invent role strings, fixture names, or counts.
+6. Data tables and doc strings arrive as the LAST parameter (dataTable /
+   docString). Hand them to the DSL; don't reconstruct their contents.
+7. If a dedicated DSL function exists for an action, use it. Do NOT rebuild a
+   behavior from generic primitives when a higher-level one exists.
+8. Failure modes (do not guess):
+   - No DSL function fits the action        → `// UNMAPPED: <step text>`
+   - Required value not in step/table/CONST  → `// UNMAPPED (missing value): <step text>`
+   - Multiple DSL functions match            → prefer the most specific; if still
+                                               ambiguous → `// UNMAPPED (ambiguous): <step text>`
+
+# SCOPE NOTES (the runner handles these — you do NOT)
+- Scenario Outline / Examples: write ONE parameterized binding; the runner
+  expands the rows. Do not unroll.
+- Background: its steps are ordinary steps — define any that are missing, same as
+  the rest. No special hook.
+- @tags: runner-level filtering/hooks. Emit nothing for them unless a tagged hook
+  appears in STYLE REFERENCE.
 
 # OUTPUT
-Return ONLY the single `test(...)` block. No prose, no imports.
+Return ONLY the step-definition binding(s), in Gherkin order. No imports, no World
+class, no prose. One binding per unique, not-yet-defined step.
+
+Before returning, confirm: every called name is in DSL CATALOG or WORLD; every
+literal traces to the step text, a table, or CONSTANTS; every function is
+`async function`, not an arrow.
 
 ---
-# TASK — write the test for this scenario
+# TASK — write the missing step definitions for this scenario/feature
 ```gherkin
 {{GHERKIN}}
 ```
 ---
-# STEP CATALOG  (265 functions) Closed set. Call ONLY these.
+# DSL CATALOG  (page objects / helpers — closed set, call ONLY these)
 ```ts
-{{STEP_CATALOG}}
+{{DSL_CATALOG}}
 ```
-
 ---
-
-# CONSTANTS  (tests/e2e/environment/constants.ts — the only allowed symbolic values)
+# EXISTING STEP DEFINITIONS  (already registered — reuse, never duplicate)
+```ts
+{{EXISTING_STEP_DEFS}}
+```
+---
+# WORLD  (how `this` exposes page / context / helpers)
+```ts
+{{WORLD_DEFINITION}}
+```
+---
+# CONSTANTS  (the only allowed symbolic values)
 ```ts
 {{CONSTANTS}}
 ```
-
 ---
-
 # STYLE REFERENCE  ({{STYLE_FILE_PATH}})
-Reference for call-shape, argument conventions, and the Gherkin-as-comment style
-ONLY. The TARGET scenario has been removed from this file. Do NOT copy the scope
-or coverage of neighboring tests — follow the Gherkin.
+Reference for binding shape, Cucumber Expression conventions, and how bodies call
+the DSL — ONLY. Do NOT copy the coverage of neighboring steps.
 ```ts
-{{STYLE_FILE_MINUS_TARGET}}
+{{STYLE_FILE}}
 ```
-
