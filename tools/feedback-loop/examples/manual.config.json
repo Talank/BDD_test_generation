@@ -1,0 +1,30 @@
+{
+  "caseId": "replace-me",
+  "metadata": {
+    "repository": "OWNER/REPOSITORY",
+    "commitSha": "PINNED_COMMIT_SHA",
+    "scenario": "Scenario name"
+  },
+  "targetRepo": "../../../target-repo",
+  "prompt": {
+    "file": "../../generated-prompts/replace-me.md",
+    "buildCommand": "node ../../prompt_builder.js --repo ../../../target-repo --gherkin ../../../target-repo/path/to/test.feature --out ../../generated-prompts/replace-me.md",
+    "buildCwd": ".",
+    "rebuild": false
+  },
+  "provider": {
+    "type": "manual",
+    "manualDir": "./manual"
+  },
+  "generation": {
+    "wrapperTemplate": "./generated-steps.template.js",
+    "generatedFile": "path/to/loaded/step-definitions/generated.steps.js",
+    "maxAttempts": 3
+  },
+  "execution": {
+    "cwd": "../../../target-repo",
+    "testCommand": "npm test -- --name \"Scenario name\"",
+    "timeoutSeconds": 300
+  },
+  "resultsDir": "./results"
+}

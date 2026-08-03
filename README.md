@@ -19,3 +19,17 @@ For a set of test descriptions, an LLM (ChatGPT) was asked to generate the corre
 | Share with expiration date | `tests/e2e/specs/shares/share.spec.ts` |
 | Upload multiple small files | `tests/e2e/specs/smoke/upload.spec.ts` |
 | Search using mediaType filter | `tests/e2e/specs/search/search.spec.ts` |
+
+## LLM feedback loop
+
+`tools/feedback-loop/` contains a provider-agnostic workflow for generating missing Cucumber step definitions, executing the selected Cucumber/Playwright scenario, classifying failures, and requesting a corrected generation until the scenario passes or reaches its retry limit.
+
+The default manual provider works with the existing ChatGPT workflow and does not require an API key. OpenAI API and command-line provider adapters are also included for later automation.
+
+```bash
+cd tools/feedback-loop
+npm test
+npm run demo
+```
+
+See [`tools/feedback-loop/README.md`](tools/feedback-loop/README.md) for target-repository setup, experiment configuration, manual response handling, result files, and provider options.
