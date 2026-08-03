@@ -1,0 +1,4 @@
+﻿Test Description,Target Component/File,url,Semantically Same?(has the same intention as the original test),Chat Session Link(Verifying whether they are semantically same)
+login,src/test/steps/loginSteps.ts,Tallyb/cucumber-playwright,Yes,https://chatgpt.com/share/6a70a7a7-8e1c-83e8-b6e3-5d2f504f6ff9
+subscription,e2e/steps/subscription.steps.ts,https://github.com/marcoturi/react-redux-boilerplate,Yes,https://chatgpt.com/share/6a70a554-f188-83e8-918c-0558dc6dc741
+register_new_users,src/web/steps/RegisterUserSteps.ts,https://github.com/VinayKumarBM/playwright-cucumber-sample,No,https://chatgpt.com/share/6a70a7ce-2214-83ee-a091-e7a4eec805b0
