@@ -1,0 +1,4 @@
+.env
+manual/responses/
+results/
+.DS_Store

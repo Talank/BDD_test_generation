@@ -1,0 +1,37 @@
+{
+  "caseId": "espresso-help-function",
+  "metadata": {
+    "repository": "YevShch/Espresso-Addict-Playwright-Cucumber",
+    "commitSha": "24c3160bd0719a66feadf4138d8a6e83caed974e",
+    "scenario": "Verify help button displays game information"
+  },
+  "targetRepo": "../../../target-repo",
+  "prompt": {
+    "file": "../../generated-prompts/espresso-help-function.md",
+    "buildCommand": "node ../../prompt_builder.js --repo ../../../target-repo --gherkin ../../../target-repo/tests/features/help_function.feature --out ../../generated-prompts/espresso-help-function.md",
+    "buildCwd": ".",
+    "rebuild": false,
+    "buildTimeoutSeconds": 120
+  },
+  "provider": {
+    "type": "manual",
+    "manualDir": "./manual"
+  },
+  "generation": {
+    "wrapperTemplate": "./espresso-addict.generated-steps.template.js",
+    "generatedFile": "tests/features/step-definitions/generated.espresso-help.steps.js",
+    "maxAttempts": 3
+  },
+  "execution": {
+    "cwd": "../../../target-repo",
+    "testCommand": "npx cucumber-js tests/features/help_function.feature --import tests/features/support --import tests/features/step-definitions --name \"Verify help button displays game information\" --format progress",
+    "timeoutSeconds": 300,
+    "server": {
+      "command": "node index.js",
+      "cwd": "../../../target-repo",
+      "healthUrl": "http://localhost:3000",
+      "startupTimeoutSeconds": 30
+    }
+  },
+  "resultsDir": "./results"
+}

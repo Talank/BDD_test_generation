@@ -1,0 +1,34 @@
+name: Feedback Loop Validation
+
+on:
+  push:
+    paths:
+      - 'tools/feedback-loop/**'
+      - '.github/workflows/feedback-loop.yml'
+  pull_request:
+    paths:
+      - 'tools/feedback-loop/**'
+      - '.github/workflows/feedback-loop.yml'
+  workflow_dispatch:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: tools/feedback-loop
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Use Node.js 22
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Run automated tests
+        run: npm test
+
+      - name: Run two-attempt demo
+        run: npm run demo

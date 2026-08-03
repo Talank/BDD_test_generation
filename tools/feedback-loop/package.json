@@ -1,0 +1,15 @@
+{
+  "name": "bdd-llm-feedback-loop",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Provider-agnostic feedback loop for generating and repairing executable Cucumber/Playwright step definitions.",
+  "scripts": {
+    "test": "node --test",
+    "demo": "node scripts/run-demo.mjs",
+    "cli": "node src/cli.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
