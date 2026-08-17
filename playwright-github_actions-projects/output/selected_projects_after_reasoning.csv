@@ -1,3 +1,4 @@
+name,meets_criteria,reason,group,stars,forks,open_issues,language,archived,feature_file_count,scenario_count
 marcoturi/fastify-boilerplate,Yes,"Active architecture template, but BDD is incidental not showcased: cucumber-js API scenarios for its user module, run in CI",nodejs,460,53,5,TypeScript,FALSE,2,2
 apickli/apickli,Yes,"still maintained, features genuinely test its own step DSL",nodejs,213,93,31,JavaScript,FALSE,4,4
 rmpestano/cukedoctor,Yes,Real living-documentation tool (Cukedoctor) whose Gherkin tests its own funcions,java,130,23,33,Java,FALSE,23,23

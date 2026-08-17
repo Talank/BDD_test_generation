@@ -32,6 +32,43 @@
 
 **Result:** Form is filled but never submitted.
 
+### Why the actions were missed
+
+Both methods are in the catalog:
+
+```
+// - RegisterUserPage#async agreePrivacyPolicy()
+// - RegisterUserPage#async clickContinueButton()
+```
+
+But the feature file never asks for them:
+
+```gherkin
+When the user enters the registration details "<firstName>", "<lastName>", "<email>", ...
+Then user should see a message "Your Account Has Been Created!"
+```
+
+Nothing tells the model the `When` must also satisfy the `Then`.
+
+**Also Rule 7 from the prompt dictates the opposite:**
+
+```
+7. THINNESS: when a single DSL function performs the step, the body is that ONE
+   call — prefer the most specific / highest-level function.
+```
+
+`enterRegistrationDetails` matches the step verb and all 7 params → one call, stop.
+
+### Why the email setup was missed
+
+`{0}` appears only in the Examples table — no step mentions randomizing:
+
+```gherkin
+Examples:
+    | firstName | email              | ... |
+    | John      | john_{0}@email.com | ... |
+```
+
 ---
 
 ## Test 2 — Subscription Filtering
@@ -81,3 +118,4 @@ Test 1 (Registration)   Focal method: OK    Setup: WEAK    Actions: 2 MISSING
 Test 2 (Subscription)   Focal method: OK    Setup: OK      Assertion: Weak
 Test 3 (Login)          Focal method: N/A   Setup: OK      Assertion: WEAK
 ```
+
