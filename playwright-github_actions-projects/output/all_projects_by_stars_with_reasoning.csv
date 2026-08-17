@@ -1,0 +1,1146 @@
+name,meets_criteria,reason,group,stars,forks,open_issues,language,archived,feature_file_count,scenario_count
+cucumber/cucumber-js,Yes,Cucumber's own repo and its test suite is written by gherkin,nodejs,5381,1115,37,TypeScript,FALSE,74,74
+cucumber/cucumber-jvm,Yes,Same as 1st,java,2830,2012,54,Java,FALSE,82,82
+AppiumTestDistribution/AppiumTestDistribution,No,"Real active tool, but its only 3 features are dummy samples",java,1040,366,45,Java,FALSE,3,3
+cucumber/cucumber-java-skeleton,No," template, not a real project",java,499,642,3,Java,FALSE,2,2
+marcoturi/fastify-boilerplate,Yes,"Active architecture template, but BDD is incidental not showcased: cucumber-js API scenarios for its user module, run in CI",nodejs,460,53,5,TypeScript,FALSE,2,2
+Tallyb/cucumber-playwright,No,Starter repo for learning Cucumber+Playwright,nodejs,437,110,19,TypeScript,FALSE,2,2
+apickli/apickli,Yes,"still maintained, features genuinely test its own step DSL",nodejs,213,93,31,JavaScript,FALSE,4,4
+gauravkarvir/cucumber_testng_java,No,template,java,212,171,0,Java,FALSE,6,6
+cucumber/cucumber-eclipse,No,"Active plugin, but the .feature files are bundled example projects, not the plugin's tests",java,203,150,27,Java,FALSE,6,6
+serenity-bdd/serenity-cucumber-starter,No,template,java,202,311,98,Java,FALSE,1,1
+protractor-cucumber-framework/protractor-cucumber-framework,Yes,maintained; features are its own integration tests,nodejs,198,133,5,JavaScript,FALSE,5,5
+naveenanimation20/CucumberSeleniumFramework,No,Course/tutorial framework repo,java,139,447,10,Java,FALSE,14,14
+timjroberts/cucumber-js-tsflow,Yes,"Published cucumber-tsflow library, features are genuine acceptance specs of the binding layer",nodejs,137,36,8,TypeScript,FALSE,7,7
+sebaslogen/CleanGUITestArchitecture,Yes,"Sample Android GUI-test architecture demo, though it has only one feature",java,137,31,9,Java,FALSE,1,1
+temyers/cucumber-jvm-parallel-plugin,No,Archived and deprecated,java,130,117,1,Java,TRUE,92,92
+rmpestano/cukedoctor,Yes,Real living-documentation tool (Cukedoctor) whose Gherkin tests its own funcions,java,130,23,33,Java,FALSE,23,23
+ortoniKC/Playwright_Cucumber_TS,No,starter repo for learning Cucumber+Playwright,nodejs,126,77,8,TypeScript,FALSE,3,3
+trivago/cucable-plugin,No,synthetic features,java,121,42,2,Java,FALSE,12,12
+machzqcq/CucumberJVMExamples,No,template,java,119,143,32,Java,FALSE,27,27
+cucumber/cucumber-electron,No,template,nodejs,118,18,9,JavaScript,TRUE,10,10
+naveenanimation20/LatestCucumber6WithPOM,No,YouTube-course demo framework,java,112,341,11,Java,FALSE,4,4
+ctco/cukes,Yes,"active library, Gherkin tests its own step DSL",java,111,67,46,Java,FALSE,26,26
+mechero/spring-boot-cucumber,No,Blog-post sample project,java,109,60,3,Java,FALSE,2,2
+emmasuzuki/CucumberEspressoDemo,No,Demo app,java,108,33,1,Java,FALSE,2,2
+znsio/teswiz,Yes,Actively developed company OSS automation framework; features are its own e2e regression suite,java,104,63,36,Java,FALSE,28,28
+marcoturi/react-redux-boilerplate,Yes,feature has a single e2e test ,nodejs,103,16,9,TypeScript,FALSE,2,2
+TestLeafInc/TestLeafSeleniumTraining,No,starter repo for selenium,java,102,58,0,Java,FALSE,3,3
+angiejones/restassured-with-cucumber-demo,No,Tutorial demo,java,81,85,1,Java,FALSE,1,1
+serenity-bdd/serenity-cucumber,Yes,package that has genuine feature files,java,80,73,70,Java,TRUE,71,71
+jomarnavarro/pepinazo,No,starter,java,72,84,1,Java,FALSE,2,2
+amiya-pattnaik/selenium-cucumber-java,No,Collection of sample projects demonstrating a BDD framework,java,67,80,2,Java,FALSE,1,1
+wenqiglantz/customer-service,No,Blog-demo,java,64,26,11,Java,FALSE,1,1
+RoRoche/AndroidTestingBox,No,"Personal experiment box for Android testing tools, stale",java,63,3,2,Java,FALSE,2,2
+anhtester/AutomationFrameworkCucumberTestNG,No,"Training-channel automation framework for cucumber, no feature file tests its functionalitty",java,62,56,2,Java,FALSE,3,3
+NoraUi/NoraUi,Yes,Real UI non-regression product (NoraUi) with its own Gherkin integration suite,java,60,27,9,Java,FALSE,4,4
+rajatt95/MasterSeleniumFramework_BDD,No,Udemy-course practice framework,java,57,35,0,Java,FALSE,2,2
+shankybnl/selenium_BDD_framework,No,"Personal demo framework, stale",java,56,50,2,Java,FALSE,2,2
+7ep/demo,Yes,"Coveros demonstration app, has genuine feature files",java,53,138,23,Java,FALSE,14,14
+Accenture/bdd-for-all,Yes,Real Accenture OSS library ,java,53,24,7,Java,FALSE,12,12
+hdorgeval/cucumber7-ts-starter,No,Starter template,nodejs,50,21,3,TypeScript,FALSE,1,1
+igniteram/testng-cucumber,No,Self-described boilerplate,java,50,61,2,Java,FALSE,3,3
+underc0delabs/Autoc0de-Hybrid,No,template,java,50,5,1,Java,FALSE,2,2
+martinschneider/justtestlah,Yes,Actively maintained UI test framework; Gherkin suites are its own integration tests,java,48,20,28,Java,FALSE,11,11
+serenity-bdd/serenity-cucumber4-starter,No,Archived starter template,java,48,72,22,Java,TRUE,1,1
+selcukes/selcukes-java,Yes,Actively maintained automation library; features tests its own modules ,java,47,7,10,Java,FALSE,6,6
+underc0delabs/Autoc0de-WEB,No,"Learning-lab framework template, single Example.feature",java,47,7,0,Java,FALSE,1,1
+akshayp7/playwright-java-cucumber,No,boilerplate/template,java,46,25,0,Java,FALSE,6,6
+rajatt95/MasterAppiumFramework_BDD,No,Udemy-course practice framework,java,44,20,2,Java,FALSE,2,2
+VinayKumarBM/API-Cucumber,No,"Personal sample API framework, stale since 2023",java,41,40,1,Java,FALSE,4,4
+bcarun/cucumber-samples,No,Sample project set for learning Cucumber,java,40,108,2,Java,FALSE,6,6
+cronn/cucumber-junit5-example,No,Example/tutorial repo (company-owned but explicitly an example),java,40,16,38,Java,FALSE,3,3
+arnaud-dezandee/cucumber-mink,Yes,"Published npm library (cucumber-mink); features are its own step-definition test suite, maintained",nodejs,39,14,12,JavaScript,FALSE,9,9
+extent-framework/extentreports-cucumber4-adapter,No,Unmaintained since 2020; features are copied stock Cucumber examples,java,39,21,30,Java,FALSE,3,3
+naveenanimation20/Cucumber7.xTestNGLatestPOC,No,Course POC repo,java,39,46,2,Java,FALSE,1,1
+pavanoltraining/CucumberSDETProject,No,Training-company course project,java,37,70,4,Java,FALSE,2,2
+pactumjs/pactum-cucumber-boilerplate,No,Boilerplate by name and purpose,nodejs,35,16,2,JavaScript,FALSE,1,1
+Comcast/zucchini,No,Real Comcast OSS tool but abandoned since 2022; features are self-test samples,java,35,19,5,Java,FALSE,6,6
+yazidisme/selenium-cucumber-framework,No,Self-described 'sample of an automation framework',java,33,45,0,Java,FALSE,5,5
+mpinardi/cucumber-performance,No,Stale since 2023 and its features are synthetic pass/fail fixtures,java,33,6,1,Java,FALSE,2,2
+selenide-examples/cucumber,No,Sample project demonstrating Selenide with Cucumber,java,33,39,1,Java,FALSE,2,2
+VinayKumarBM/playwright-cucumber-sample,No,Sample framework by name and README,nodejs,32,18,1,TypeScript,FALSE,5,5
+serenity-js/serenity-js-cucumber-playwright-template,No,Official template repository,nodejs,32,15,8,TypeScript,FALSE,1,1
+qaPaschalE/playwright-cucumber-ts-steps,Yes,"Published npm step library, actively released; features test its own steps (borderline: single maintainer)",nodejs,30,1,0,TypeScript,FALSE,3,3
+PrinceSoni83/playwright-cucumber-js-e2e-boilerplate,No,Boilerplate by name and purpose,nodejs,30,17,0,JavaScript,FALSE,2,2
+kamil-nowocin/Test_Automation-automationpractice,No,Personal practice framework against the automationpractice demo site,java,30,16,0,Java,FALSE,7,7
+browserstack/cucumber-js-browserstack,No,Vendor integration sample repo,nodejs,29,32,16,JavaScript,FALSE,2,2
+BalamiRR/QA-Testinium,No,Personal QA practice project,java,29,16,2,Java,FALSE,20,20
+kowalcj0/cucumber-testng-parallel-selenium,No,"Example project, dead since 2014",java,28,36,1,Java,FALSE,4,4
+alexvictoor/pitest-cucumber-plugin,No,"Active plugin, but its features are stock Cucumber calculator examples used as fixtures",java,28,12,8,Java,FALSE,3,3
+reportportal/agent-java-cucumber,No,"Archived, end-of-support ReportPortal agent",java,26,17,0,Java,TRUE,21,21
+Book-Microservices-v2/cucumber-tests,No,Companion code for a book chapter,java,25,14,0,Java,FALSE,2,2
+machzqcq/cucumber-jvm-template,No,Template project by name,java,25,91,4,Java,FALSE,1,1
+Marketionist/testcafe-cucumber-steps,Yes,Published npm step library (testcafe-cucumber-steps) with its own executed Cucumber suite,nodejs,24,6,3,JavaScript,FALSE,4,4
+adamcegielka/playwright-cucumber-bdd-typescript,No,Author states it is a personal skill-practice project,nodejs,24,8,5,TypeScript,FALSE,2,2
+Cybertek-B15Local/fall-2019-va-cucumber-project,No,Bootcamp class project,java,24,73,6,Java,FALSE,13,13
+sahajamit/cucumber-jvm-testng-integration,No,"Blog-demo integration example, stale",java,24,31,3,Java,FALSE,2,2
+alexej-strelzow/testcafe-cucumber-typescript,No,Example/starter framework,nodejs,23,10,1,JavaScript,FALSE,3,3
+reportportal/examples-java,No,Vendor examples repo,java,23,57,1,Java,FALSE,22,22
+Raghav-Pal/SeleniumCucumberBDD,No,YouTube tutorial framework,java,23,77,1,Java,FALSE,4,4
+cucumber/cucumber-jvm-groovy,No,Archived by Cucumber org,java,23,9,4,Java,TRUE,4,4
+luciemars/cucumber-java-selenium-webdriver-example,No,Example repo by name and README,java,23,52,3,Java,FALSE,2,2
+MiroslavRusev/cuppet,Yes,Maintained NodeJS BDD tool (cuppet) used for real site testing; features are its own executed suite,nodejs,22,2,12,JavaScript,FALSE,5,5
+serenity-js/serenity-js-cucumber-webdriverio-template,No,Official template repository,nodejs,22,5,8,TypeScript,FALSE,1,1
+jaganduraisamy/RestAssured-BDD-Java,No,"Personal simple framework, stale",java,22,41,0,Java,FALSE,2,2
+quarkiverse/quarkus-cucumber,Yes,Maintained Quarkiverse extension; feature files are its integration-test suite (minimal features),java,21,19,37,Java,FALSE,3,3
+sorin-costea/bdd,No,Tiny personal demo suite,java,21,22,0,Java,FALSE,1,1
+cjmarkham/Gherklin,Yes,Actively developed Gherkin linter (npm gherklin); acceptance features test its lint rules,nodejs,20,7,7,TypeScript,FALSE,30,30
+FortechRomania/android-ios-cucumber-example,No,"Company example repo, dead since 2019",java,20,10,0,Java,FALSE,2,2
+ashenwgt/awesome-bdd-with-cucumber,No,Sample project for a blog post,java,20,43,0,Java,FALSE,2,2
+mainfraame/cucumber-jest,No,Real npm transformer but abandoned since 2022; features are synthetic fixtures,nodejs,19,11,3,TypeScript,FALSE,11,11
+sneufeind/hexagonal-architecture-example-java,No,Architecture proof-of-concept example,java,19,7,1,Java,FALSE,3,3
+omprakashchavan01/appium-cucumberbdd,No,Course/tutorial framework,java,19,23,2,Java,FALSE,2,2
+omprakashchavan01/appium-cucumberbdd-testng,No,Course/tutorial framework (TestNG variant),java,19,21,2,Java,FALSE,2,2
+SuffolkLITLab/ALKiln,Yes,Actively maintained legal-tech testing tool; its Gherkin suite tests ALKiln itself,nodejs,18,4,71,JavaScript,FALSE,18,18
+deblockt/cucumber-report-annotations-action,No,"Real GitHub Action, but the features exist only as report-parsing fixtures",nodejs,18,11,6,JavaScript,FALSE,2,2
+gftf2011/clean-node-file-uploader-api-js,No,Archived personal clean-architecture study project,nodejs,18,3,19,JavaScript,TRUE,1,1
+tychobrailleur/cucumber-jvm-examples,No,Examples repo,java,18,47,0,Java,FALSE,3,3
+dev9com/cucumber-java-selenium-example,No,"Example repo, dead since 2014",java,18,15,0,Java,FALSE,2,2
+aws-samples/aws-device-farm-appium-cucumber-tests-for-sample-app,No,AWS sample repo,java,18,20,3,Java,FALSE,1,1
+excellentdrums/Cucumber-JVM-Spring-MVC-Test-HTMLUnit-Demo,No,Demo repo from 2015,java,18,2,0,Java,FALSE,1,1
+telekom/bdd-web-app,Yes,Telekom OSS BDD framework maintained into 2024; real Gherkin suites for its demo web app,java,17,2,6,Java,FALSE,9,9
+cmccarthyIrl/spring-cucumber-testng-parallel-test-harness,No,Personal test-harness template,java,17,7,3,Java,FALSE,4,4
+narottamgla/selenium-bdd-cucumber,No,Personal example project showing BDD + Jenkins setup,java,17,17,3,Java,FALSE,4,4
+tristanmccarthy/Cucumber-JVM-Parallel,No,Example project from 2013,java,17,43,3,Java,FALSE,2,2
+allure-examples/cucumberjvm-junit4-maven,No,Vendor example repo,java,16,20,0,Java,FALSE,3,3
+ghoshasish99/Playwright-Java-Cucumber,No,Personal demo repo,java,16,7,0,Java,FALSE,2,2
+allure-framework/allure-cucumberjvm,No,Deprecated/archived adapter,java,16,13,0,Java,TRUE,1,1
+muralco/pickled-cucumber,Yes,"Company OSS Gherkin library (npm pickled-cucumber); features/ tests its own steps, maintained",nodejs,15,14,6,TypeScript,FALSE,25,25
+Arjun-Ar91/Wdio7-appium-cucumber,No,Boilerplate project by name,nodejs,15,9,1,JavaScript,FALSE,1,1
+extrawest/BDD-Charge-Point-Tester-via-OCPP-J-,No,"Real OCPP charge-point test tool with genuine scenarios, but inactive since 2023",java,15,8,2,Java,FALSE,24,24
+jussaragranja/SeleniumEasyTest2,No,Personal practice project against a demo site,java,15,3,1,Java,FALSE,8,8
+grasshopper7/extentreports-cucumber6-adapter,No,"Active adapter, but features are stock Cucumber calculator examples used as fixtures",java,15,15,20,Java,FALSE,5,5
+Frameworkium/frameworkium-bdd,No,"BDD demo layer with sample features, stale since 2023",java,15,18,7,Java,FALSE,3,3
+ChristianAA/selenium-springboot-example,No,Example project by name and README,java,15,11,0,Java,FALSE,1,1
+TechPrimers/jenkins-pipeline-cucumber-example,No,Tutorial example for a Jenkins pipeline,java,15,137,2,Java,FALSE,1,1
+firagapratama/LoginAutomationTDD,No,Single-feature learning project,java,15,0,0,Java,FALSE,1,1
+serenity-bdd/serenity-cucumber5,No,"Superseded Serenity module, inactive since 2022",java,14,14,10,Java,FALSE,64,64
+Cybertek-Mentors/syslibrary-cucumber-framework,No,Bootcamp class project,java,14,29,4,Java,FALSE,5,5
+ortoniKC/Cucumber-2022-letcode,No,Tutorial repo for a YouTube course,java,14,13,0,Java,FALSE,2,2
+Skarlet03/office_hour_cucumber_project,No,Bootcamp office-hours project,java,14,30,2,Java,FALSE,1,1
+cedaniel200/appium-screenplay-pageobject,No,Small demo of the screenplay pattern,java,14,10,0,Java,FALSE,1,1
+underc0delabs/Autoc0de-Web-Playwrigth,No,Learning-lab framework template,java,14,3,0,Java,FALSE,1,1
+serenity-bdd/serenity-cucumber4,No,Retired module (README points to successor),java,13,9,14,Java,FALSE,64,64
+dougnoel/sentinel,No,"Real Selenium framework with genuine features, but inactive since 2023",java,13,14,120,Java,FALSE,21,21
+osvaldjr/easy-cucumber,Yes,Maintained OSS library (easy-cucumber); example modules' features are its integration tests,java,13,7,8,Java,FALSE,9,9
+naveenanimation20/Cucumber6LatestFeatures,No,Course demo repo,java,13,31,1,Java,FALSE,8,8
+vamsidarbhamulla/serenity-cucumber-bdd-screenplay,No,Tutorial project against a Prestashop demo site,java,13,26,0,Java,FALSE,4,4
+sreenigsd/cheetah,No,Framework's only features are playground samples; effectively dormant,java,13,12,11,Java,FALSE,2,2
+rubenjgarcia/cucumber-rest-steps,No,"Tiny library, dead since 2018",java,13,11,0,Java,FALSE,1,1
+copeautomation/wdio-cucumber-e2e-test,No,Demo e2e test project,nodejs,12,16,0,TypeScript,FALSE,5,5
+RedFroggy/spring-cucumber-rest-api,Yes,Maintained company OSS library (spring-cucumber-rest-api); features test its own REST steps,java,12,29,16,Java,FALSE,2,2
+AndyLPK247/cucumber-jvm-java8-example,No,Archived example project,java,12,10,0,Java,TRUE,1,1
+a11n/android-cucumber-espresso,No,Template demo project,java,12,2,0,Java,FALSE,1,1
+joaovictorino/cleanarch-automated-tests,No,Teaching sample for clean architecture,java,12,4,0,Java,FALSE,1,1
+seanfrenzel/java-gradle-selenium-cucumber-parallel-skeleton,No,Skeleton project by name,java,12,14,1,Java,FALSE,1,1
+anonymax25/cucumber-typescript-example,No,Example kata project,nodejs,11,5,1,TypeScript,FALSE,3,3
+webdriverio-community/wdio-rerun-service,Yes,Actively maintained WebdriverIO community service; Cucumber features run as part of its e2e suite,nodejs,11,13,5,TypeScript,FALSE,2,2
+serenity-bdd/serenity-cucumber6,No,Archived Serenity module,java,11,24,11,Java,TRUE,66,66
+connor-hitchcock/Leftovers-The-Ecommerce-Food-Web-App,No,University team course project,java,11,1,3,Java,FALSE,7,7
+leeonky/jfactory-cucumber,Yes,"Published library (jfactory-cucumber) whose features genuinely test its own steps (borderline: small, single author)",java,11,2,0,Java,FALSE,6,6
+sauce-archives/Java-CucumberJVM-JUnit-Selenium,No,Archived Sauce Labs demo,java,11,18,2,Java,TRUE,4,4
+estefafdez/selenium-cucumber,No,Personal integration example with sample features,java,11,31,2,Java,FALSE,2,2
+Cybertek-B15Local/CucumberWebOrdersFall2019,No,Bootcamp class project,java,11,13,3,Java,FALSE,1,1
+qavajs/console-formatter,No,"Active npm formatter, but its features are synthetic fixtures to exercise output",nodejs,10,0,0,TypeScript,FALSE,5,5
+aws-samples/aws-cdk-pipelines-cucumber-bdd,No,AWS sample demo for CDK pipelines,nodejs,10,0,6,TypeScript,FALSE,1,1
+cucumber/screenplay.js.examples,No,Archived examples repo,nodejs,10,0,13,TypeScript,TRUE,1,1
+wireapp/picklejar-engine,No,"Real Wire engine, but its features are synthetic discovery/test-data fixtures",java,10,0,0,Java,FALSE,29,29
+amalsgit/restassured-serenitybdd-junit-cucumber,No,Sample API test solution,java,10,13,4,Java,FALSE,3,3
+cmccarthyIrl/spring-cucumber-junit-parallel-test-harness,No,Personal test-harness template,java,10,3,1,Java,FALSE,3,3
+Cybertek-Archives/simple-cucumber-demo,No,Bootcamp demo framework,java,10,11,2,Java,FALSE,1,1
+QaBound/spring-cucumber-test-framework,,,java,10,7,0,Java,FALSE,1,1
+aluedeke/cucumber-jvm-example,,,java,10,9,1,Java,FALSE,1,1
+natritmeyer/cucumber-jvm-dependency-injection-with-spring,,,java,10,10,1,Java,FALSE,1,1
+hdorgeval/playwright-fluent-ts-cucumber7-starter,,,nodejs,9,4,0,TypeScript,FALSE,1,1
+rsksmart/e2e_dapps_automation,,,nodejs,9,5,3,JavaScript,FALSE,1,1
+serenity-js/serenity-js-cucumber-template,,,nodejs,9,7,8,TypeScript,FALSE,1,1
+Catena-Media/Dtective,,,java,9,4,8,Java,FALSE,58,58
+Cydeo-EU8/cydeo-cucumber-junit-EU8,,,java,9,24,2,Java,FALSE,11,11
+TheKiddos/faith,,,java,9,1,14,Java,FALSE,11,11
+NoushinB/Selenium-WebDriver-Java-Testing-Example,,,java,9,0,1,Java,FALSE,8,8
+Xceptance/neodymium-cucumber-example,,,java,9,3,1,Java,FALSE,8,8
+bhecquet/seleniumRobot,,,java,9,7,25,Java,FALSE,3,3
+rdlopes/demo-cucumber-junit5,,,java,9,0,8,Java,FALSE,2,2
+AndyLPK247/cucumber-jvm-java-example,,,java,9,8,0,Java,TRUE,1,1
+CodingDojoPolytech/cucumber-mockito-shakespeare,,,java,9,4,0,Java,FALSE,1,1
+PraveenGNair/jacoco-multi-module-sample,,,java,9,17,2,Java,FALSE,1,1
+czeczotka/cucumber-jvm-maven,,,java,9,18,0,Java,FALSE,1,1
+shukrani/Cucumber-Java-Extent-Example,,,java,9,4,1,Java,FALSE,1,1
+ukrvassabi/serenity-bdd-test,,,java,9,17,1,Java,FALSE,1,1
+zenoyu/java-maven-cucumber-selenium,,,java,9,8,1,Java,FALSE,1,1
+testomatio/check-cucumber,,,nodejs,8,2,7,JavaScript,FALSE,9,9
+eddiejaoude/video-tdd-api-pactumjs-cucumber,,,nodejs,8,1,0,JavaScript,TRUE,1,1
+serenity-js/serenity-js-cucumber-protractor-template,,,nodejs,8,10,8,JavaScript,FALSE,1,1
+zbcjackson/cucumber-ai,,,nodejs,8,0,1,TypeScript,FALSE,1,1
+reportportal/agent-java-cucumber6,,,java,8,4,4,Java,FALSE,26,26
+gingeleski/cucumber-spring-security-tests,,,java,8,7,8,Java,FALSE,16,16
+zaferatakli/MagentoCucumber_Project,,,java,8,0,0,Java,FALSE,9,9
+zaferatakli/ParaBankCucumberProject,,,java,8,0,0,Java,FALSE,7,7
+ekim197711/springboot-cucumber,,,java,8,8,0,Java,FALSE,6,6
+Cybertek-B12/summer-2019-local-cucumber-selenium,,,java,8,21,1,Java,FALSE,5,5
+mindstix-labs/qa-automation-accelerator,,,java,8,8,14,Java,FALSE,5,5
+susnigdha1/PlaywrightTestAutomationFramework,,,java,8,6,0,Java,FALSE,3,3
+the-sdet/appium-cucumber-junit5-mobile-automation-framework,,,java,8,3,0,Java,FALSE,3,3
+SrinivasanTarget/AppiumCucumber,,,java,8,16,0,Java,FALSE,2,2
+SyntaxTechnologies/CucumberFrameWorkReviewBatch14,,,java,8,1,0,Java,FALSE,2,2
+hvanli/OrangeHrmCucumberFramework,,,java,8,5,3,Java,FALSE,2,2
+scormaq/gradle-serenity-cucumber-forking,,,java,8,1,1,Java,TRUE,2,2
+anair-it/drools-cucumber,,,java,8,2,0,Java,FALSE,1,1
+cvenkatreddy/restassured-serenity-cucumber,,,java,8,7,1,Java,FALSE,1,1
+savkk/cucumber-junit5-example,,,java,8,0,0,Java,FALSE,1,1
+sritaj/Automation_FW_API_RestAssured,,,java,8,4,1,Java,FALSE,1,1
+RashmiSandamini/Group_18_Cucumber_PW,,,nodejs,7,1,0,TypeScript,FALSE,17,17
+qavajs/html-formatter,,,nodejs,7,0,0,HTML,FALSE,15,15
+janexner/puppeteer-site-infrastructure-tests,,,nodejs,7,1,1,JavaScript,TRUE,5,5
+davidjgoss/cucumber-puppeteer-typescript-starter,,,nodejs,7,3,1,TypeScript,TRUE,3,3
+AZANIR/Playwright_Cucumber_Allure,,,nodejs,7,3,0,TypeScript,FALSE,2,2
+formentor-studio/dapp-auction-with-bdd-cucumber,,,nodejs,7,7,0,JavaScript,FALSE,2,2
+JoanEsquivel/playwright-cucumber-starter,,,nodejs,7,7,0,TypeScript,FALSE,1,1
+raptatinha/blog-playwright-bdd,,,nodejs,7,3,0,TypeScript,FALSE,1,1
+veepee-oss/gingerspec,,,java,7,7,8,Java,FALSE,26,26
+reportportal/agent-java-cucumber4,,,java,7,9,0,Java,TRUE,23,23
+fslev/cucumber-jutils,,,java,7,0,1,Java,FALSE,10,10
+NuriOzturk/Magento-Cucumber-Project,,,java,7,0,0,Java,FALSE,9,9
+Yigit-Cam/MagentoCucumberProject,,,java,7,0,0,Java,FALSE,9,9
+zaferatakli/E-JunkieDemoShopProject_Cucumber,,,java,7,0,0,Java,FALSE,8,8
+zaferatakli/TechnoStudyProject_Cucumber,,,java,7,0,0,Java,FALSE,8,8
+AzimKorkmaz/ParaBankProject_Cucumber,,,java,7,0,0,Java,FALSE,7,7
+NuriOzturk/Para-Bank-Project_Cucumber,,,java,7,0,0,Java,FALSE,7,7
+Yigit-Cam/ParaBankCucumberProject,,,java,7,0,0,Java,FALSE,7,7
+rftbtr/ParaBANK-Project-With-Cucumber,,,java,7,0,0,Java,FALSE,7,7
+Cybertek-EU4/EU4CucumberSelenium,,,java,7,21,1,Java,FALSE,5,5
+Duduosun/bdd_cucumber_rest_java,,,java,7,5,0,Java,FALSE,5,5
+LearnByBhanuPratap/cucumberSeleniumFramework,,,java,7,40,0,Java,FALSE,5,5
+grasshopper7/extentreports-cucumber5-adapter,,,java,7,5,8,Java,FALSE,5,5
+serenity-dojo/caffeinate-me,,,java,7,68,12,Java,FALSE,5,5
+SyntaxTechnologies/cucumberReview,,,java,7,2,0,Java,FALSE,4,4
+omniverse-labs/microservices-java-rabbitmq,,,java,7,2,0,Java,FALSE,3,3
+the-sdet/appium-cucumber-junit4-mobile-automation-framework,,,java,7,0,0,Java,FALSE,3,3
+Ozleblebici/ApiRestServiceTestingExercise,,,java,7,6,0,Java,FALSE,2,2
+browserstack/cucumber-java-browserstack,,,java,7,27,5,Java,FALSE,2,2
+dezlearn/dezinnia-cucumber,,,java,7,25,0,Java,FALSE,2,2
+haticedagli/wingie-QA-case-study,,,java,7,2,0,Java,FALSE,2,2
+10ravikumar/serenity-cucumber,,,java,7,5,12,Java,FALSE,1,1
+Cybertek-B15Local/b15-cucumber-junit-automated-tests,,,java,7,10,1,Java,FALSE,1,1
+Evangard/Cucumber_project,,,java,7,0,0,Java,FALSE,1,1
+cedaniel200/screenplay-windows-application-driver,,,java,7,1,0,Java,FALSE,1,1
+francislainy/cucumber-spring-boilerplate,,,java,7,3,0,Java,FALSE,1,1
+gingeleski/helloworld-cucumber-java-gradle,,,java,7,12,1,Java,FALSE,1,1
+seanfrenzel/java-selenium-cucumber-appium-skeleton,,,java,7,1,0,Java,FALSE,1,1
+yazidisme/selenium-cucumber-page-object-example,,,java,7,7,0,Java,FALSE,1,1
+cucumber/fake-cucumber,,,nodejs,6,0,0,TypeScript,TRUE,2,2
+bobbyecho/wdio-serenityjs-cucumber-saucelabs,,,nodejs,6,0,0,JavaScript,FALSE,1,1
+depapp/pusakatest,,,nodejs,6,1,1,JavaScript,FALSE,1,1
+javicoin/cucumber-playwright-synpress,,,nodejs,6,1,0,JavaScript,FALSE,1,1
+vijayravindran90/playwright-cucumber-bdd,,,nodejs,6,4,0,TypeScript,FALSE,1,1
+UKHomeOffice/hocs-serenity-automation,,,java,6,7,1,Java,FALSE,121,121
+arafkarsh/ms-test-quickstart,,,java,6,5,0,Java,FALSE,9,9
+rftbtr/Magento-Project-With-Cucumber,,,java,6,0,0,Java,FALSE,9,9
+CourseRepository/SeleniumWebdriverWithCucumber,,,java,6,16,1,Java,FALSE,8,8
+TugbaKilic33/ParaBankCucumberProject,,,java,6,0,0,Java,FALSE,7,7
+umangbhatia786/Selenium,,,java,6,2,2,Java,FALSE,7,7
+Cydeo-EU10/EU10-CucumberJunit,,,java,6,10,0,Java,FALSE,6,6
+prnbtr09/bdd-cucumber,,,java,6,9,0,Java,FALSE,6,6
+qaf-tm/qaf-cucumber,,,java,6,9,4,Java,FALSE,3,3
+Raghav-Pal/CucumberBDDCMD,,,java,6,25,0,Java,FALSE,2,2
+deblockt/cucumber-datatable-to-bean-mapping,,,java,6,1,0,Java,FALSE,2,2
+donesvad/java-ui-test-github,,,java,6,0,0,Java,FALSE,2,2
+hoangthach252/Cucumber7JUnit5SelenideSpringGradle,,,java,6,2,0,Java,FALSE,2,2
+jecklgamis/cucumber-jvm-java-example,,,java,6,7,0,Java,FALSE,2,2
+omprakashchavan01/cucumberbdd,,,java,6,4,0,Java,FALSE,2,2
+sunil-samuel/BRMS-Rules-KJar,,,java,6,7,0,Java,FALSE,2,2
+yyzahran/SeleniumFrameworkUsingJava,,,java,6,3,1,Java,FALSE,2,2
+NoushinB/RestAssured-API-Testing,,,java,6,0,0,Java,FALSE,1,1
+Rhoynar/qa-automation,,,java,6,3,0,Java,FALSE,1,1
+bazylMN/cucumber-java-webdriver-manager,,,java,6,3,0,Java,FALSE,1,1
+dilankadon/AppiumCrossPlatformIosAndroid,,,java,6,1,1,Java,FALSE,1,1
+emrtnm/cucumber-automation-framework,,,java,6,1,2,Java,FALSE,1,1
+kalyangogineni/cucumber-java-xray-automation,,,java,6,4,0,Java,FALSE,1,1
+manukippes/Selenium-Cucumber,,,java,6,0,1,Java,FALSE,1,1
+underc0delabs/Autoc0de-Web-Playwrigth-TestNG,,,java,6,1,0,Java,FALSE,1,1
+upex-galaxy/seleniumjava-template-gx,,,java,6,1,0,Java,FALSE,1,1
+zebrunner/carina-cucumber,,,java,6,10,2,Java,FALSE,1,1
+cucumber/cucumber-json-converter,,,nodejs,5,8,1,TypeScript,FALSE,38,38
+nightwatchjs/cucumberjs-boilerplate,,,nodejs,5,5,1,JavaScript,FALSE,3,3
+AlexGalichenko/cucumber-e2e-boilerplate,,,nodejs,5,3,0,JavaScript,FALSE,2,2
+LambdaTest/WebdriverIO-Cucumber-HyperExecute-Sample,,,nodejs,5,14,0,JavaScript,FALSE,1,1
+afsarali273/AutomationPracticeSite-WebDriverio-Cucumber,,,nodejs,5,11,6,JavaScript,FALSE,1,1
+emrtnm/TestMersys,,,java,5,1,0,Java,FALSE,13,13
+rahulrathore44/SeleniumWebdriverWithCucumber-io,,,java,5,12,1,Java,FALSE,9,9
+scormaq/cucumber4-parallel-logger,,,java,5,2,0,Java,TRUE,9,9
+TugbaKilic33/TechnoStudy-BDD-Automation,,,java,5,0,0,Java,FALSE,8,8
+Cydeo-EU9/EU9-CucumberJunit,,,java,5,9,0,Java,FALSE,6,6
+cepnif/playwright-test-automation,,,java,5,0,0,Java,FALSE,6,6
+MicroFocus/octane-cucumber-jvm,,,java,5,7,3,Java,FALSE,5,5
+anildhiman88/restAssured-BDD-automation,,,java,5,0,1,Java,FALSE,5,5
+narasimhavuppala/bdd-cucumber-java-demos,,,java,5,14,0,Java,FALSE,5,5
+rusakovichma/dvwa-bdd-security,,,java,5,0,2,Java,FALSE,5,5
+sitture/cucumber-jvm-extentreport,,,java,5,13,4,Java,TRUE,5,5
+GallifreyanCode/cucumber-jvm-examples,,,java,5,2,1,Java,FALSE,4,4
+LambdaTest/cucumber-selenium-hyperexecute-sample,,,java,5,21,3,Java,FALSE,4,4
+akashdktyagi/CucumberAPIAutomation,,,java,5,8,1,Java,FALSE,4,4
+cihat-kose/zerobank-selenium-cucumber-ui-test-automation,,,java,5,14,0,Java,FALSE,4,4
+gabrielstar/cucumber,,,java,5,25,2,Java,FALSE,4,4
+tsundberg/cucumber-examples,,,java,5,5,0,Java,FALSE,4,4
+cedaniel200/example-of-Screenplay-Rest-and-SOAP,,,java,5,2,0,Java,FALSE,3,3
+omerozdemir72/Youtube-Cucumber,,,java,5,4,0,Java,FALSE,3,3
+BarathArivazhagan/cucumber-spring-integration,,,java,5,12,1,Java,FALSE,2,2
+TarekMebrouk/spring-cucumber-test,,,java,5,3,1,Java,FALSE,2,2
+cgjangid/selenium-cucumber-jvm-testNG-pom-bdd,,,java,5,0,0,Java,FALSE,2,2
+clovisolivier/api-cucumber-java,,,java,5,2,4,Java,FALSE,2,2
+codingstones/cucumber-java,,,java,5,8,0,Java,FALSE,2,2
+grasshopper7/testngcuke4sharedwebdriver,,,java,5,1,1,Java,FALSE,2,2
+mattiasmgn/CucumberParallel,,,java,5,2,0,Java,FALSE,2,2
+mnizicqa/Polovni-Automobili-Selenium-testing-using-Cucumber-and-Data-Driven-Testing,,,java,5,0,0,Java,FALSE,2,2
+patebija/sample-cucumber-testng,,,java,5,9,0,Java,FALSE,2,2
+tkgregory/cucumber-multi-launcher,,,java,5,5,3,Java,FALSE,2,2
+Clutcha/EspressoCucumber,,,java,5,1,1,Java,FALSE,1,1
+LambdaTest/Cucumber-TestNG-Selenium,,,java,5,19,0,Java,TRUE,1,1
+andredesousa/spring-cucumber-mockserver,,,java,5,3,0,Java,FALSE,1,1
+arnosthavelka/junit-poc,,,java,5,2,6,Java,FALSE,1,1
+cadmiumkitty/cucumber-jmeter-r-integration,,,java,5,3,0,Java,FALSE,1,1
+cucumber-ltd/cucumber-school-java,,,java,5,1,1,Java,TRUE,1,1
+hwurht/jbpm-cucumber-testing,,,java,5,0,0,Java,FALSE,1,1
+kevbradwick/cucumber-selenium-archetype,,,java,5,2,1,Java,FALSE,1,1
+krishnaraghavendra/SpringBoot-Tapestry-cucumber-selenium-testng,,,java,5,2,0,Java,FALSE,1,1
+upgundecha/jagacy-cucumber-bdd-example,,,java,5,11,3,Java,FALSE,1,1
+vamsidarbhamulla/cucumber-testng-rest-assured,,,java,5,7,0,Java,FALSE,1,1
+DeMarkAnalytics/selenium-cucumber-ts,,,nodejs,4,1,1,TypeScript,TRUE,5,5
+mayibee/protractor-cucumber,,,nodejs,4,6,2,JavaScript,FALSE,5,5
+aboviq/bun-test-cucumber,,,nodejs,4,1,0,TypeScript,FALSE,4,4
+FY-test-org/nightwatch-cucumber,,,nodejs,4,4,0,JavaScript,FALSE,3,3
+MininoxD/typescript-ddd-core-example,,,nodejs,4,0,0,TypeScript,FALSE,3,3
+rickdgeerling/nest-cucumber,,,nodejs,4,0,3,TypeScript,TRUE,2,2
+technocreatives/cool-cucumber,,,nodejs,4,1,0,TypeScript,TRUE,2,2
+Vishnupv160/playwright_Javascript_v1.0,,,nodejs,4,1,0,JavaScript,FALSE,1,1
+owncloud/ios-scenario-testing,,,java,4,2,0,Java,FALSE,20,20
+ab054/cucumberJava,,,java,4,4,0,Java,FALSE,16,16
+florinungur/RCNIT,,,java,4,0,0,Java,FALSE,16,16
+githubvin/CucumberWorkout,,,java,4,0,1,Java,FALSE,15,15
+Arc-E-Tect/arc-e-tect_phonebook,,,java,4,0,1,Java,FALSE,12,12
+mehmet-simsek-pg/CucumberProject,,,java,4,0,0,Java,FALSE,7,7
+mdrasul/pntb3-mct-cucumber-automation,,,java,4,0,3,Java,FALSE,6,6
+BrowserStackCE/browserstack-examples-cucumber-testng,,,java,4,12,2,Java,FALSE,5,5
+hmcts/befta-fw,,,java,4,4,16,Java,FALSE,5,5
+maalben/Automatizacion-full-services-restapi-Screenplay,,,java,4,0,0,Java,FALSE,5,5
+mariocairone/cucumbersome,,,java,4,2,2,Java,FALSE,5,5
+youvegotnigel/cucmber-java-testng-saucelabs,,,java,4,1,0,Java,FALSE,5,5
+MohabMohie/SaudiDigitalAcademyCucumber,,,java,4,0,0,Java,TRUE,4,4
+mehmetA58/CucumberSeleniumPracticeJenkins,,,java,4,1,0,Java,FALSE,4,4
+alexrochas/cucumber-jvm-poc,,,java,4,0,0,Java,FALSE,3,3
+andgerashchenko/VyTrackAutomation_cucumber_project,,,java,4,0,0,Java,FALSE,3,3
+asifapasha/EcommerceWebAutomation,,,java,4,7,1,Java,FALSE,3,3
+grasshopper7/cuke5-migrate,,,java,4,3,1,Java,FALSE,3,3
+ivanwidyan/serenity-cucumber4-sample-project,,,java,4,4,3,Java,FALSE,3,3
+jaheikki/cucumber-selenide-allure,,,java,4,4,3,Java,FALSE,3,3
+manv6/java-maven-spring-cucumber-selenium-allure,,,java,4,3,16,Java,FALSE,3,3
+minhhoangvn/carina-cucumber-test,,,java,4,0,0,Java,FALSE,3,3
+zodgevaibhav/cucumber-selenium-framework,,,java,4,1,2,Java,FALSE,3,3
+CybertekSchool/bootcamp2020cucumberproejct,,,java,4,14,1,Java,FALSE,2,2
+bazylMN/cucumber-java-spring,,,java,4,0,0,Java,FALSE,2,2
+grasshopper7/cuke4-parameter-datatable,,,java,4,4,1,Java,FALSE,2,2
+grasshopper7/junitcuke4sharedwebdriver,,,java,4,6,1,Java,FALSE,2,2
+kingsleyh/cucumber-jvm-example,,,java,4,5,0,Java,FALSE,2,2
+muhammet-mucahit/Java-Tutorials,,,java,4,0,0,Java,FALSE,2,2
+BernaGokce/cucumber-java-appium-boilerplate,,,java,4,1,0,Java,FALSE,1,1
+CrazyDevo/cucumber-bdd-junit,,,java,4,0,0,Java,FALSE,1,1
+Java-Techie-jt/bdd-example,,,java,4,14,1,Java,FALSE,1,1
+Javateappl/SpringBoot-Cucumber,,,java,4,1,1,Java,FALSE,1,1
+Jeredriq/CucumberWithTestFX,,,java,4,0,0,Java,FALSE,1,1
+aatwi/GildedRose-BDD,,,java,4,0,0,Java,FALSE,1,1
+akashdktyagi/test-framework-template-with-cucumber-testng,,,java,4,7,1,Java,FALSE,1,1
+aqib1/Revolut_Task,,,java,4,0,3,Java,FALSE,1,1
+atishn/Selenium-cucumber-with-Spring,,,java,4,6,0,Java,FALSE,1,1
+dkowis/Cucumber-JVM-Example,,,java,4,5,0,Java,TRUE,1,1
+dodie/cucumber-gifreporter-experiment,,,java,4,2,1,Java,FALSE,1,1
+executeautomation/SeleniumGitHubActions,,,java,4,10,1,Java,FALSE,1,1
+heziofernandes/simple-project-cucumber,,,java,4,2,0,Java,FALSE,1,1
+java-automation/java-webdriver-cucumber,,,java,4,40,0,Java,FALSE,1,1
+josdem/spring-boot-appium-jugoterapia,,,java,4,3,0,Java,FALSE,1,1
+maazahmedks/Selenium-Cucumber-TestNG-using-Java,,,java,4,0,0,Java,FALSE,1,1
+mehmetbesli/N11CucumberProjectTA,,,java,4,1,1,Java,FALSE,1,1
+mpkorstanje/junit-platform-suite-demo,,,java,4,1,0,Java,FALSE,1,1
+osman-akdag/Amazon-Cucumber-Test-Project,,,java,4,0,0,Java,FALSE,1,1
+perty/bdd-kata,,,java,4,4,1,Java,FALSE,1,1
+priyankshah217/SeleniumCucumberAutomation,,,java,4,1,0,Java,FALSE,1,1
+racchouhan12/SeleniumCucumber5,,,java,4,11,3,Java,FALSE,1,1
+reportportal/example-cucumber-junit-selenium-logback-maven,,,java,4,3,2,Java,FALSE,1,1
+saitam91/UI-Test-Amazon-Java-Cucumber-Selenium,,,java,4,0,0,Java,FALSE,1,1
+the-creative-tester/rest-assured-api-testing-example,,,java,4,6,0,Java,FALSE,1,1
+thePantz/serenitybdd-cucumber-multidevice,,,java,4,4,0,Java,FALSE,1,1
+wjpowell/cucumber-jvm-jms-example,,,java,4,2,0,Java,FALSE,1,1
+yatskevich/cucumber-jvm-gradle-javaexec,,,java,4,4,0,Java,FALSE,1,1
+cap-js-community/cds-cucumber,,,nodejs,3,1,1,JavaScript,FALSE,66,66
+allure-cucumber-templates/cucumber-playwright-ts-allure,,,nodejs,3,2,3,TypeScript,FALSE,13,13
+ptech/cucumber-playwright-workshop,,,nodejs,3,3,0,TypeScript,FALSE,5,5
+automationExamples/Playwright-Cucumber-Exercise,,,nodejs,3,232,237,TypeScript,FALSE,3,3
+fmarinoa/cucumber-api-testing,,,nodejs,3,0,0,TypeScript,FALSE,3,3
+nightwatchjs-community/cucumber-nightwatch,,,nodejs,3,1,2,JavaScript,FALSE,3,3
+thinessGit/apicucumbertest,,,nodejs,3,0,0,JavaScript,FALSE,3,3
+Ellisande/step-forge,,,nodejs,3,0,1,TypeScript,FALSE,2,2
+doamaral/api-testing-cucumber,,,nodejs,3,0,0,JavaScript,FALSE,2,2
+ISanjeevKumar/playwright-cucumber,,,nodejs,3,2,0,TypeScript,FALSE,1,1
+Xray-App/tutorial-js-webdriverio-cucumber,,,nodejs,3,0,1,JavaScript,FALSE,1,1
+alvitazwar/BDD-with-PlaywrightJs,,,nodejs,3,1,0,JavaScript,FALSE,1,1
+cucumber-examples/shouty.js,,,nodejs,3,14,2,JavaScript,FALSE,1,1
+jdsmdev/cucumber-playwright,,,nodejs,3,0,0,TypeScript,FALSE,1,1
+mikementor/playwright-fluent-ts-cucumber7-starter,,,nodejs,3,0,0,TypeScript,FALSE,1,1
+serenity-js/protractor-cucumber-framework-demo,,,nodejs,3,5,12,JavaScript,FALSE,1,1
+shrinidhimanchi/cucumber-playwright-automation,,,nodejs,3,2,2,JavaScript,FALSE,1,1
+testerncoder/e2e-automation-playwright-typescript-cucumber,,,nodejs,3,1,0,TypeScript,FALSE,1,1
+FurkanDzgn/CucumberBatch4,,,java,3,1,0,Java,FALSE,32,32
+hvanli/HrmsCucumberFramwork,,,java,3,3,3,Java,FALSE,28,28
+ministryofjustice/hmpps-vsip-ui-tests,,,java,3,1,0,Java,TRUE,21,21
+callnirajgupta/CucumberSelenium,,,java,3,3,4,Java,FALSE,18,18
+gherkin-by-example/java-cucumber,,,java,3,30,10,Java,FALSE,16,16
+Cybertek-B12/summer-2019-online-cucumber-rest-assured,,,java,3,11,3,Java,FALSE,11,11
+extrawest/bdd_ocpi_2.2.1_emsp,,,java,3,3,0,Java,FALSE,10,10
+AshisRaj/bdd-with-cucumber-selenium,,,java,3,1,0,Java,FALSE,8,8
+emrahaktepe/BriteERP_Project,,,java,3,0,2,Java,FALSE,8,8
+euroTech-sdet/batch3-CucumberSelenium,,,java,3,2,0,Java,FALSE,7,7
+ghoshasish99/Selenium-Cucumber-Moon,,,java,3,0,0,Java,FALSE,7,7
+grasshopper7/cuke4testngparallel,,,java,3,8,0,Java,FALSE,6,6
+roddy/drools-and-cucumber,,,java,3,1,0,Java,FALSE,6,6
+selcukes/selcukes-java-skeleton,,,java,3,0,10,Java,FALSE,6,6
+shaikuba/bdd-cucumber-examples,,,java,3,4,2,Java,FALSE,6,6
+JagatheshwaranN/CucumberBDD-Test-Framework,,,java,3,2,1,Java,FALSE,5,5
+Zarina92c/LibraryApplicationCucumberProject,,,java,3,3,0,Java,FALSE,5,5
+abhishekkadavil/Selenium4-Cucumber-Hybrid-Framework,,,java,3,2,1,Java,FALSE,5,5
+shivam201/Cucumber_Maven_Java,,,java,3,3,2,Java,FALSE,5,5
+SyntaxTechnologies/cucumberFrameWorkReview,,,java,3,0,0,Java,FALSE,4,4
+inqa/bdd-appium-hybridapp-serenity,,,java,3,4,0,Java,FALSE,4,4
+prashant-ramcharan/courgette-jvm-spring-example,,,java,3,1,0,Java,FALSE,4,4
+wisnuwm/automation-bdd-tokped,,,java,3,0,0,Java,FALSE,4,4
+Arc-E-Tect/hellocucumber,,,java,3,5,0,Java,FALSE,3,3
+CundullahT-CT/cucumber-logging-project,,,java,3,10,0,Java,FALSE,3,3
+FanaticalTest/ft-test-mobile-factory-demo,,,java,3,0,0,Java,FALSE,3,3
+allure-examples/allure-cucumber5-junit4-maven,,,java,3,1,0,Java,FALSE,3,3
+allure-examples/allure-cucumber5-testng-gradle,,,java,3,2,0,Java,FALSE,3,3
+arbiminanda19/appium-cucumber-wdioapp-android-ios,,,java,3,0,0,Java,FALSE,3,3
+predrag-popovic/AutomatedBaseExample,,,java,3,0,0,Java,FALSE,3,3
+rakeshmishra36/CucumberBDD,,,java,3,3,2,Java,FALSE,3,3
+HarshaSri-Sameera/SeleniumCucumber_Java,,,java,3,0,0,Java,FALSE,2,2
+Mihirirj/Mihirirj-Selenium_Cucumber-Java-BDD-FrameWork,,,java,3,0,0,Java,FALSE,2,2
+SondosAlgyed/SeleniumFramework,,,java,3,0,0,Java,FALSE,2,2
+SyntaxTechnologies/cucumberReviewB13,,,java,3,0,0,Java,FALSE,2,2
+Test-Architect/playwright-java-bdd-sample,,,java,3,1,0,Java,FALSE,2,2
+VrushaliDudhane/BDD_UsingCucumberAndPOM,,,java,3,1,0,Java,FALSE,2,2
+akashdktyagi/cucumber-selenium-fw,,,java,3,3,1,Java,FALSE,2,2
+borisskert/springboot-cucumber-wiremock-example,,,java,3,2,0,Java,FALSE,2,2
+cmccarthyIrl/spring-cucumber-appium,,,java,3,1,0,Java,FALSE,2,2
+cmccarthyIrl/spring-cucumber-serenity-test-harness,,,java,3,0,0,Java,FALSE,2,2
+dilshan5/ttaf-ui-intive,,,java,3,10,0,Java,FALSE,2,2
+ghoshasish99/Appium-Cucumber-Browserstack,,,java,3,1,0,Java,FALSE,2,2
+gunesmes/selenium-cucumber-java,,,java,3,2,1,Java,FALSE,2,2
+hakankara75/Appium_Cucumber,,,java,3,0,0,Java,FALSE,2,2
+hans-marquez-globant/screenplay-cucumber,,,java,3,0,0,Java,FALSE,2,2
+jagarzone6/appium-cucumber-parallel-template,,,java,3,2,4,Java,FALSE,2,2
+jonny561201/VendingMachineDockerJava,,,java,3,0,2,Java,FALSE,2,2
+lamhotsiagian/api-web-cucumber,,,java,3,0,1,Java,FALSE,2,2
+mesthaharishs/Springboot-Cucumber-TestAutomationFramework,,,java,3,3,0,Java,FALSE,2,2
+moyu6027/spring-test-cucumber,,,java,3,0,0,Java,FALSE,2,2
+mrfurrypants/Test_Framework_for_Fullstack-TodoApp,,,java,3,0,0,Java,FALSE,2,2
+neiltorrentira/PlaywrightJavaBDDMaven,,,java,3,1,0,Java,FALSE,2,2
+rajesha2016/cucumber-jvm-masterthought-reporting,,,java,3,0,1,Java,FALSE,2,2
+rojhatzengin/RestAssuredWithCucumber,,,java,3,0,1,Java,FALSE,2,2
+telekom/testerra-cucumber-connector,,,java,3,0,0,Java,FALSE,2,2
+vikramvi/serenity-cucumber-wl,,,java,3,2,5,Java,FALSE,2,2
+HugoHe24/OnlineStore,,,java,3,11,0,Java,FALSE,1,1
+Rupampromact/AmazonAutomationLoginPage,,,java,3,0,1,Java,FALSE,1,1
+Simon-Kaz/AppiumSpringCucumber,,,java,3,4,0,Java,FALSE,1,1
+TestMonkeys/cucumber-spring-logback,,,java,3,0,7,Java,FALSE,1,1
+Tricentis-SA/cucumber_java,,,java,3,5,0,Java,FALSE,1,1
+Yaowenjie/Cucumber-Demo,,,java,3,6,0,Java,FALSE,1,1
+abayramus/cucumber-framework-template,,,java,3,1,0,Java,FALSE,1,1
+achmadns/cucumber-spring-example,,,java,3,1,0,Java,FALSE,1,1
+ahmedmaged0a/SwagLabs_Demo,,,java,3,0,0,Java,FALSE,1,1
+almarsimon/spring-boot-rest-cucumber,,,java,3,1,2,Java,FALSE,1,1
+andytheqaguy/SimpleBooksAPITesting,,,java,3,0,0,Java,FALSE,1,1
+archfirst/java-cucumber-template,,,java,3,2,0,Java,FALSE,1,1
+cedaniel200/screenplay-google-translate,,,java,3,0,0,Java,FALSE,1,1
+czeczotka/cucumber-jvm-regex,,,java,3,3,0,Java,FALSE,1,1
+dongoloid/selenium-stream-lambda,,,java,3,0,0,Java,FALSE,1,1
+ghoshasish99/SerenityRestAssured,,,java,3,3,1,Java,FALSE,1,1
+hiroksarker/UI_Automation,,,java,3,1,3,Java,FALSE,1,1
+java-automation/java-webdriver-cucumber-2021,,,java,3,9,0,Java,FALSE,1,1
+mfaisalkhatri/AmazonAppSample,,,java,3,0,0,Java,FALSE,1,1
+mishabhi/cucumber-spring-api-automation,,,java,3,0,2,Java,FALSE,1,1
+ozgurkayaist/BDDCucumberSeleniumWebTest,,,java,3,12,1,Java,FALSE,1,1
+ralphkjones/CucumberSikuliSlides,,,java,3,0,0,Java,FALSE,1,1
+serenity-bdd/serenity-cucumber-page-objects-starter,,,java,3,4,1,Java,FALSE,1,1
+serenity-bdd/serenity-cucumber5-starter,,,java,3,10,0,Java,TRUE,1,1
+software-testing-bootcamp/java-appium-cucumber-ios,,,java,3,2,0,Java,FALSE,1,1
+sridharbandi/Selenium-Cucumber-Junit-Template,,,java,3,1,0,Java,FALSE,1,1
+survepravin/petstore-qa-api-test,,,java,3,0,0,Java,FALSE,1,1
+vznd/cucumber-selenium-tests,,,java,3,0,0,Java,FALSE,1,1
+vinjatovix/ts-api,,,nodejs,2,0,24,TypeScript,FALSE,30,30
+Zstefanov/AE-Automation-TS-Playwright,,,nodejs,2,0,0,TypeScript,FALSE,25,25
+teosoph/cypress-cucumber___telnyx.com,,,nodejs,2,2,0,JavaScript,FALSE,15,15
+abdelnaby1/fwd_project,,,nodejs,2,1,0,TypeScript,FALSE,8,8
+Max1irst/Playwright-cucumber-TS,,,nodejs,2,0,0,TypeScript,FALSE,4,4
+vtimonov/cucumberjs-parallel,,,nodejs,2,2,4,JavaScript,FALSE,4,4
+PunnNopdanai7/cucumber-playwright-workshop,,,nodejs,2,0,0,TypeScript,FALSE,3,3
+feeroz123/ES_Playwright_Demo,,,nodejs,2,0,0,TypeScript,FALSE,3,3
+qaa-demo/cucumber-selenium-js,,,nodejs,2,1,0,JavaScript,FALSE,3,3
+DanielDelimata/sample-typescript-cucumberjs-selenium,,,nodejs,2,0,0,TypeScript,FALSE,2,2
+HEEPOKE/playwright-cucumber,,,nodejs,2,0,0,TypeScript,FALSE,2,2
+VigneshSrinivasaRaghavan/TestTribe_Playwright_Cucumber_Workshop_Mar2025,,,nodejs,2,1,0,TypeScript,FALSE,2,2
+hdmsantander/nodejs-cucumber-apimocker-example,,,nodejs,2,0,0,JavaScript,FALSE,2,2
+DevAdriam/nest_bdd_boilerplate,,,nodejs,2,0,0,TypeScript,FALSE,1,1
+Furkan9528/Tripadvisor-Testinium,,,nodejs,2,0,0,TypeScript,FALSE,1,1
+StevenMedinaBatista/app_webdriver.io_android,,,nodejs,2,0,0,TypeScript,FALSE,1,1
+ahxansubhani/playwright-automation-framwork-BDD,,,nodejs,2,0,0,TypeScript,FALSE,1,1
+baento/tsflow,,,nodejs,2,0,2,TypeScript,FALSE,1,1
+crs1138/cucumber-shouty,,,nodejs,2,0,0,JavaScript,FALSE,1,1
+dakotaJang/cucumber-playwright-typescript-starter,,,nodejs,2,1,0,TypeScript,FALSE,1,1
+dntthuan064/playwright-bdd-project,,,nodejs,2,0,5,TypeScript,FALSE,1,1
+generalui/getting-started-with-bdd,,,nodejs,2,0,0,TypeScript,FALSE,1,1
+grandEL-dsouza/playwright-cucumber-test-for-browserstack,,,nodejs,2,0,1,JavaScript,FALSE,1,1
+ilya-skapchuk/cucumber-playwright-test-typescript,,,nodejs,2,0,0,TypeScript,FALSE,1,1
+mvsaran/PlaywrightWithBDD,,,nodejs,2,0,0,JavaScript,FALSE,1,1
+patrickhuijten/writing-product-proof-e2e-tests-with-cucumber-and-playwright,,,nodejs,2,0,0,TypeScript,FALSE,1,1
+qavajs/cypress-runner-adapter,,,nodejs,2,0,1,JavaScript,FALSE,1,1
+terencetcf/cucumberjs-typescript-example,,,nodejs,2,1,15,TypeScript,FALSE,1,1
+the-imraaan/Cucumber_with_Playwright,,,nodejs,2,0,0,JavaScript,FALSE,1,1
+tigran201198/learnit_cucumber_bdd,,,java,2,6,0,Java,FALSE,115,115
+erlevren/Cucumber_AutomationExercises,,,java,2,0,0,Java,FALSE,52,52
+tugceakyol1/AcibademProject,,,java,2,0,0,Java,FALSE,40,40
+thucydides-webtests/thucydides-cucumber,,,java,2,4,0,Java,FALSE,30,30
+Stoeoeoe/flowable-cucumber,,,java,2,0,0,Java,FALSE,19,19
+tekinahmet/team03_cucumberProject,,,java,2,0,0,Java,FALSE,19,19
+hamzayilmaz2021/HypnotesCucumber,,,java,2,2,0,Java,FALSE,17,17
+DIGI-UW/openelis-qaframework,,,java,2,6,3,Java,FALSE,15,15
+sandrocaseiro/java-spring-api,,,java,2,2,2,Java,FALSE,15,15
+ArjunYalapalli/LumaCucumberBDD,,,java,2,0,0,Java,FALSE,14,14
+anarissoy/TryCloud_Project_Cucumber,,,java,2,0,0,Java,FALSE,14,14
+githsem/AutomationExercise_API_Testing,,,java,2,7,0,Java,FALSE,14,14
+ZVasif/Cucumber_Staj_Project,,,java,2,0,0,Java,FALSE,13,13
+Ozleblebici/Zerobank_SeleniumCucumber_Automation,,,java,2,4,2,Java,FALSE,12,12
+Abdujilil/ZeroBank,,,java,2,0,0,Java,FALSE,11,11
+B-35-36/cucumber-framework,,,java,2,1,0,Java,FALSE,11,11
+Ma-Vin/de.ma_vin.ape.users,,,java,2,0,0,Java,TRUE,11,11
+mqubbaj98/Cucumber_Selenoid_1,,,java,2,0,0,Java,FALSE,11,11
+GabrielleYnara/BotaniQ-Backend,,,java,2,0,0,Java,FALSE,10,10
+SuleymanKirkil/cucumber_sda_2025,,,java,2,0,0,Java,FALSE,10,10
+alspcic/cucumber,,,java,2,1,6,Java,FALSE,10,10
+peacebytes/selenium-cucumber-java,,,java,2,0,1,Java,FALSE,10,10
+romasecure84/CucumberLessons,,,java,2,0,0,Java,FALSE,10,10
+semihcaglarr/Trendyol_Selenium_Cucumber_Task,,,java,2,0,0,Java,FALSE,10,10
+JosKavi33/test-automation-sjc,,,java,2,0,0,Java,FALSE,9,9
+abhishekkadavil/RestAssured-Cucumber-Hybrid-Framework,,,java,2,3,2,Java,FALSE,9,9
+CrazyDevo/cydeo-cucumber-junit-project-last,,,java,2,0,0,Java,FALSE,8,8
+Estafet-LTD/estafet-qapractices-examples,,,java,2,1,0,Java,FALSE,8,8
+Qanitinsingh/LearnCucumber,,,java,2,0,0,Java,FALSE,8,8
+akashdktyagi/AutomationPoCCucumber,,,java,2,2,3,Java,FALSE,8,8
+akyyev/ZeroBankCucumber,,,java,2,1,0,Java,FALSE,8,8
+anilthota26/Cucumber-Java-Selenium,,,java,2,3,0,Java,FALSE,8,8
+bdd-in-action/chapter-12-flying-high-cucumber,,,java,2,9,0,Java,FALSE,8,8
+dtacademyb8/duotify-cucumber-bdd-framework,,,java,2,4,0,Java,FALSE,8,8
+levinine/functional-tests,,,java,2,2,1,Java,FALSE,8,8
+merkurt2001/cydeo-cucumber-junit-project,,,java,2,0,0,Java,FALSE,8,8
+Bora-CS/batch9-cucumber-framework,,,java,2,0,29,Java,FALSE,7,7
+Cybertek-EU5/CucumberReview,,,java,2,1,0,Java,FALSE,7,7
+dmytro-ch21/Selenium-Cucumber-Demo-Framework,,,java,2,8,0,Java,FALSE,7,7
+ghoshasish99/Cucumber-Docker-AzureDevOps,,,java,2,1,0,Java,FALSE,7,7
+CraftOfProgramming/CucumberWithJavaFullCourse,,,java,2,3,0,Java,FALSE,6,6
+Cydeo-Alumni/SDETFastTrackCucumber,,,java,2,6,0,Java,FALSE,6,6
+Cydeo-EU10/Eu10CucumberReview,,,java,2,4,0,Java,FALSE,6,6
+Cydeo-SDET-EU011/EU11-CucumberJunit,,,java,2,0,0,Java,FALSE,6,6
+LSJ9600/CucumberBatch14,,,java,2,0,0,Java,FALSE,6,6
+ShanCodeWay/ITQA_Assignment_Group_41,,,java,2,0,4,Java,FALSE,6,6
+Specialize-Automation/CucumberTutorial,,,java,2,19,0,Java,FALSE,6,6
+arbiminanda19/appium-cucumber-cicle-staging,,,java,2,0,0,Java,FALSE,6,6
+dhil0325/java-cucumber-web-master,,,java,2,0,0,Java,FALSE,6,6
+grasshopper7/cuke4junitparallel,,,java,2,8,0,Java,FALSE,6,6
+gulammustufa/AutomationTestingBaseFramework,,,java,2,0,0,Java,FALSE,6,6
+vlsidlyarevich/JUnit-example,,,java,2,4,0,Java,TRUE,6,6
+yyusuffbudakk/cydeo_cucumber-junit,,,java,2,0,0,Java,FALSE,6,6
+Cydeo-EU9/EU9_Cucumber_Review,,,java,2,2,0,Java,FALSE,5,5
+MelihDemirtel/LinkedinCucumberProject,,,java,2,0,0,Java,FALSE,5,5
+NoushinB/Appium-Calculator-Test-Automation,,,java,2,0,0,Java,FALSE,5,5
+TurgayD34/EU3CucumberSelenium,,,java,2,0,0,Java,FALSE,5,5
+dwikifadhilah/Cucumber-Selenium-Java-Test,,,java,2,0,0,Java,FALSE,5,5
+freeautomationlearning/RestAssurredCucumber,,,java,2,0,0,Java,FALSE,5,5
+islomar/payments-api,,,java,2,1,117,Java,FALSE,5,5
+isorbon/Cucumber_MySQL_API,,,java,2,0,0,Java,FALSE,5,5
+makif44/selenium-junit-cucumber-project,,,java,2,1,0,Java,FALSE,5,5
+mehmet-simsek-pg/Cucumber_project,,,java,2,0,0,Java,FALSE,5,5
+necati-ozdemir/calculator-end-to-end-test,,,java,2,2,0,Java,FALSE,5,5
+serenity-dojo/swaglabs-serenity-cucumber,,,java,2,11,0,Java,FALSE,5,5
+sharful-umair/API-Automation,,,java,2,1,0,Java,FALSE,5,5
+thevarselvakumar/Cucumber-Framework,,,java,2,1,0,Java,FALSE,5,5
+vondacho/arch-blueprint-java,,,java,2,1,3,Java,FALSE,5,5
+AykutSaglamaz/cucumber2023,,,java,2,1,0,Java,FALSE,4,4
+B-IANSON/selenium-cucumber-docker-seleniumgrid,,,java,2,2,0,Java,FALSE,4,4
+EuroTech-SDET3/B3_BDD_CucumberSelenium_Rvw,,,java,2,0,0,Java,FALSE,4,4
+Faruq2014/SalesForceWithCucumber,,,java,2,0,0,Java,FALSE,4,4
+SenaYcdl/AppiumCucumberProject,,,java,2,0,0,Java,FALSE,4,4
+SmartBear/cucumber-jvm-zephyr-xml,,,java,2,4,1,Java,FALSE,4,4
+SmartBear/zephyr-scale-cucumber-integration-example,,,java,2,5,0,Java,TRUE,4,4
+Spain-It/cucumberPractice,,,java,2,1,0,Java,FALSE,4,4
+adg08101/class_2_selenium_cucumber_POM_BDD,,,java,2,0,0,Java,FALSE,4,4
+anandavii/ecommAutomation,,,java,2,0,0,Java,FALSE,4,4
+anilhorasan/Automation-Test-CI_CD,,,java,2,0,0,Java,FALSE,4,4
+atSistemas/techday-7,,,java,2,0,0,Java,FALSE,4,4
+dev-madhurendra/bdd-cucumber,,,java,2,0,0,Java,FALSE,4,4
+gopyyn/Salad,,,java,2,0,6,Java,FALSE,4,4
+gsumit1/CucumberBDD,,,java,2,6,0,Java,FALSE,4,4
+learnby23/Cucumber_Ecommerce,,,java,2,0,0,Java,FALSE,4,4
+unexist/showcase-acceptance-testing-quarkus,,,java,2,1,0,Java,FALSE,4,4
+Eainde/spring-cucumber-bdd,,,java,2,0,0,Java,FALSE,3,3
+MireilleBF/cucumber-demo,,,java,2,5,0,Java,FALSE,3,3
+NightCodeLabs/pretzel-example,,,java,2,1,0,Java,FALSE,3,3
+afsarali273/GovTechAssignment,,,java,2,1,1,Java,FALSE,3,3
+ahsanasha/OrangeHrmLive,,,java,2,0,0,Java,FALSE,3,3
+allure-examples/cucumberjvm-testng-maven,,,java,2,3,0,Java,FALSE,3,3
+carlosvagnoni/JavaSeleniumCucumber,,,java,2,0,0,Java,FALSE,3,3
+doansontung1986/RestAssuredCucumberParallel,,,java,2,0,0,Java,FALSE,3,3
+dyasinaroglan/CucumberWorking,,,java,2,0,0,Java,FALSE,3,3
+edibImamovic/SeleniumWithCucumber,,,java,2,0,0,Java,FALSE,3,3
+extent-framework/extentreports-cucumber2-adapter,,,java,2,3,1,Java,FALSE,3,3
+girisharathod/cinema-with-cucumber,,,java,2,0,0,Java,FALSE,3,3
+govind1072/cucumber-demo,,,java,2,1,0,Java,FALSE,3,3
+kirlionik/cucumber-allure-plugin-gradle-examples,,,java,2,2,0,Java,FALSE,3,3
+mahmudurrahman-1/WebAutomation-Rokomari,,,java,2,0,0,Java,FALSE,3,3
+narottamgla/selenium-cucumber4-demo,,,java,2,2,2,Java,FALSE,3,3
+radu-ghetu/selenium-java-demo,,,java,2,0,0,Java,FALSE,3,3
+shahnawazm786/DemoCucumber,,,java,2,0,0,Java,FALSE,3,3
+shivaprakashpokala/CucumberFramework,,,java,2,0,2,Java,FALSE,3,3
+sncsrivalli/CucumberWCSA3,,,java,2,1,0,Java,FALSE,3,3
+tomasz-wilk/SeleniumCucumberGuice,,,java,2,0,0,Java,FALSE,3,3
+AnubhavQA/CucumberExample,,,java,2,1,3,Java,FALSE,2,2
+Belemir/SeleniumWithCucumber,,,java,2,0,0,Java,FALSE,2,2
+Bivis-s/EDU-AQA-Qase,,,java,2,2,0,Java,FALSE,2,2
+DiegoEvangeliste/DemoJavaCucumberSelenium,,,java,2,0,0,Java,FALSE,2,2
+GianniGiglio/serenity-cucumber-threaded,,,java,2,0,0,Java,FALSE,2,2
+HammadArshd/cucable-cucumber-picocontainer-example-project,,,java,2,1,0,Java,FALSE,2,2
+MervinDiazLugo/Selenium.Cucumber.BaseFramework,,,java,2,2,1,Java,FALSE,2,2
+MyloRii/regres-api-autotests,,,java,2,0,0,Java,FALSE,2,2
+NetoSiqueira/desafio-cucumber,,,java,2,0,0,Java,FALSE,2,2
+OctopusDeploy/WebDriverTraining,,,java,2,7,0,Java,FALSE,2,2
+Omega-Test/SimpleCucumberProj,,,java,2,9,0,Java,FALSE,2,2
+Padmajak21/cucumber.restassured,,,java,2,1,0,Java,FALSE,2,2
+PietroSassone/selenium-ta-demo,,,java,2,0,0,Java,FALSE,2,2
+PrateekAnand-code/BDD-Test-Framework,,,java,2,0,2,Java,FALSE,2,2
+PravinJunghare/Cucumber-project,,,java,2,0,0,Java,FALSE,2,2
+PublioElio/selenium-cucumber-BDD,,,java,2,3,0,Java,FALSE,2,2
+RajaRam-Kannuri/ENTERPRISE_CUCUMBER_AUTOMATION_FRAMEWORK,,,java,2,0,0,Java,FALSE,2,2
+Sonal0409/ATE-Phase2-PhaseEndProj-Cucumberect-,,,java,2,2,0,Java,FALSE,2,2
+SyntaxTechnologies/CucumberReviewB12,,,java,2,2,0,Java,FALSE,2,2
+VinayKumarBM/Serenity-Sample,,,java,2,1,2,Java,FALSE,2,2
+ankithakur011/Cucumber_Framework,,,java,2,0,0,Java,FALSE,2,2
+aravind12c/parlleltestCucumber,,,java,2,0,0,Java,FALSE,2,2
+bbuddies/bbuddy-cucumber-jvm-lseg,,,java,2,3,1,Java,FALSE,2,2
+bitcoder/cucumber-java-calc,,,java,2,15,0,Java,FALSE,2,2
+bley-gold/Cucumber-and-JUnit-Test-Automation,,,java,2,0,0,Java,FALSE,2,2
+bulutluoz/Bilgeadam_API_Cucumber_Winter2024,,,java,2,0,0,Java,FALSE,2,2
+busebozkurtt/imdb-ui-test,,,java,2,0,0,Java,FALSE,2,2
+byKosta/MavenAndTestNG,,,java,2,0,0,Java,FALSE,2,2
+callmencah/Selenium-Junit_Cucumber,,,java,2,0,0,Java,FALSE,2,2
+chaminda204/bdd-cucumber,,,java,2,0,0,Java,FALSE,2,2
+chiragkhimani/devx-fall-2022-cucumber-framework,,,java,2,0,0,Java,FALSE,2,2
+cipivanov/serenity-screenplay-pattern,,,java,2,0,0,Java,FALSE,2,2
+cucumber-attic/cucumber-jvm-jython,,,java,2,5,3,Java,TRUE,2,2
+denizbabayaka/Playwright-Cucumber-Java,,,java,2,3,0,Java,FALSE,2,2
+dkowis/cucumber-jvm-hybrid-example,,,java,2,1,1,Java,TRUE,2,2
+executeautomation/Cucumber-jvm,,,java,2,6,1,Java,FALSE,2,2
+farukyucel5/FacebookLoginFunctionalityWithCucumberJava,,,java,2,0,0,Java,FALSE,2,2
+ghoshasish99/Appium-Cucumber-RWD-BrowserStack,,,java,2,0,0,Java,FALSE,2,2
+grasshopper7/cuke-di,,,java,2,1,2,Java,FALSE,2,2
+gunzpro21/SeleniumCucumberJunit,,,java,2,0,0,Java,FALSE,2,2
+keshavjha06/SeleniumE2EProject,,,java,2,0,0,Java,FALSE,2,2
+khaledmohsenmohammed/-Selenium-WebDriver-4-Cucumber-BDD,,,java,2,0,0,Java,FALSE,2,2
+kkalparslan/Api_Cucumber_Demoqa_Mine,,,java,2,0,0,Java,FALSE,2,2
+manouti/cucumber-jvm-example,,,java,2,3,2,Java,FALSE,2,2
+mgandin/BDD-Clinic,,,java,2,0,0,Java,FALSE,2,2
+mikejramsey56/cucumber-testng-webdriver-automatictester,,,java,2,2,0,Java,FALSE,2,2
+moonk1d/gradle_junit5_logback_cucumber_selenide_allure,,,java,2,0,0,Java,FALSE,2,2
+mytechnotalent/JTF,,,java,2,1,0,Java,FALSE,2,2
+neiltorrentira/SeleniumCucumberMavenJava,,,java,2,0,0,Java,FALSE,2,2
+partnet/seauto-cucumber-sample,,,java,2,1,0,Java,FALSE,2,2
+phoebusliang/java-cucumber-automation,,,java,2,1,0,Java,FALSE,2,2
+phystem/cucumber-allure,,,java,2,2,0,Java,FALSE,2,2
+prit-misik/api-and-ui-automation,,,java,2,2,0,Java,FALSE,2,2
+propardhu/Cucumber_Selenium_POC,,,java,2,0,0,Java,FALSE,2,2
+qateksolutions/albany-cucumber,,,java,2,0,0,Java,FALSE,2,2
+raynanmiranda/Automation_CucumberTest_BDD_Java,,,java,2,1,0,Java,FALSE,2,2
+renuka2593/selenium_cucumber_framework,,,java,2,1,0,Java,FALSE,2,2
+riteshGM/SerenityCucumberRestAssured,,,java,2,1,0,Java,FALSE,2,2
+romasecure84/CucumberFrameworkDersleri,,,java,2,0,0,Java,FALSE,2,2
+sonalika03/Cucumber_Skeleton,,,java,2,1,0,Java,FALSE,2,2
+sonnymills/java-cucumber-training,,,java,2,2,1,Java,FALSE,2,2
+stadnik602/MavenCucumberSelenideJunit,,,java,2,0,1,Java,FALSE,2,2
+taulinger/bdd-play,,,java,2,0,0,Java,FALSE,2,2
+tlm2c09/Selenium-Using-Java-And-Cucumber,,,java,2,0,7,Java,FALSE,2,2
+tonux/cucumber-spring-boot,,,java,2,1,0,Java,FALSE,2,2
+tuantran6698/Cucumber,,,java,2,0,0,Java,FALSE,2,2
+veeresh-bikkaneti/cucumberBDDParallel,,,java,2,0,1,Java,FALSE,2,2
+vitaly-kashtalyan/cucumber-selenide-allure2,,,java,2,0,0,Java,FALSE,2,2
+zeinmuhammad25/Automation-With-Cucumber-On-Website-Sauce-Demo,,,java,2,1,0,Java,FALSE,2,2
+0x100/cucumber-auto-tests,,,java,2,0,1,Java,TRUE,1,1
+Argannor/libGDX-with-cucumber,,,java,2,0,0,Java,FALSE,1,1
+CapgeminiNorway/learnmake-cucumber-selenium,,,java,2,6,0,Java,FALSE,1,1
+ClearPointNZ/connect-java-cucumber,,,java,2,1,3,Java,TRUE,1,1
+CrazyDevo/cucumber-junit-bdd,,,java,2,3,0,Java,FALSE,1,1
+GolfWC/API_Automation_Restassured_Cucumber_junit,,,java,2,0,0,Java,FALSE,1,1
+GuvanchH/VyTrackAutomation_Cucumber,,,java,2,0,0,Java,FALSE,1,1
+Jeaninev/cucumber-dressing,,,java,2,0,0,Java,FALSE,1,1
+LSJ9600/CucumberReview,,,java,2,0,0,Java,FALSE,1,1
+LeafPages/LeafTapsAutomation,,,java,2,15,0,Java,FALSE,1,1
+LeoYCode/ExampleCucumberDI,,,java,2,0,1,Java,FALSE,1,1
+Mamun104/Selenium_Cucumber_Google_Gmail_Signup,,,java,2,0,0,Java,FALSE,1,1
+Mamun104/cucumber-selenium-framework,,,java,2,0,0,Java,FALSE,1,1
+MichaelAlba131/java_playwright_api,,,java,2,0,0,Java,FALSE,1,1
+MyloRii/cucumber-java11-selenide-tests,,,java,2,0,0,Java,FALSE,1,1
+MyloRii/cucumber-reportportal,,,java,2,0,0,Java,FALSE,1,1
+MyloRii/cucumber-spring-di-example,,,java,2,0,0,Java,FALSE,1,1
+NidaYucedal/AppiumCucumber,,,java,2,0,0,Java,FALSE,1,1
+NoushinB/LoginTest,,,java,2,2,0,Java,FALSE,1,1
+Ragul-Dhandapani/BDD-Cucumber-Allure-Gradle,,,java,2,1,0,Java,FALSE,1,1
+Rahaf-Eid/restAssuredCucumber,,,java,2,0,0,Java,FALSE,1,1
+RamachandranGomathinayagam/LeafTapsAutomation,,,java,2,24,1,Java,FALSE,1,1
+SelenDilek/DemoWeb_CucumberProject,,,java,2,0,0,Java,FALSE,1,1
+SrinivasanTarget/Cucumber_Appium,,,java,2,3,0,Java,FALSE,1,1
+TestLeafInc/UiBank,,,java,2,1,1,Java,FALSE,1,1
+Thommyg5/Appium-Testng-Cucumber-Calculator-Demo,,,java,2,0,0,Java,FALSE,1,1
+TomasHampl/cucumber-seleniumgrid-skeleton,,,java,2,1,0,Java,FALSE,1,1
+Tommac89/simple-jvm-cucumber,,,java,2,0,0,Java,FALSE,1,1
+WarrenLin/CucumberSample,,,java,2,1,1,Java,FALSE,1,1
+abhishek8908/cucumber-v4-example,,,java,2,0,0,Java,FALSE,1,1
+abroer/cucumber-integration-test,,,java,2,0,0,Java,FALSE,1,1
+adamopoulosa1980/selenium-cucumber-test,,,java,2,0,0,Java,FALSE,1,1
+ak-arsalan/Cucumber-Java-Framework-for-Beginners,,,java,2,4,0,Java,FALSE,1,1
+alexcandidos/Resultados-tse,,,java,2,0,0,Java,FALSE,1,1
+applitools/workshop-applitools-se-java-cuke,,,java,2,2,0,Java,FALSE,1,1
+bach-tran/intro-to-cucumber,,,java,2,0,0,Java,FALSE,1,1
+benweese/Java_Automation,,,java,2,0,115,Java,FALSE,1,1
+bilallgunaydin/Register_Training_With_Cucumber,,,java,2,0,0,Java,FALSE,1,1
+boris-t/Selenide-cucumber-allure,,,java,2,1,1,Java,FALSE,1,1
+bouslimi/selenium-cucumber-junit,,,java,2,0,0,Java,FALSE,1,1
+cedaniel200/screenplay-starc,,,java,2,0,0,Java,FALSE,1,1
+chenpeng9/cucumber-java,,,java,2,0,0,Java,FALSE,1,1
+codoid-repos/cucumber-di-example,,,java,2,0,0,Java,FALSE,1,1
+cucumber-attic/cucumber-jvm-gosu,,,java,2,1,1,Java,TRUE,1,1
+eccanto/base-cucumber-selenium-java,,,java,2,0,0,Java,TRUE,1,1
+emreduman3146/05_CucumberSelenium,,,java,2,0,0,Java,FALSE,1,1
+farukyucel5/Arabam.comTestCasesWithCucumber,,,java,2,0,0,Java,FALSE,1,1
+farukyucel5/TestiniomTrelloCucumberApiCaseStudy,,,java,2,0,0,Java,FALSE,1,1
+foysal619/Login-Module-Automation-Selenium-Cucumber,,,java,2,0,0,Java,FALSE,1,1
+hanykhalil/cucumberTemplate,,,java,2,0,0,Java,FALSE,1,1
+himanshuarora05/serenity-rest-starter,,,java,2,0,0,Java,FALSE,1,1
+ingomohr/cucumber-example,,,java,2,2,0,Java,FALSE,1,1
+ivodimitrov/selenium-webdriver-java-practice,,,java,2,0,1,Java,FALSE,1,1
+jerseysu/java-cucumber-web-test,,,java,2,2,0,Java,FALSE,1,1
+jhberges/cucumber-format-slf4j,,,java,2,0,0,Java,FALSE,1,1
+kmandalusa/cucumber-test,,,java,2,0,0,Java,FALSE,1,1
+kohli-harshit/leanft-cucumber-template,,,java,2,2,0,Java,FALSE,1,1
+log2jiten24/Serenity-Cucumber-Framework,,,java,2,0,2,Java,FALSE,1,1
+luiscarlosmarca/Selenium_Web_Automation,,,java,2,1,1,Java,FALSE,1,1
+machzqcq/cucumber-jvm_sample,,,java,2,2,0,Java,FALSE,1,1
+manoharkamarushi/restAssuredCucumber,,,java,2,0,0,Java,FALSE,1,1
+manoj9788/Cucumber-JVM-WebDriver-Template,,,java,2,0,0,Java,FALSE,1,1
+marciovrl/selenium-cucumber-java,,,java,2,2,1,Java,FALSE,1,1
+matheus-beck/java-cucumber-selenium-wex,,,java,2,0,0,Java,FALSE,1,1
+mpkorstanje/cucumber-spring-boot-parallel,,,java,2,1,0,Java,FALSE,1,1
+mszeles/rest-api-automation,,,java,2,0,1,Java,FALSE,1,1
+oliverwehrens/cucumber-jvm-demo,,,java,2,3,0,Java,FALSE,1,1
+pempekriting/playwright-cucumber,,,java,2,0,0,Java,FALSE,1,1
+petervw-qa/Cucumber-FTSE100-Index,,,java,2,0,0,Java,FALSE,1,1
+phasza/cucumber-wiremock-example,,,java,2,4,0,Java,FALSE,1,1
+pichai-t/OpenWeatherMap-RestAssured,,,java,2,1,1,Java,FALSE,1,1
+ptschool/PrimetechCucumberFramework,,,java,2,1,0,Java,FALSE,1,1
+qpcio/cucumberExample,,,java,2,2,0,Java,FALSE,1,1
+qza/bdd-cucumber-jvm-spring,,,java,2,5,1,Java,FALSE,1,1
+racchouhan12/AppiumAutomation,,,java,2,1,0,Java,FALSE,1,1
+rapaul/cukejvm-spike,,,java,2,0,0,Java,FALSE,1,1
+rbiedrawa/spring-boot-acceptanceTests-cucumber-demo,,,java,2,2,0,Java,FALSE,1,1
+rdammkoehler/CucumberJVM-Demo,,,java,2,4,0,Java,FALSE,1,1
+rlupo06/java-cucumber-selenium,,,java,2,0,0,Java,FALSE,1,1
+sdetAutomation/cucumber-selenium-java,,,java,2,7,1,Java,FALSE,1,1
+sherar/serenity-webdriver-cucumber-google,,,java,2,1,0,Java,FALSE,1,1
+shreyas18jan/CucumberFrameworkExample,,,java,2,0,0,Java,FALSE,1,1
+sseenivasan89/Cucumber4-With-POM,,,java,2,22,1,Java,FALSE,1,1
+suciista/allure-cucumber-testng,,,java,2,0,0,Java,FALSE,1,1
+survepravin/blazestore-qa-web-test,,,java,2,0,0,Java,FALSE,1,1
+swatz18/BlissPads_Automation,,,java,2,5,0,Java,FALSE,1,1
+vibssingh/AllureReport_Cucumber_JUnit4,,,java,2,0,0,Java,FALSE,1,1
+vibssingh/Page-Object-Model-with-Cucumber-Selenium-and-TestNG,,,java,2,0,0,Java,FALSE,1,1
+vikramvi/appium-cucumber-poc,,,java,2,1,0,Java,FALSE,1,1
+waheedahmed55/selenium-cucumber,,,java,2,0,0,Java,FALSE,1,1
+yuvrajchavale/Real-Time-Cucumber-Project-,,,java,2,0,0,Java,FALSE,1,1
+zakgrant/jersey-cucumber,,,java,2,1,0,Java,FALSE,1,1
+EugenePetrik/cucumber-playwright,,,nodejs,1,0,0,TypeScript,FALSE,31,31
+PouyaRezvanii/cucumber_db_teb,,,nodejs,1,0,0,JavaScript,FALSE,24,24
+AZANIR/cypress-cucumber,,,nodejs,1,3,0,JavaScript,FALSE,15,15
+IoanaBdn/testingAppRN,,,nodejs,1,0,0,JavaScript,FALSE,15,15
+YevShch/Espresso-Addict-Playwright-Cucumber,,,nodejs,1,0,0,JavaScript,FALSE,13,13
+eyupUK/playwright-cucumber-nft,,,nodejs,1,0,0,TypeScript,FALSE,13,13
+trungkien681989/cypress-v9-cucumber-preprocessor,,,nodejs,1,0,0,JavaScript,FALSE,6,6
+BrowserStackCE/browserstack-examples-cucumber-webdriverio,,,nodejs,1,0,7,JavaScript,FALSE,5,5
+JosefRichie13/CucumberJSPlaywright,,,nodejs,1,2,0,JavaScript,FALSE,5,5
+michu-ethnan/playwright-cucumber,,,nodejs,1,0,0,TypeScript,TRUE,5,5
+paul-chiggy/demo-e2e-testing-with-playwright-cucumber,,,nodejs,1,0,0,TypeScript,FALSE,5,5
+rogercopy/playwright-cucumber-TS-automation,,,nodejs,1,0,0,TypeScript,FALSE,5,5
+Automated-Test-Lab/playwright-typescript-cucumber,,,nodejs,1,0,0,TypeScript,FALSE,4,4
+DespotMagic/cucumber-selenium-autotests,,,nodejs,1,0,0,TypeScript,FALSE,4,4
+VladimirSimonovski1/Selenium_Cucumber_Tests,,,nodejs,1,0,0,TypeScript,FALSE,4,4
+cesar1414/playwright-frameworkUIOnly,,,nodejs,1,2,0,TypeScript,FALSE,4,4
+daihiep-citynow/playwright-cucumber,,,nodejs,1,0,0,JavaScript,FALSE,4,4
+70RR3S/playwright-cucumber-api-e2e-tests,,,nodejs,1,2,0,TypeScript,FALSE,3,3
+ARAVINDMS444/web-automation-playwright-cucumber-typescript,,,nodejs,1,0,0,TypeScript,FALSE,3,3
+DaoVanHai1809/cucumber_test_setup,,,nodejs,1,0,0,JavaScript,FALSE,3,3
+Guilherme-07062002/cucumber-sample,,,nodejs,1,0,0,TypeScript,FALSE,3,3
+MahmudulHasan/EcommercePlaywright,,,nodejs,1,0,0,TypeScript,FALSE,3,3
+Saurabhrck/Protractor_Cucumber,,,nodejs,1,0,0,TypeScript,FALSE,3,3
+asyabhi/Playwright-Cucumber,,,nodejs,1,0,0,TypeScript,FALSE,3,3
+carlosvagnoni/typescript_playwright_cucumber,,,nodejs,1,1,0,TypeScript,FALSE,3,3
+cosminCirstea/pw.ts.cuke,,,nodejs,1,0,0,TypeScript,FALSE,3,3
+dcodesdev/playwright-cucumber-tutorial,,,nodejs,1,0,0,TypeScript,FALSE,3,3
+lankala321/PlaywrightCucumberTypescript,,,nodejs,1,0,0,TypeScript,FALSE,3,3
+ludmilanesvitiy/Playwright-Cucumber-POC,,,nodejs,1,0,0,TypeScript,FALSE,3,3
+marcelodebittencourt/JavaScript_Cucumber_TAU_ecommerce,,,nodejs,1,0,0,JavaScript,FALSE,3,3
+panchalpiyush29/playwrightCucumberFrmwrk,,,nodejs,1,0,0,TypeScript,FALSE,3,3
+BrowserStackCE/playwright-cucumber-browserstack,,,nodejs,1,0,7,JavaScript,FALSE,2,2
+MikeSkilbeck/playwright_cucumber_js,,,nodejs,1,0,0,TypeScript,FALSE,2,2
+Nilendra82/playwright-cucumber-ts-framework,,,nodejs,1,0,0,TypeScript,FALSE,2,2
+PriyankaPoojari/playwright-cucumber-ui-automation-starter,,,nodejs,1,0,0,TypeScript,FALSE,2,2
+Zikri578/QA-Cucumber,,,nodejs,1,0,0,JavaScript,FALSE,2,2
+alexsavio/cucumber-playwright,,,nodejs,1,0,0,TypeScript,FALSE,2,2
+andrewwh/cucumber-starter,,,nodejs,1,1,0,TypeScript,FALSE,2,2
+devdesk1/PlaywrightCucumber,,,nodejs,1,0,0,TypeScript,FALSE,2,2
+douglaslb/playwright-cucumber,,,nodejs,1,0,0,TypeScript,FALSE,2,2
+e2cabral/boilerplate-lambda-jest-cucumber,,,nodejs,1,0,0,TypeScript,FALSE,2,2
+erukulamadhubugtester/MYJ-Cucumber-Selenium-TS-Full-StackAutomation-E2E-,,,nodejs,1,0,0,TypeScript,FALSE,2,2
+globalworming/cucumber-js-starter,,,nodejs,1,0,0,JavaScript,FALSE,2,2
+harita-R/Nightwatch-and-Cucumber,,,nodejs,1,1,0,JavaScript,FALSE,2,2
+iwalk-jo/bdd_cucumber_playwright,,,nodejs,1,3,0,TypeScript,FALSE,2,2
+jimmy-sr/playwright-cucumber-automation-framework,,,nodejs,1,0,0,TypeScript,FALSE,2,2
+jmelton15/PlaywrightCucumber,,,nodejs,1,1,0,JavaScript,FALSE,2,2
+jorahood/cucumber-playwright,,,nodejs,1,0,0,TypeScript,FALSE,2,2
+krishnapollu/playwright-cucumber-js,,,nodejs,1,0,0,JavaScript,FALSE,2,2
+mdbasheer333/cucumberpwjts,,,nodejs,1,2,1,TypeScript,FALSE,2,2
+mredzmi/playwright_cucumber,,,nodejs,1,0,0,TypeScript,FALSE,2,2
+n3n/hasura-cucumber-test,,,nodejs,1,0,0,JavaScript,FALSE,2,2
+sachin-s-joshi/wdio-tests,,,nodejs,1,0,0,TypeScript,FALSE,2,2
+sandrajaimes/boilerplate-selenium-webdriver-cucumber,,,nodejs,1,0,0,TypeScript,FALSE,2,2
+shah2466/cucumber-playwrightTemplate,,,nodejs,1,0,0,TypeScript,FALSE,2,2
+sivanarayananv/my_first_cucumber_playwright_repo,,,nodejs,1,0,0,TypeScript,FALSE,2,2
+swapnil358/Playwright-cucumber-allure,,,nodejs,1,0,0,TypeScript,FALSE,2,2
+tim-yao/cucumber-nightwatch,,,nodejs,1,1,7,TypeScript,TRUE,2,2
+ugepriyokusumo/Playwright_Cucumber_Typescript,,,nodejs,1,0,0,TypeScript,FALSE,2,2
+vigneshonlinetutor/TestTribe_Playwright_Cucumber_Workshop_Aug2024,,,nodejs,1,0,0,TypeScript,FALSE,2,2
+vivekg13186/cucumber-camunda-js,,,nodejs,1,0,0,JavaScript,TRUE,2,2
+wernerthiago/js_cucumber_appium,,,nodejs,1,0,0,JavaScript,FALSE,2,2
+widyaryn/12febcucumber,,,nodejs,1,0,0,JavaScript,FALSE,2,2
+yrvvan/automation-api-cucumber-ci,,,nodejs,1,1,0,JavaScript,FALSE,2,2
+EmilyPapa/Cucumber-Selenium.js,,,nodejs,1,0,0,JavaScript,FALSE,1,1
+FrankSantillan/ADT-Take-Home,,,nodejs,1,0,0,TypeScript,FALSE,1,1
+Hassancxpm/cucumber7-ts,,,nodejs,1,0,0,TypeScript,FALSE,1,1
+LayMui/serenityJS-cucumber-wedriverio,,,nodejs,1,0,4,TypeScript,FALSE,1,1
+LayMui/todoMVC-using-serenityjs-playwright-cucumber,,,nodejs,1,0,5,TypeScript,FALSE,1,1
+LayMui/ultimateQA,,,nodejs,1,0,7,TypeScript,FALSE,1,1
+Myastr0/playwright-cucumber-template,,,nodejs,1,0,0,TypeScript,FALSE,1,1
+RogerRabbitMagnaCarta/playwrightv152-cucumber-ts,,,nodejs,1,0,0,TypeScript,FALSE,1,1
+TsayDev/JavaScript-Playwright-Cucumber,,,nodejs,1,0,0,JavaScript,FALSE,1,1
+VikramNaik26/Selenium-Testing,,,nodejs,1,0,0,JavaScript,FALSE,1,1
+YakovL/synpress-cucumber,,,nodejs,1,0,0,TypeScript,FALSE,1,1
+adamvinicius/aulaoCucumberJS,,,nodejs,1,1,0,JavaScript,FALSE,1,1
+ajibadeabd/Typescript-cucumber-tests,,,nodejs,1,0,0,TypeScript,FALSE,1,1
+aktibaba/cypress-cucumber-framework,,,nodejs,1,0,0,JavaScript,FALSE,1,1
+alupandin/playwrightDemoCucumber,,,nodejs,1,0,0,JavaScript,FALSE,1,1
+amankshah/PlaywrightCucumberBoilerplate,,,nodejs,1,0,0,JavaScript,FALSE,1,1
+artinalbert/cucumber-in-loop-minimum-viable-example,,,nodejs,1,0,0,TypeScript,FALSE,1,1
+athakur012/play-ts-cucumber,,,nodejs,1,0,0,TypeScript,FALSE,1,1
+aurelien-reeves/cucumber-js-esm-example,,,nodejs,1,0,0,JavaScript,FALSE,1,1
+carizam/Playwright-cucumber-swaglabs,,,nodejs,1,0,0,JavaScript,FALSE,1,1
+code-chimp/bdd-react-app,,,nodejs,1,0,0,TypeScript,FALSE,1,1
+dajagtap4/playwright_Framework_With_CucumberBDD,,,nodejs,1,0,0,JavaScript,FALSE,1,1
+dannybarrientos/playwright-cucumber,,,nodejs,1,0,10,TypeScript,FALSE,1,1
+daropotter/cucumber-js-demo,,,nodejs,1,0,0,JavaScript,FALSE,1,1
+dev-wahyuinc/wahyuinc-serenity-js-cucumber-webdriverio-template,,,nodejs,1,0,0,TypeScript,FALSE,1,1
+dsaurabhc/Playwright-Cucumber-Framework,,,nodejs,1,0,0,TypeScript,FALSE,1,1
+dshaplyko/pw-cucumber,,,nodejs,1,0,0,TypeScript,FALSE,1,1
+einnor/gherkin-demo,,,nodejs,1,1,0,TypeScript,FALSE,1,1
+el-ser/cucumber-pactum,,,nodejs,1,0,0,JavaScript,FALSE,1,1
+elct9620/cucumber-playwright-example,,,nodejs,1,0,1,TypeScript,TRUE,1,1
+explosivose/cucumber-example-ts-node-react,,,nodejs,1,0,0,TypeScript,FALSE,1,1
+iepoch/serenity-playwright-cucumber,,,nodejs,1,0,0,JavaScript,FALSE,1,1
+jamil2018/play-salad,,,nodejs,1,1,0,TypeScript,FALSE,1,1
+jennymarin1989/automation-with-selenium-ts-cucumber,,,nodejs,1,0,0,TypeScript,FALSE,1,1
+jijojose1691/playwright_cucumberjs_demo,,,nodejs,1,0,0,JavaScript,FALSE,1,1
+jtacopt/cucumber_playwright_ts,,,nodejs,1,0,0,TypeScript,FALSE,1,1
+kelkias44/BDD_with_cucumber,,,nodejs,1,0,0,JavaScript,FALSE,1,1
+marcelobitt/tau_cucumber_js_google_search,,,nodejs,1,0,0,JavaScript,FALSE,1,1
+mikansc/cucumber-test,,,nodejs,1,0,0,JavaScript,FALSE,1,1
+ministryofjustice/modernisation-platform-infrastructure-test,,,nodejs,1,3,0,JavaScript,TRUE,1,1
+nguyenvanduong6/playwright-with-cucumber,,,nodejs,1,0,0,TypeScript,FALSE,1,1
+nnson0310/phptravel_cucumberjs_automation_framework,,,nodejs,1,0,0,JavaScript,FALSE,1,1
+pansinm/cucumber-jest-mock-sample,,,nodejs,1,0,0,JavaScript,FALSE,1,1
+qa-ali/playwright-cucumber,,,nodejs,1,0,0,JavaScript,FALSE,1,1
+ratnesh85/cucumber-playwright-typescript,,,nodejs,1,0,0,TypeScript,FALSE,1,1
+rsmivb/cucumber-js-tutorial,,,nodejs,1,0,0,TypeScript,FALSE,1,1
+santoshkulkarni1986/playwright-cucumber-typescript-automation-framework,,,nodejs,1,0,0,TypeScript,FALSE,1,1
+shahbaz844/Selenium-cucumber-with-typescript,,,nodejs,1,0,0,TypeScript,FALSE,1,1
+shrinidhimanchi/cucumber-api-automation,,,nodejs,1,0,1,JavaScript,FALSE,1,1
+sorosz89/cucumber-vscode-support,,,nodejs,1,0,0,JavaScript,FALSE,1,1
+trungkien681989/cucumber-bdd,,,nodejs,1,0,0,JavaScript,FALSE,1,1
+waqaszulfiqar/bdd_cucumber_puppeteer,,,nodejs,1,0,0,JavaScript,FALSE,1,1
+yahia-salah/selenium_cucumber_js,,,nodejs,1,0,0,JavaScript,FALSE,1,1
+GOKSEL2022/ManagementSchoolCucumber,,,java,1,0,0,Java,FALSE,18,18
+tolgonais/CucumberStudyMate,,,java,1,0,0,Java,FALSE,6,6
+PashaBarahimi/Software-Testing-Course-Projects,,,java,1,1,0,Java,FALSE,3,3
+mnizicqa/CucumberLogin,,,java,1,0,0,Java,FALSE,2,2
+swetha-jb/cucumber-test,,,nodejs,0,0,0,TypeScript,FALSE,73,73
+jasminnsrutter/Cucumber-Gherkin,,,nodejs,0,0,0,TypeScript,FALSE,71,71
+ridha-boulares/cucumberjs,,,nodejs,0,0,0,TypeScript,FALSE,69,69
+askeyid/CucumberSeleniumTS,,,nodejs,0,0,1,TypeScript,FALSE,28,28
+gili1010/Framework-Thanos,,,nodejs,0,0,0,TypeScript,FALSE,11,11
+Ismaillduman/playwright-cucumber,,,nodejs,0,0,1,TypeScript,FALSE,7,7
+lloydchang/iso13-cucumber-playwright,,,nodejs,0,2,0,TypeScript,FALSE,7,7
+aasiamoqeem/PlaywrightCucumber,,,nodejs,0,0,0,TypeScript,FALSE,5,5
+baleola/agify-cucumber,,,nodejs,0,0,0,TypeScript,FALSE,5,5
+sethisandeepsethi/pw-cucumber,,,nodejs,0,0,0,TypeScript,FALSE,5,5
+amalv/typescript-cucumber-bdd,,,nodejs,0,1,0,TypeScript,FALSE,4,4
+mdbasheer333/cucumberjsvanila,,,nodejs,0,0,0,TypeScript,FALSE,4,4
+shankar1303/Typescript-Cucumber,,,nodejs,0,0,0,TypeScript,FALSE,4,4
+shashanksharmaer104/letcode-playwright-ts-cucumber,,,nodejs,0,0,0,TypeScript,FALSE,4,4
+shoomakov/allure-cucumberjs,,,nodejs,0,0,0,TypeScript,FALSE,4,4
+HarshaVardhankema/CucumberPlaywrightTypescript,,,nodejs,0,0,0,TypeScript,FALSE,3,3
+Indra512/PlaywrightCucumberTypeScript,,,nodejs,0,1,0,TypeScript,FALSE,3,3
+JakubRumpca/Cucumber-Store,,,nodejs,0,0,0,TypeScript,FALSE,3,3
+JeanColonia/playwright-challenge,,,nodejs,0,0,0,TypeScript,FALSE,3,3
+Jvaddepally1/Playwright-Cucumber-Exercise-Jyothi,,,nodejs,0,0,1,TypeScript,FALSE,3,3
+SunsetFi/secrethistories-cucumber,,,nodejs,0,0,0,TypeScript,FALSE,3,3
+arifiandi/playwright-cucumber-playground,,,nodejs,0,0,0,TypeScript,FALSE,3,3
+arisfatahillah/cucumber-webdriverio,,,nodejs,0,0,0,TypeScript,FALSE,3,3
+david2701palacios/playwrightCucumber,,,nodejs,0,0,0,TypeScript,FALSE,3,3
+divyacodeprac/Cucumber_TS,,,nodejs,0,0,0,TypeScript,FALSE,3,3
+durgac2012/Playwright-Cucumber-Exercise1,,,nodejs,0,0,0,TypeScript,FALSE,3,3
+ftavilla/playwright-cucumber,,,nodejs,0,0,0,TypeScript,FALSE,3,3
+goverdhan406/WDIO_CucumberTS,,,nodejs,0,0,0,TypeScript,FALSE,3,3
+jeffnyman/playwright-cucumber,,,nodejs,0,0,0,TypeScript,FALSE,3,3
+joheiss/cucumber-playwright,,,nodejs,0,0,0,TypeScript,FALSE,3,3
+katekarsi/Kate-repo,,,nodejs,0,0,4,TypeScript,FALSE,3,3
+maxxy4real/Playwright,,,nodejs,0,0,0,TypeScript,FALSE,3,3
+pawanuk/Playwright-cucumber,,,nodejs,0,0,0,TypeScript,FALSE,3,3
+upex-galaxy/playwright-cucumber,,,nodejs,0,0,0,TypeScript,FALSE,3,3
+vetalredrok/wdion-cucumber,,,nodejs,0,0,0,TypeScript,FALSE,3,3
+yvonnekw/contact-list-serenity-playwright,,,nodejs,0,0,1,TypeScript,FALSE,3,3
+1992Prince/Cucumber-TS,,,nodejs,0,0,0,TypeScript,FALSE,2,2
+Adarsh2692/playwright-cucumber,,,nodejs,0,0,0,TypeScript,FALSE,2,2
+AdnanVanni/Playwrightcucumber,,,nodejs,0,0,0,TypeScript,FALSE,2,2
+Arungu/Playwright_Cucumber,,,nodejs,0,0,0,TypeScript,FALSE,2,2
+Binhlex/playwright-cucumber,,,nodejs,0,0,0,TypeScript,FALSE,2,2
+DiegoFBenavides/cucumber-playwright,,,nodejs,0,0,0,TypeScript,FALSE,2,2
+Dintero/docker-cucumber,,,nodejs,0,0,4,TypeScript,FALSE,2,2
+DrWalrus1/Cucumberjs-debugger,,,nodejs,0,0,0,TypeScript,FALSE,2,2
+ENEMBI/playwright_cucumber,,,nodejs,0,0,0,TypeScript,FALSE,2,2
+ForsakenWing/GenericCucumber,,,nodejs,0,0,0,TypeScript,FALSE,2,2
+Gisele-Mara/Cucumber,,,nodejs,0,0,0,TypeScript,FALSE,2,2
+KnowitRobertFred/pw-cucumber,,,nodejs,0,0,0,TypeScript,FALSE,2,2
+Luxe-Quality/playwright_cucumber_allure,,,nodejs,0,0,0,TypeScript,FALSE,2,2
+MarappPrashanth/Cucumber-Playwright,,,nodejs,0,0,0,TypeScript,FALSE,2,2
+OlivierWinsemius/playcumber,,,nodejs,0,0,0,TypeScript,FALSE,2,2
+Pi-fe/Cucumber-playwright,,,nodejs,0,0,0,TypeScript,FALSE,2,2
+Plakhota/cucumber-playwright,,,nodejs,0,0,0,TypeScript,FALSE,2,2
+PradyumnaPal/PW_Cucumber_TS,,,nodejs,0,0,0,TypeScript,FALSE,2,2
+ahmadmg/cucumberjs-playwright,,,nodejs,0,0,0,TypeScript,FALSE,2,2
+akwasin/cucumber-playwright,,,nodejs,0,0,0,TypeScript,FALSE,2,2
+arbaaz100/cucumber-playwright,,,nodejs,0,0,0,TypeScript,FALSE,2,2
+batch2991/playwright_cucumber1,,,nodejs,0,0,0,TypeScript,FALSE,2,2
+bekaarcoder/playwright-cucumber,,,nodejs,0,0,0,TypeScript,FALSE,2,2
+benwaar/automated-testing,,,nodejs,0,0,0,TypeScript,TRUE,2,2
+brignano/cucumber-playwright,,,nodejs,0,0,0,TypeScript,FALSE,2,2
+daxone222/pwpoc,,,nodejs,0,0,0,TypeScript,FALSE,2,2
+earvinnill/cucumber-playwright,,,nodejs,0,0,11,TypeScript,FALSE,2,2
+ghoosiafatima/cucumber,,,nodejs,0,0,0,TypeScript,FALSE,2,2
+glkada/Cucumber-Playwright-BrowserStack,,,nodejs,0,0,0,TypeScript,FALSE,2,2
+jcarek/cucumber-playwright,,,nodejs,0,0,0,TypeScript,FALSE,2,2
+jodial92/cucumber-playwright,,,nodejs,0,0,0,TypeScript,FALSE,2,2
+juan2three/Playwright,,,nodejs,0,0,0,TypeScript,FALSE,2,2
+kwishna/playwright-cucumber,,,nodejs,0,0,0,TypeScript,FALSE,2,2
+learn-automated-testing/cucumberjiraintegration,,,nodejs,0,0,0,TypeScript,FALSE,2,2
+lifeisbeautifful/Cucumber,,,nodejs,0,0,0,TypeScript,FALSE,2,2
+mailtoach79/cucumberpwjts,,,nodejs,0,0,0,TypeScript,FALSE,2,2
+mailtogagan/cucumber-playwright-example,,,nodejs,0,0,10,TypeScript,FALSE,2,2
+mandh-jayessh/jrmpw03,,,nodejs,0,0,0,TypeScript,FALSE,2,2
+manueltarouca/cucumber-playground,,,nodejs,0,0,0,TypeScript,FALSE,2,2
+mcanererdem/Web-Driver-University-Otomations,,,nodejs,0,0,0,TypeScript,FALSE,2,2
+mdtaque/cucumber-playwright,,,nodejs,0,0,10,TypeScript,FALSE,2,2
+mhmoudalaskalany/CucumberAutomationTesting,,,nodejs,0,0,0,TypeScript,FALSE,2,2
+mrwaks/cucumber-playwright,,,nodejs,0,0,0,TypeScript,FALSE,2,2
+phileti/ec-cucumber,,,nodejs,0,0,0,TypeScript,FALSE,2,2
+poorprogrammer/pw-cucumber,,,nodejs,0,0,0,TypeScript,FALSE,2,2
+prachistudocu/cucumber-playwrite,,,nodejs,0,0,0,TypeScript,FALSE,2,2
+punyam/playwright-cucumber,,,nodejs,0,0,0,TypeScript,FALSE,2,2
+rama-kaushu2526/Playwright-Cucumber,,,nodejs,0,0,0,TypeScript,FALSE,2,2
+razvanccr/playwright-cucumber,,,nodejs,0,0,0,TypeScript,FALSE,2,2
+rkidd123/cucumber-playwright,,,nodejs,0,0,0,TypeScript,FALSE,2,2
+rlhardrock/Playwright-Cucumber,,,nodejs,0,0,0,TypeScript,FALSE,2,2
+sandipchitale/cucumber-playwright,,,nodejs,0,0,0,TypeScript,FALSE,2,2
+sandipchopkar95/Typescript_Playwright_BDD_CucumberRunner,,,nodejs,0,0,0,TypeScript,FALSE,2,2
+santoshbachar/cucumber-playwright,,,nodejs,0,0,0,TypeScript,FALSE,2,2
+seenav001/cucumberPlaywright,,,nodejs,0,0,0,TypeScript,FALSE,2,2
+steerpike100/cucumber-playwright,,,nodejs,0,0,0,TypeScript,FALSE,2,2
+steven-the-qa/cucumber-playwright,,,nodejs,0,0,0,TypeScript,FALSE,2,2
+tullahnazari/cucumber-playwright,,,nodejs,0,0,0,TypeScript,FALSE,2,2
+vinaykumarvvs/sample-playwright-cucumber-framework,,,nodejs,0,0,0,TypeScript,FALSE,2,2
+xjc90s/cucumber-playwright,,,nodejs,0,0,28,TypeScript,FALSE,2,2
+yaffol/cucumber-playwright,,,nodejs,0,0,0,TypeScript,FALSE,2,2
+AbrahamPractice/playwright-cucumber,,,nodejs,0,0,0,TypeScript,FALSE,1,1
+AlexRiaboshapka/playwright-ts-cucumber,,,nodejs,0,0,0,TypeScript,FALSE,1,1
+AlgorBerunDev/cucumber-playwright,,,nodejs,0,0,0,TypeScript,FALSE,1,1
+AndreyMelnichenko/cy-ts-cucumber,,,nodejs,0,0,0,TypeScript,FALSE,1,1
+AndriiFrolov/playwright-cucumber,,,nodejs,0,0,0,TypeScript,FALSE,1,1
+Arevka22/Cucumber_1,,,nodejs,0,0,0,TypeScript,FALSE,1,1
+Cristi-Fogel/playwright_cucumber1,,,nodejs,0,0,0,TypeScript,FALSE,1,1
+DavidTrejos/CucumberLoginTest,,,nodejs,0,0,0,TypeScript,FALSE,1,1
+Dimitar-Stojanovski/playwright-cucumber,,,nodejs,0,0,0,TypeScript,FALSE,1,1
+Divyadharshini17/Playwright-cucumber,,,nodejs,0,0,0,TypeScript,FALSE,1,1
+Hemant-Jharbade/Playwright_Cucumber,,,nodejs,0,0,0,TypeScript,FALSE,1,1
+KajetanJedrych/Playwright-Cucumber,,,nodejs,0,0,0,TypeScript,FALSE,1,1
+KarimBlg/playwright_cucumber,,,nodejs,0,0,0,TypeScript,FALSE,1,1
+LeenaPrem/cucumber-assignment,,,nodejs,0,0,0,TypeScript,FALSE,1,1
+Mani-QA/Playwright-Cucumber,,,nodejs,0,0,0,TypeScript,FALSE,1,1
+MarkoKerma/PlaywrightCucumber,,,nodejs,0,0,0,TypeScript,FALSE,1,1
+NaveenChittimodu/Plawright_cucumber,,,nodejs,0,0,0,TypeScript,FALSE,1,1
+NgocVo3112/playwright-cucumber,,,nodejs,0,0,0,TypeScript,FALSE,1,1
+Night-G/cucumberTypeScript,,,nodejs,0,0,0,TypeScript,FALSE,1,1
+ParthibanRajasekaran/playwright-cucumber,,,nodejs,0,1,1,TypeScript,FALSE,1,1
+Pratik-2/AutomationPractice,,,nodejs,0,0,0,TypeScript,FALSE,1,1
+QuangTo/cucumber,,,nodejs,0,0,0,TypeScript,FALSE,1,1
+Radhika2418/cucumber-js,,,nodejs,0,0,0,TypeScript,FALSE,1,1
+Rezrazi/foo-cucumber,,,nodejs,0,0,0,TypeScript,FALSE,1,1
+SampathkvAutomation/cucumber-playwright,,,nodejs,0,0,0,TypeScript,FALSE,1,1
+Santhis/playwrightCucumber,,,nodejs,0,0,0,TypeScript,FALSE,1,1
+SantiagoPadilla/SeleniumTypeScript,,,nodejs,0,0,0,TypeScript,FALSE,1,1
+Shaiyz/Playwright-Cucumber,,,nodejs,0,0,0,TypeScript,FALSE,1,1
+SiloEscaper/cucumber-playwright,,,nodejs,0,0,0,TypeScript,FALSE,1,1
+Software-Engineering-Assistantship/frontend-nextjs-ess,,,nodejs,0,8,0,TypeScript,FALSE,1,1
+SumitMandloi123/CucumberFramework,,,nodejs,0,0,0,TypeScript,FALSE,1,1
+TC117/Cypess-Cucumber,,,nodejs,0,0,0,TypeScript,FALSE,1,1
+TugayUzumcu/PlaywrightCucumber,,,nodejs,0,0,0,TypeScript,FALSE,1,1
+Ulrikop/cucumber-7,,,nodejs,0,0,0,TypeScript,FALSE,1,1
+abelmmt/cucumberCalculator,,,nodejs,0,0,0,TypeScript,FALSE,1,1
+abhilashkot/playwright_cucumber-BDD-_typescript,,,nodejs,0,0,0,TypeScript,FALSE,1,1
+adityapradanaa/playwright,,,nodejs,0,0,0,TypeScript,FALSE,1,1
+agonzales411/ariel-lab-5-mod-3-cucumber,,,nodejs,0,0,0,TypeScript,FALSE,1,1
+alejandrobettini6/playwright-cucumber,,,nodejs,0,0,0,TypeScript,FALSE,1,1
+ankita21gaikwad/playwright-cucumber,,,nodejs,0,0,0,TypeScript,FALSE,1,1
+ariellsantos/cucumber_post,,,nodejs,0,0,0,TypeScript,FALSE,1,1
+arjungangadharan007/CucumberBDD-Allure,,,nodejs,0,0,0,TypeScript,FALSE,1,1
+arslanyasin330/Playwright-cucumber,,,nodejs,0,0,0,TypeScript,FALSE,1,1
+av1v3k/learn-cucumber,,,nodejs,0,0,0,TypeScript,FALSE,1,1
+belfaqir/wdio-cucumber,,,nodejs,0,0,0,TypeScript,FALSE,1,1
+bykgz/Playwright_Cucumber,,,nodejs,0,0,0,TypeScript,FALSE,1,1
+chen-196-hub/e2e-scenario,,,nodejs,0,0,0,TypeScript,FALSE,1,1
+chonglee30/Playwright-Cucumber,,,nodejs,0,0,0,TypeScript,FALSE,1,1
+cncoding101/test-automation-with-ppcc,,,nodejs,0,0,0,TypeScript,FALSE,1,1
+codesworld/PlaywrightBDD,,,nodejs,0,0,0,TypeScript,FALSE,1,1
+contactkkiran/playwrightCucumber,,,nodejs,0,0,0,TypeScript,FALSE,1,1
+dayvid-d1/play-cucumber,,,nodejs,0,0,0,TypeScript,FALSE,1,1
+dco5scp/playwright-cucumber,,,nodejs,0,0,0,TypeScript,FALSE,1,1
+deekshith246/cucumber-Framework,,,nodejs,0,0,0,TypeScript,FALSE,1,1
+edmundackah/puppeteer-bdd-poc,,,nodejs,0,0,0,TypeScript,FALSE,1,1
+edzzh/Playwright-CucumberJS-TypeScript-E2E-Framework,,,nodejs,0,0,0,TypeScript,FALSE,1,1
+elliot710/af-testing,,,nodejs,0,0,0,TypeScript,FALSE,1,1
+emIsmaeel/Playwright-cucumber,,,nodejs,0,0,0,TypeScript,FALSE,1,1
+emZubair/Playwright-cucumber,,,nodejs,0,0,0,TypeScript,FALSE,1,1
+erhanilgar/CucumberPlaywright,,,nodejs,0,0,0,TypeScript,FALSE,1,1
+fedealdosivi/playwright-cucumber,,,nodejs,0,0,0,TypeScript,FALSE,1,1
+gurudattgd04/cucumber-setup,,,nodejs,0,0,0,TypeScript,FALSE,1,1
+hickVieira/serverest-front-tests,,,nodejs,0,0,0,TypeScript,FALSE,1,1
+isabelleAtHashgraph/cucumber-tokens,,,nodejs,0,0,0,TypeScript,FALSE,1,1
+ishansaini/playwright-dummy,,,nodejs,0,0,0,TypeScript,FALSE,1,1
+iso13/cucumber-appium,,,nodejs,0,0,0,TypeScript,FALSE,1,1
+ivars-p/cucumber-puppeteer,,,nodejs,0,0,0,TypeScript,FALSE,1,1
+janwerremeyer/playwright-cucumber,,,nodejs,0,0,0,TypeScript,FALSE,1,1
+janyangyuan/playground-cucumber,,,nodejs,0,0,0,TypeScript,FALSE,1,1
+jrobertoq/Wdio-cucumber-e2e-test,,,nodejs,0,0,0,TypeScript,FALSE,1,1
+karthikautomationtester/playwright-cucumber,,,nodejs,0,0,0,TypeScript,FALSE,1,1
+karus-web/cucumber1-dt-main,,,nodejs,0,0,0,TypeScript,FALSE,1,1
+kavyashree-harsha/PlaywrightCucumber,,,nodejs,0,0,0,TypeScript,FALSE,1,1
+kjetilk-kontali/cucumber-playwright,,,nodejs,0,1,0,TypeScript,FALSE,1,1
+masadaark/ts-cucumber-playwright,,,nodejs,0,0,0,TypeScript,FALSE,1,1
+maxwell4real/raphaFramework,,,nodejs,0,0,0,TypeScript,FALSE,1,1
+mfamese/cucumber-playwright,,,nodejs,0,0,0,TypeScript,FALSE,1,1
+mingderwang/cucumber7-ts-starter,,,nodejs,0,0,0,TypeScript,FALSE,1,1
+monogkai/playwright-cucumber,,,nodejs,0,0,0,TypeScript,FALSE,1,1
+mpuertao/playwright-cucumber,,,nodejs,0,0,10,TypeScript,FALSE,1,1
+mustafaskyer/cucumber_playwright,,,nodejs,0,0,0,TypeScript,FALSE,1,1
+myUltraCrew/cucumber-counter,,,nodejs,0,0,2,TypeScript,FALSE,1,1
+nat-github/Playwright-Cucumber,,,nodejs,0,0,0,TypeScript,FALSE,1,1
+navanathjagtap/CucumberPlaywright,,,nodejs,0,0,0,TypeScript,FALSE,1,1
+neoworx/playwright-cucumber,,,nodejs,0,0,0,TypeScript,FALSE,1,1
+nicolas-sicard-adeo/cucumber-example,,,nodejs,0,0,0,TypeScript,FALSE,1,1
+odjhey/example-setup-cucumber-with-ts,,,nodejs,0,0,0,TypeScript,FALSE,1,1
+okamahardika/playwrigth-Cucumber,,,nodejs,0,0,0,TypeScript,FALSE,1,1
+paragrghoshal/PLAYWRIGHT_CUCUMBER,,,nodejs,0,0,0,TypeScript,FALSE,1,1
+peachannoy/cucumber,,,nodejs,0,0,0,TypeScript,FALSE,1,1
+penzarmerchant/cucumber-Playwright,,,nodejs,0,0,0,TypeScript,FALSE,1,1
+prasadhraghu47/playwrightFramework,,,nodejs,0,0,0,TypeScript,FALSE,1,1
+priyagund/playwright-cucumber,,,nodejs,0,0,0,TypeScript,FALSE,1,1
+qase-tms/qase-cucumberjs,,,nodejs,0,0,0,TypeScript,TRUE,1,1
+rafo18/Playwright-cucumber,,,nodejs,0,0,0,TypeScript,FALSE,1,1
+ranjani-tech/playwright-cucumber-api-test,,,nodejs,0,0,0,TypeScript,FALSE,1,1
+ravichandra/playwright_cucumber,,,nodejs,0,0,0,TypeScript,FALSE,1,1
+regi-gouale/cucumber-playwright,,,nodejs,0,0,0,TypeScript,FALSE,1,1
+reizero00/playwright-cucumber,,,nodejs,0,0,0,TypeScript,FALSE,1,1
+renapyron/warrens-cucumber,,,nodejs,0,0,0,TypeScript,FALSE,1,1
+rudyaditya/cucumberAllureSample,,,nodejs,0,0,0,TypeScript,FALSE,1,1
+satchid/playwright-cucumber,,,nodejs,0,0,0,TypeScript,FALSE,1,1
+sb-y-nakashima/typescript-cucumber-bdd-demo,,,nodejs,0,0,0,TypeScript,FALSE,1,1
+sd576/Playwright_Cucumber,,,nodejs,0,0,0,TypeScript,FALSE,1,1
+shahbaz844/Playwright-cucumber,,,nodejs,0,0,0,TypeScript,FALSE,1,1
+shettysudhird/scrambler-ui-test,,,nodejs,0,0,0,TypeScript,FALSE,1,1
+shijithkannoth/Playwright_Cucumber,,,nodejs,0,0,0,TypeScript,FALSE,1,1
+shivakiran1990/selenium-cucumber-typescript,,,nodejs,0,0,0,TypeScript,FALSE,1,1
+silicona/api-cucumber,,,nodejs,0,0,0,TypeScript,FALSE,1,1
+snlopezlopez/playwright-cucumber,,,nodejs,0,0,0,TypeScript,FALSE,1,1
+soni26pro/Playwright-CucumberJS-Automation,,,nodejs,0,0,0,TypeScript,FALSE,1,1
+sridharbandi/cucumber-dt,,,nodejs,0,1,0,TypeScript,FALSE,1,1
+sridharbandi/playwright-cucumber,,,nodejs,0,0,0,TypeScript,FALSE,1,1
+srinivasguda4444-wq/playwright-cucumber,,,nodejs,0,0,0,TypeScript,FALSE,1,1
+tdbaoquyen/SGW_Cucumber,,,nodejs,0,0,0,TypeScript,FALSE,1,1
+terletski/okNotesPW,,,nodejs,0,0,0,TypeScript,FALSE,1,1
+tuananhkl/FirstAutomationTest,,,nodejs,0,0,0,TypeScript,FALSE,1,1
+uaka/TestTaskForVention,,,nodejs,0,0,0,TypeScript,FALSE,1,1
+uo9qsuf/cucumber-test,,,nodejs,0,0,0,TypeScript,FALSE,1,1
+vaidasian/playwright-cucumberjs,,,nodejs,0,0,0,TypeScript,FALSE,1,1
+vana84/CucumberWebPlaywright,,,nodejs,0,0,0,TypeScript,FALSE,1,1
+victorvijay1210/Playwright_Cucumber_TS,,,nodejs,0,0,0,TypeScript,FALSE,1,1
+vikuliyana/Playwright-Cucumber,,,nodejs,0,0,0,TypeScript,FALSE,1,1
+vincemtnz/miniature-waffle,,,nodejs,0,0,0,TypeScript,FALSE,1,1
+wavcita/cucumber,,,nodejs,0,0,0,TypeScript,FALSE,1,1
+wittman26/cucumbertsbasics,,,nodejs,0,0,0,TypeScript,FALSE,1,1
+xjc90s/cucumber7-ts-starter,,,nodejs,0,0,0,TypeScript,FALSE,1,1
+yikerz/CucumberTestWithPlaywright,,,nodejs,0,0,0,TypeScript,FALSE,1,1
+zhmajewska/playwright-cucumber,,,nodejs,0,0,0,TypeScript,FALSE,1,1
+sanketparopate/cucumber-jvm-parallel-features-plugin,,,java,0,0,0,Java,FALSE,92,92
+jadvani/cucumber-java-gradle,,,java,0,0,0,Java,FALSE,8,8
+HemantPatilQA/CucumberTestNGParallel,,,java,0,0,0,Java,FALSE,2,2
+safegade/toBeDeleted2,,,java,0,0,0,Java,FALSE,2,2
+Marva27/CucumberTestNGFramework,,,java,0,0,0,Java,FALSE,1,1
+TestMonkeys/cucumber2-runner,,,java,0,0,0,Java,FALSE,1,1
+dabogee/com.dabogee.io.cucumber.rerun-poc,,,java,0,0,0,Java,FALSE,1,1
+sampath04141/BDDSampleProject,,,java,0,0,1,Java,FALSE,1,1
+gdautoqa/playwright-ui-bdd-cucumber,,,nodejs,-1,,,,,18,18
+dionisggr/saucedemo,,,nodejs,-1,,,,,5,5
+s-santhoshkumar-sabarinathan/Automation,,,nodejs,-1,,,,,4,4
+x-eight/BDD-cucumber,,,nodejs,-1,,,,,3,3
+eroshenkoam/allure-cucumberjs,,,nodejs,-1,,,,,2,2
+ovcharski/cucumber-playwright,,,nodejs,-1,,,,,2,2
+tranvannhatnam97/PlaywrightCucumber,,,nodejs,-1,,,,,2,2
+RohithReacts/cucumber,,,nodejs,-1,,,,,1,1
+harigithub1/PlaywrightCucumber,,,nodejs,-1,,,,,1,1
+iamkrishnagawade/playwright-cucumber-ts-e2e-boilerplate,,,nodejs,-1,,,,,1,1
+savula52/cucumberpractice,,,nodejs,-1,,,,,1,1
+imademethink/imademethink_cucumber_reporting_masterthought,,,java,-1,,,,,6,6
+RaymondMouthaan/allure-cucumber,,,java,-1,,,,,3,3
+MuhtarMahmut/Cucumber_FrameWork01,,,java,-1,,,,,2,2
+cheetirala/bankingapptests,,,java,-1,,,,,2,2
+AdrienZianne/calculator-cucumber-2025,,,java,-1,,,,,1,1
+dimazelinskyi/jacoco-coverage-cucumber-unit-tests,,,java,-1,,,,,1,1
+filland/social-network-java-spring-wiremock-cucumber-e2e-test,,,java,-1,,,,,1,1
+tvarchive/AppiumCucumberDemo,,,java,-1,,,,,1,1
