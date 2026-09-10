@@ -55,8 +55,6 @@ Several critical open challenges remain unaddressed in the current literature:
 1. **Scenario- and Feature-Level Multi-Step Synthesis:** Most glue code generation approaches evaluate isolated steps in isolation. Synthesizing multi-step scenarios or full feature files while preserving shared state, variable bindings, fixture setups, and cross-step data flow remains an open challenge [4].
 2. **Closed-Loop Feedback & Automated Repair:** Current approaches predominantly rely on one-shot or prompt-based generation. Integrating real-time execution feedback (compilation errors, stack traces, assertion failures) into multi-round automated repair loops requires deeper investigation [3], [4].
 3. **Evolution-Aware BDD Maintenance:** Empirical data indicates that over 65% of scenarios and glue code methods evolve over time [4]. Automated techniques capable of detecting divergence between evolving Gherkin feature files, glue code, and project APIs—and subsequently recommending synchronization updates—remain largely unexplored [4].
-4. **Dynamic SPAs & Multi-Language Generalization:** Supporting complex Single-Page Applications (SPAs) with asynchronous, dynamic DOMs [2], and extending multi-agent BDD frameworks beyond Java to ecosystems such as Python, JavaScript, and Ruby [4].
-5. **Formal Semantic Validation & Long-Term Industrial Impact:** Existing studies note an absence of formal semantic validation methods beyond syntax linters [5], as well as a scarcity of longitudinal empirical studies measuring developer productivity and test maintainability in enterprise settings [2].
 
 ---
 
