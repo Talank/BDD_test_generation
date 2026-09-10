@@ -34,7 +34,7 @@
 
 ## 2. Detection Methodologies
 
-| Analysis Paradigm | Primary Techniques & Tools | Target Artifact | Detection Signal |
+| Analysis type | Primary Techniques & Tools | Target | Detection Signal |
 | :---: | :--- | :--- | :--- |
 | **Static Analysis** | AST Parsing, Similarity Metrics (CodeBLEU, Cosine) | Source code ASTs | Low API overlap (precision/recall/F1) and lexical divergence. |
 | **Static Verification** | Linters (`gherkin-lint`), Build Tools (Maven, Gradle) | `.feature` files & test suites | Syntax rule violations and compile errors (missing imports, bad types). |
@@ -62,7 +62,7 @@ Several critical open challenges remain unaddressed in the current literature:
 
 ## Task 2  - Dataset Comparison
 
-| Dataset | Contains NL Gherkin Scenarios? | Includes Labeled Mappings to Developer Tests / Implementations? | Total Scenarios / Steps | Total Projects | Project & Framework Diversity | Actively Maintained? |
+| Dataset | Contains Gherkin Scenarios? | Includes Labeled Mappings to Developer Tests / Implementations? | Total Scenarios / Steps | Total Projects | Project & Framework Diversity | Actively Maintained? |
 | :--- | :---: | :---: | :--- | :--- | :--- | :--- |
 | **GivenWhenThen** *(The one we are currently using)* | Yes | Yes (step-def + system code) | 2,289 scenarios | 1,720 | Java, JavaScript, Ruby; Cucumber | Data mined in Oct 2025; presented at MSR 2026; planned extension to Python and additional languages. |
 | **cukereuse** (Mughal *et al.*, 2026) | Yes | No | 1,113,616 steps / 23,667 files | 347 | Multi-framework: Cucumber-JVM, behave, pytest-bdd, SpecFlow, Behat, Karate, cucumber-js | Released April 25, 2026. |
