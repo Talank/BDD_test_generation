@@ -60,12 +60,12 @@ Several critical open challenges remain unaddressed in the current literature:
 
 ## Task 2  - Dataset Comparison
 
-| Dataset | Contains Gherkin Scenarios? | Includes Labeled Mappings to Developer Tests / Implementations? | Total Scenarios / Steps | Total Projects | Project & Framework Diversity | Actively Maintained? |
-| :--- | :---: | :---: | :--- | :--- | :--- | :--- |
-| **GivenWhenThen** *(The one we are currently using)* | Yes | Yes (step-def + system code) | 2,289 scenarios | 1,720 | Java, JavaScript, Ruby; Cucumber | Data mined in Oct 2025; presented at MSR 2026; planned extension to Python and additional languages. |
-| **cukereuse** (Mughal *et al.*, 2026) | Yes | No | 1,113,616 steps / 23,667 files | 347 | Multi-framework: Cucumber-JVM, behave, pytest-bdd, SpecFlow, Behat, Karate, cucumber-js | Released April 25, 2026. |
-| **Chandorkar *et al.*** (SANER 2022) | Yes | No | 1,572 spec files | 23 | Java; Cucumber | Inactive (last release in 2021). |
-
+| Dataset | Contains Gherkin Scenarios? | Linked tests/impl? | Mapping labeled/validated? | Total Scenarios / Steps | Total Projects | Project & Framework Diversity | Actively Maintained? |
+| :--- | :---: | :---: | :---: | :--- | :--- | :--- | :--- |
+| **GivenWhenThen** *(the one we are currently using)* | Yes | Yes | Yes (with a heuristic function) | 2,289 scenarios | 1,720 | Java, JavaScript, Ruby; Cucumber | Data mined in Oct 2025; presented at MSR 2026; planned extension to Python and additional languages. |
+| **cukereuse** (Mughal *et al.*, 2026) | Yes | No | No | 1,113,616 steps / 23,667 files | 347 | Multi-framework: Cucumber-JVM, behave, pytest-bdd, SpecFlow, Behat, Karate, cucumber-js | Released April 25, 2026. |
+| **Sakura** (Stennett *et al.*, 2026) | Synthetic BDD-style Natural Language | Yes | Yes | 1,464 scenarios | 20 (Apache Commons) | Java | ISSTA26 paper |
+| **Chandorkar *et al.*** (SANER 2022) | Yes | No | No | 1,572 spec files | 23 | Java; Cucumber | Inactive (last release in 2021). |
 ---
 
 ## References
