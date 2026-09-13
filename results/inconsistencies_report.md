@@ -64,7 +64,7 @@ Several critical open challenges remain unaddressed in the current literature:
 
 * Paper [6] researchers created **GivenWhenThen (GWT)**, which they state is the first large-scale dataset containing complete, linked BDD test scenarios. They perform no analysis on it but they do mention as their planned next steps are to benchmark LLMs at generating step definitions from feature files in BDD.
 
-* In paper [7],the testers wrote 113 test cases in plain English, and an AI agent reads them and clicks through the website directly. No test code is written, so there's no second thing to study inconsistency, they just ask whether the agent reaches the same pass/fail verdict a human tester would. 
+* In paper [7],the testers wrote 113 test cases in plain English, and an AI agent reads them and clicks through the website directly. No test code is written, so there's no second thing to compare inconsistency, they just ask whether the agent reaches the same pass/fail verdict a human tester would. 
 
 * The flakiness paper [8] runs the same 113 tests three times with identical settings and finds 18 give different results each time, because the agent interprets the same sentence differently from run to run. Both are about whether the agent is reliable, no inconsistencies were studied.
 
