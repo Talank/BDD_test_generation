@@ -64,7 +64,7 @@ Several critical open challenges remain unaddressed in the current literature:
 | :--- | :---: | :---: | :---: | :--- | :--- | :--- | :--- |
 | **GivenWhenThen** *(the one we are currently using)* | Yes | Yes | Yes (with a heuristic function) | 2,289 scenarios | 1,720 | Java, JavaScript, Ruby; Cucumber | Data mined in Oct 2025; presented at MSR 2026; planned extension to Python and additional languages. |
 | **cukereuse** (Mughal *et al.*, 2026) | Yes | No | No | 1,113,616 steps / 23,667 files | 347 | Multi-framework: Cucumber-JVM, behave, pytest-bdd, SpecFlow, Behat, Karate, cucumber-js | Released April 25, 2026. |
-| **Sakura** (Stennett *et al.*, 2026) | Synthetic BDD-style Natural Language | Yes | Yes | 1,464 scenarios | 20 (Apache Commons) | Java | ISSTA26 paper |
+| **Sakura** (Stennett *et al.*, 2026) | Synthetic BDD-style Natural Language | Yes | Derived from tests | 488 scenarios | 20 (Apache Commons) | Java | ISSTA26 paper |
 | **Chandorkar *et al.*** (SANER 2022) | Yes | No | No | 1,572 spec files | 23 | Java; Cucumber | Inactive (last release in 2021). |
 ---
 
