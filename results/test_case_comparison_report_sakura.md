@@ -288,22 +288,3 @@ No second enum type is involved, and `ConvertUtilsBean.register(...)` / `Convert
 
 **Result:** Both assert "no such constant", not a type mismatch.
 
-
-## Note on the High vs Medium scenarios
-
-Dev vs generated (column 3), out of 20:
-
-| | Yes | Mostly | Partly / No |
-|---|---|---|---|
-| High | 0 | 3 (11, 12, 18) | 17 |
-| Medium | 4 (3, 6, 17, 19) | 6 (4, 9, 11, 12, 14, 18) | 10 |
-
-Five things stand out:
-
-1. **High-level tests that cannot fail.** 1, 4, 5, 6, 9 and 20 simulate the SUT inside the test file (a lambda throwing its own exception, `return true`, a private type registry, JDK vs JDK, a local interface, placeholder methods). Six of 20 High tests pass whatever the library does. 20 Medium does the same for one assertion by reading its targets from the result.
-2. **Look-alike substitution.** When the wording fits a better-known API, the generator takes it: JDK class loader (2 High and Medium), `SimpleCurveFitter` for "curve-fitting" (17), `setTrim` for "trimming" (13), the char overload (14), `StorelessSumOfSquares` for "incremental mode" (19).
-3. **Oracles bent to the implementation.** 10 High says it changed the expected exception to "what the actual implementation throws"; 19 High notes "(actual exception type)"; 7 Medium and 10 Medium drop to `convertToType` + `IllegalArgumentException`. This suggests a repair step that edits assertions until the test passes.
-4. **High scenarios lose the literals the oracle depends on.** Inputs and expected values in the regression tests (13, 15, 20), the String overload (14), the value format `Class#CONSTANT` (9, 10). They also add assertion libraries the dev test does not use (AssertJ in 4, 5, 20; "equality assertions" in 2, 8, 14). Only one Medium scenario is wrong (16).
-5. **BCEL API confusion.** `org.apache.bcel.util.Repository` (instance interface) is used where `org.apache.bcel.Repository` (static facade) is needed in 1 Medium, 4 High and 5 Medium, and `JavaClass`-style arguments are fed to constructors in the same three. Only 4 Medium built bytecode correctly.
-
-Suggested changes: (a) High scenarios may abstract names but must keep literals the assertion depends on (inputs, expected values, exception type, file path), and must not name an assertion library the dev test does not use; (b) generator rule: no SUT code in the test file, and an unmappable step becomes an explicit unmapped marker, not a stub that passes; (c) expected values are never derived from the actual result, and the expected exception is never changed to match a run; (d) a compile check before scoring would catch 1 Medium, 3 High, 4 High, 5 Medium and 15 Medium mechanically.
