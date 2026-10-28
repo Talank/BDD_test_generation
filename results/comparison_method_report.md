@@ -71,7 +71,7 @@ Using dev code as the reference answer is a choice we took because Edge 1 is (al
 |---|---|
 | A step has no code, or is left as an `UNMAPPED` comment | Test 8 (1 of 4 steps), Tests 16, 19, 20 (all steps) |
 | A step code's pattern can't match the step text | Test 9: `(\d+)` can't match `` `myCode` ``; Tests 17, 18: `"{string}"` never matches |
-| The code crashes in setup | Tests 6, 7: `rowsHash()` on a 4-column table |
+| The code crashes  | Tests 6, 7: `rowsHash()` on a 4-column table |
 | The code reads the wrong data | Test 11: `rows()` drops the only row of a headerless table |
 | Missing helper functions | Tests 10, 14: `verifiedLastRunError` never set, so the After hook throws |
 | Inventing functions | Test 4: `assertResponseDoesNotContainHeader` |
