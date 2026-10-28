@@ -1,0 +1,80 @@
+test name - delete-user
+
+## Original
+```ts
+
+// ---- tests/user/user.steps.ts ----
+Given(/^user profile data$/, function (this: ICustomWorld, table) {
+  this.context.createUserDto = table.hashes()[0];
+});
+
+When('I send a request to create a user', async function (this: ICustomWorld) {
+  this.context.latestResponse = await this.server.inject({
+    method: 'POST',
+    url: '/api/v1/users',
+    body: this.context.createUserDto,
+  });
+});
+
+Then('I send a request to delete my user', async function (this: ICustomWorld) {
+  const response = await this.server.inject({
+    method: 'DELETE',
+    url: `/api/v1/users/${this.context.latestResponse!.json().id}`,
+  });
+  assert.strictEqual(response.statusCode, 204);
+});
+
+Then('I cannot see my user in a list of all users', async function (this: ICustomWorld) {
+  const response = await this.server.inject({
+    method: 'GET',
+    url: '/api/v1/users',
+  });
+  const users = response.json<Paginated<UserModel>>();
+  assert.strictEqual(
+    users.data.some((item) => item.id === this.context.latestResponse!.json().id),
+    false,
+  );
+});
+
+```
+
+## Generated
+```ts
+import assert from 'node:assert';
+import { Given, Then, When } from '@cucumber/cucumber';
+import type { DataTable } from '@cucumber/cucumber';
+import type { ICustomWorld } from '../support/custom-world.ts';
+Given(
+  'user profile data',
+  async function (this: ICustomWorld, dataTable: DataTable) {
+    this.context.createUserDto = dataTable.rowsHash();
+  },
+);
+When('I send a request to create a user', async function (this: ICustomWorld) {
+  this.context.latestResponse = await this.server.inject({
+    method: 'POST',
+    url: '/api/v1/users',
+    payload: this.context.createUserDto,
+  });
+});
+Given('I send a request to delete my user', async function (this: ICustomWorld) {
+  const userId = this.context.latestResponse!.json().id;
+  this.context.latestResponse = await this.server.inject({
+    method: 'DELETE',
+    url: /api/v1/users/${userId},
+  });
+});
+Then('I cannot see my user in a list of all users', async function (this: ICustomWorld) {
+  const response = await this.server.inject({
+    method: 'GET',
+    url: '/api/v1/users',
+  });
+  const users = response.json<{ data: Array<{ id: string }> }>();
+  const userId = this.context.createUserDto!.email;
+  assert.strictEqual(
+    users.data.some((item) => item.id === this.context.latestResponse?.json().id),
+    false,
+  );
+});
+```
+
