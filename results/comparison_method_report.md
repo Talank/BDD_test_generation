@@ -49,12 +49,12 @@ The report ignores these on every edge, in every test:
 It is the only edge that judges the *scenario*. A "No" here almost always becomes the "Inadequate Scenario" or "Wrong Scenario" category.
 
 
-| # | Rule | Verdict if the rule isnt followed | Example |
-|---|---|---|---|
-| 1 | **Every step has code.** Each step in the scenario has a matching definition in the dev files shown. | No (Incomplete Implementation) | Test 2: "Scenario contains steps that are configured in the shared steps files instead of the test file" |
-| 2 | **No extra code.** The code doesn't do something important that the text never mentions | No(Inadequate Scenario) | Test 1: dev code also randomizes the email, agrees to the privacy policy and clicks Continue. None of that is in the step text, and whole test case depends on it. |
-| 3 | **Defined role.** A step written as setup or action must not secretly be a check, and vice versa. | No (Wrong Scenario) | Test 7: `Given I send a request to delete my user` reads as an action, but the dev code also asserts `204`.so its not following the defined |
-| 4 | **Assertion mentioned explicitly** | **Yes, but** (still counted as Yes, flagged as a minor scenario problem) | Test 3: "Login should be success" doesn't say what proves success. Test 6: "error 'Bad Request'" doesn't say where the text appears. Test 14: "was executed" doesn't say *once*. |
+| # | Rule | Verdict if the rule isnt followed | Example | Tests that violate it |
+|---|---|---|---|---|
+| 1 | **Every step has code.** Each step in the scenario has a matching definition in the dev files shown. | No (Incomplete Implementation) | Test 2: "Scenario contains steps that are configured in the shared steps files instead of the test file" | 2 |
+| 2 | **No extra code.** The code doesn't do something important that the text never mentions | No(Inadequate Scenario) | Test 1: dev code also randomizes the email, agrees to the privacy policy and clicks Continue. None of that is in the step text, and whole test case depends on it. | 1 |
+| 3 | **Defined role.** A step written as setup or action must not secretly be a check, and vice versa. | No (Wrong Scenario) | Test 7: `Given I send a request to delete my user` reads as an action, but the dev code also asserts `204`.so its not following the defined | 7 |
+| 4 | **Assertion mentioned explicitly** | **Yes, but** (still counted as Yes, flagged as a minor scenario problem) | Test 3: "Login should be success" doesn't say what proves success. Test 6: "error 'Bad Request'" doesn't say where the text appears. Test 14: "was executed" doesn't say *once*. | 2, 3, 6, 14 |
 
 ### Wiggle Room
 
@@ -84,15 +84,15 @@ Using dev code as the reference answer is a choice we took because Edge 1 is (al
 ### What makes a scenario non-match
 
 
-| Rule | Example |
-|---|---|
-| A step has no code, or is left as an `UNMAPPED` comment | Test 8 (1 of 4 steps), Tests 16, 19, 20 (all steps) |
-| A step code's pattern can't match the step text | Test 9: `(\d+)` can't match `` `myCode` ``; Tests 17, 18: `"{string}"` never matches |
-| The code crashes  | Tests 6, 7: `rowsHash()` on a 4-column table |
-| The code reads the wrong data | Test 11: `rows()` drops the only row of a headerless table |
-| Missing helper functions | Tests 10, 14: `verifiedLastRunError` never set, so the After hook throws |
-| Inventing functions | Test 4: `assertResponseDoesNotContainHeader` |
-| Empty assertion or Tautology | Test 18: "goes green without asserting anything" |
+| Rule | Example | Tests that violate it |
+|---|---|---|
+| A step has no code, or is left as an `UNMAPPED` comment | Test 8 (1 of 4 steps), Tests 16, 19, 20 (all steps) | 8, 12, 16, 19, 20; re-runs of 8, 10, 12, 14 |
+| A step code's pattern can't match the step text | Test 9: `(\d+)` can't match `` `myCode` ``; Tests 17, 18: `"{string}"` never matches | 5, 9, 17, 18 |
+| The code crashes  | Tests 6, 7: `rowsHash()` on a 4-column table | 5, 6, 7, 17 |
+| The code reads the wrong data | Test 11: `rows()` drops the only row of a headerless table | 6, 7, 11 |
+| Missing helper functions | Tests 10, 14: `verifiedLastRunError` never set, so the After hook throws | 10, 14; re-runs of 10, 12 |
+| Inventing functions | Test 4: `assertResponseDoesNotContainHeader` | 4, 5 |
+| Empty assertion or Tautology | Test 18: "goes green without asserting anything" | 18 |
 
 Edge 2 can either be categorized into Generation fault or Context Gap. When Edge 2 is No, choosing between **Generation Fault** and **Context Gap** depends on one question: *was the missing piece visible in the prompt?*
 
@@ -119,11 +119,11 @@ Edge 2 and Edge 3 ask different things. Edge 2 asks how each **scenario** would 
 
 For each step, compare the three parts:
 
-| Part | Same if | Example of "different" |
-|---|---|---|
-| Setup | the same data is prepared the same way | Test 1: email randomized vs raw |
-| Main call | the same call is made, or one with an identical effect here | Test 1: `agreePrivacyPolicy` / `clickContinueButton` missing |
-| Check | the same **target** is checked with the same **strength** | Test 2: `filterTrigger()` vs `list()`. Test 3: user menu vs URL. Test 14: `=== 1` vs `> 0` |
+| Part | Same if | Example of "different" | Tests that violate it |
+|---|---|---|---|
+| Setup | the same data is prepared the same way | Test 1: email randomized vs raw | 1, 6, 7, 8, 11 |
+| Main call | the same call is made, or one with an identical effect here | Test 1: `agreePrivacyPolicy` / `clickContinueButton` missing | 1, 4, 5, 7, 10, 12, 14, 16, 17, 19, 20 |
+| Check | the same **target** is checked with the same **strength** | Test 2: `filterTrigger()` vs `list()`. Test 3: user menu vs URL. Test 14: `=== 1` vs `> 0` | 2, 3, 5, 6, 7, 10, 13, 14, 17, 18 |
 
 
 
