@@ -129,7 +129,7 @@ For each step, compare the three parts:
 
 ---
 
-## How the three edges fit together
+## Categorization
 
 
 | Edge 1 | Edge 2 | Edge 3 | Category | Tests |
