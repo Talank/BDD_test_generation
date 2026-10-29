@@ -22,12 +22,6 @@ The finally selected four Javascript repos are available here - https://github.c
 
 We selected four repository and 20 test cases from those as a proof of concept to see if our experiments can produce significant results. 
 
-| Edge | Question | Can it be automated? |
-|---|---|---|
-| 1 | Does the scenario match the dev test?| Requires human judgement |
-| 2 | Does the scenario match the gen test? | Same  |
-| 3 | Do the dev and gen tests match? | Partly, maybe with metrics like code coverage etc |
-
 ### Things that never count as a difference
 
 The report ignores these on every edge, in every test:
@@ -143,3 +137,8 @@ For each step, compare the three parts:
 
 
 ---
+| Edge | Question | Can it be automated? |
+|---|---|---|
+| 1 | Does the scenario match the dev test?| Requires human judgement |
+| 2 | Does the scenario match the gen test? | Same  |
+| 3 | Do the dev and gen tests match? | Partly, maybe with metrics like code coverage etc |
