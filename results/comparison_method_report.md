@@ -1,20 +1,32 @@
 # How the Three Edges Were Judged
 
+We evaluated 20 test cases for this experiment, drawing them from the GWT dataset introduced in the [GWT dataset paper](https://dl.acm.org/doi/full/10.1145/3793302.3793308).
+
+## Methodology for Selecting the Projects
+
+The initial selection process began by filtering the dataset for projects that used Playwright, Cucumber, and GitHub Actions workflows. However, the repositories identified through these filters were primarily starter or tutorial repositories, or personal hobby projects. To identify more representative real-world projects, we broadened the search by removing these filters and sorting the resulting repositories by their GitHub star counts.
+
+Each repository was then evaluated against the following three criteria:
+
+1. Is the repository currently not archived?
+2. Does the repository represent a real-world project or tool, rather than a template, starter repository, or tutorial?
+3. Does the Gherkin code belong to the project's own test suite, rather than consisting of dummy examples or being bundled for an unrelated purpose?
+
+The highest-ranked repositories that satisfied all three criteria were selected for the experiment.
+
+The first three test cases came from the initial filtered selection. Test cases 4–20 were selected from the repositories identified through the expanded search and subsequent evaluation.
+
+The full list of candidate repositories, sorted by GitHub stars, along with their reasoning, is available here: **https://github.com/Talank/BDD_test_generation/blob/master/playwright-github_actions-projects/output/all_projects_by_stars_with_reasoning.csv**.
+
+The finally selected four Javascript repos are available here - https://github.com/Talank/BDD_test_generation/blob/master/playwright-github_actions-projects/output/selected_projects_after_reasoning.csv
+
+We selected four repository and 20 test cases from those as a proof of concept to see if our experiments can produce significant results. 
 
 | Edge | Question | Can it be automated? |
 |---|---|---|
 | 1 | Does the scenario match the dev test?| Requires human judgement |
 | 2 | Does the scenario match the gen test? | Same  |
 | 3 | Do the dev and gen tests match? | Partly, maybe with metrics like code coverage etc |
-
-## General rule for all: compare three parts of the tests seperately
-
-
-| Part | What it is | Example (Test 1) |
-|---|---|---|
-| **Setup** | Preparing data or state before the main call | `email = StringUtil.formatString(email, ...)` |
-| **Main call**/ body| The one call that does what the step is about | `enterRegistrationDetails(...)` |
-| **Check** (assertion) | What is checked, where, and how strictly | `verifyTitleMessage(message)` |
 
 ### Things that never count as a difference
 
@@ -30,10 +42,11 @@ The report ignores these on every edge, in every test:
 
 ## Edge 1: Does the scenario match the dev test?
 
+**What is being compared here in this edge:** One feature file to its step definitions (test code). A feature file can have one or multiple scenarios. So the mapping is scenario's steps ↔ the dev step definitions those steps call
+
 **How I approached it:** if you read only the step text, would you expect the code the developer wrote?
 
 It is the only edge that judges the *scenario*. A "No" here almost always becomes the "Inadequate Scenario" or "Wrong Scenario" category.
-
 
 
 | # | Rule | Verdict if the rule isnt followed | Example |
@@ -49,11 +62,15 @@ It is the only edge that judges the *scenario*. A "No" here almost always become
 - **Assertion being stricter than the scenario mentions is allowed** as long as it is the same kind of check. Test 14's dev code checks "exactly once" for "was executed", so **Yes, but**, not No.
 
 ### Flag
-Example: Test 2: "Scenario contains steps that are configured in the shared steps files instead of the test file". This is a common strategy in repos, should I keep it as non-match or allow shared steps and move it into wiggle room third point?
+1. Example: Test 2: "Scenario contains steps that are configured in the shared steps files instead of the test file". This is a common strategy in repos, should I keep it as non-match or allow shared steps and move it into wiggle room third point? 
+
+2. Any other criterias for wrong scenario? apart from rule 3?
 
 ---
 
 ## Edge 2: Does the scenario match the gen test?
+
+**What is being compared here in this edge:** One feature file to its step definitions (test code). A feature file can have one or multiple scenarios. So the mapping is scenario's steps ↔ the generated step definitions those steps call
 
 Apart from using gherkin as the ground truth here, We added an extra judgement. Since there's no way to know if the generated step code is valid or not, we compare it with dev test to assess if it would reach the endgoal of the scenario in a valid way. We don't compare the two test cases as its thoroughly done in E3 but we try to assess the validity of gen test. Such an example is inventing functions names which if happened, the test doesn't make it to the end.
 
@@ -91,6 +108,8 @@ The scenario fails for a different reason | Test 5: the scenarios are meant to f
 ---
 
 ## Edge 3: Do the dev and gen tests match?
+
+**What is being compared here in this edge:** Each developer written step definition to its generated counterpart for one test. 
 
 **The question:** lay the two step definitions side by side. Are they the same code in every way that matters?
 
