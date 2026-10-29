@@ -1049,46 +1049,4 @@ The runner substitutes `check` / `uncheck` before matching, so this needs the tw
 
 **Result:** 0/7 scenario runs (1 scenario + 3 outline rows + 3 outline rows).
 
-### What was derivable
 
-| Step family | Held out | Visible in the template | Verdict |
-|---|---|---|---|
-| `I press "…"` | `press` | `follow` (identical shape, `link` → `button`); `Mink#button` in WORLD | derivable |
-| `I should see "…"` | `seeText` | `notSeeText` | derivable |
-| `I should see "…" in the "…" element` | `elementContainsText` | `elementNotContainsText`, `elementTextContainsText` | derivable |
-| `I should be on "…"` | `isEqual` | `isRoot` (still references it), `urlMatch` | derivable |
-| `I browse`, `I am on "…"` | `setBaseURL`, `goTo` | `goRoot`, `config.baseUrl` | derivable |
-| `checkbox should be checked`, `field should be enabled / disabled` | `isChecked`, `isDisabled` | nothing , `page.$eval` appears nowhere in this template (WORLD uses only `$$eval` for reads) | context gap |
-| `fill in`, `fill in the following:`, `select … from`, `check` / `uncheck` | all of `form.js` | nothing , `page.$eval` with a value argument and `page.select` are absent; `Mink#elementsWithText` is visible but its use on `<option>` is not | context gap |
-| `current option contain`, `field should (not) contain` | all of `assert_form.js` | nothing | context gap |
-| `I submit "…" form` | `submit` | `page.$eval` + DOM `form.submit()` not shown | context gap |
-
-Roughly half the feature's patterns were reconstructible; the other half needed puppeteer element APIs the prompt never shows. The model wrote neither half, and the wrapper means it could not have registered them anyway.
-
-### Why the legacy wrapper
-
-`test/features/support/mink.js` (in the catalog) and `examples/support.js` (in WORLD) are support files that register through an object , `mink.gherkin(cucumber)`, `driver.hook(cucumber)` , rather than with top-level `Given` / `Then`. The model appears to have pattern-matched "support file that wires things up" to the old `module.exports = function` idiom. Nothing in the prompt uses it; it is training-data recall.
-
----
-
-## Note on the revised-prompt round (Tests 8, 10, 12, 13, 14)
-
-Three things stand out across the five re-runs:
-
-1. **The indexed field was never used.** `verifiedLastRunError` is now listed `(read/write)`, rule 1 permits assigning it, rule 9 says to re-check the field list , and none of 10, 12 or 14 set it. Test 12 *lost* it. On this evidence the flag omission is a generation fault, not a context gap.
-2. **A new failure mode: silent step omission.** Gen 1 never dropped a feature step without leaving either a binding or an `// EXISTS` line. Gen 2 does so in 10 (`the output contains {string}`), 12 (`the output contains text:`) and 14 (`it fails`). Two of the three are siblings of a registered family, which is exactly what rule edit B targets; the third (`it fails`) is not. The edit may have made the model more cautious about redefining without making it more diligent about writing , but one sample per template cannot confirm cause.
-3. **`CALLABLE HELPERS` did not change behaviour.** It correctly labels the flexible-output helpers as reimplementable; 13 and 14 still use naive substring / split matching.
-
-Suggested next steps: (a) re-sample each revised template several times before attributing the omissions to rule 4; (b) add an output-completeness rule , every step in the feature must appear in the output exactly once, as a binding, an `// EXISTS` line, or an `// UNMAPPED` line , which would have caught all three omissions mechanically; (c) Test 8 needs no further prompt work.
-
-
-## Note on the cucumber-mink round (Tests 16 to 20)
-
-Five templates from one repo, one generation each, 0 of 17 scenario runs unchanged across the five. Four things stand out:
-
-1. **The catalog index is empty for this repo.** `PUBLIC SURFACE INDEX` lists `detectSeries` only. The step definitions export `[regex, fn]` pairs and the driver is a class in WORLD; the extractor indexes neither. Three of five outputs (16, 19, 20) declared nearly every step unmapped, two of them with an invented `(missing DSL function)` label that says exactly what was checked. The other two (17, 18) called `this.mink.*` and `this.mink.page.*` freely. Same prompt, opposite readings of Rule 1.
-2. **`"{string}"` is a new, mechanical failure mode.** Both files that used Cucumber Expressions wrapped `{string}` in literal quotes; verified against `@cucumber/cucumber-expressions` never to match. Every registered pattern in this repo is a regex, so the safer path was to keep regexes as the existing definitions do.
-3. **Unmapped steps registered as no-op bodies (18).** That converts "undefined step" into "assertion passes". Rule 9's forms are comments, not bindings; the model merged the two.
-4. **Twins of held-out code were on the page and not used.** `notSeeText` ↔ `seeText`, `follow` ↔ `press`, `isNotExisting = waitForSelector(false, true)` ↔ `isNotVisible`, `goRoot` ↔ `goTo`, `isRoot` still calling `isEqual`. The generator does not mine EXISTING STEP DEFINITIONS for mirrors of what it is asked to write.
-
-Suggested prompt changes: (a) have the extractor index class methods and fields reachable from `this` (`Mink#html`, `Mink#page: puppeteer.Page`, `Mink#config.baseUrl`, …) and, where a third-party driver hangs off `this`, either list its surface or state "any method of `this.mink.page` (puppeteer `Page`) is callable"; (b) Rule 5: "`{string}` consumes the quotes , write `{string}`, never `"{string}"`; when EXISTING STEP DEFINITIONS use regexes, use regexes"; (c) Rule 9: an unmapped step gets a comment and **no binding**; (d) the output-completeness rule proposed after Test 14 (one line per pattern, as a binding, `// EXISTS`, or `// UNMAPPED`) would have caught 19 and 20 mechanically.
