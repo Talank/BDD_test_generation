@@ -2,7 +2,7 @@
 
 We evaluated 20 test cases for this experiment, drawing them from the GWT dataset introduced in the [GWT dataset paper](https://dl.acm.org/doi/full/10.1145/3793302.3793308).
 
-## Methodology for Selecting the Projects
+**Methodology for Selecting the Projects**:
 
 The initial selection process began by filtering the dataset for projects that used Playwright, Cucumber, and GitHub Actions workflows. However, the repositories identified through these filters were primarily starter or tutorial repositories, or personal hobby projects. To identify more representative real-world projects, we broadened the search by removing these filters and sorting the resulting repositories by their GitHub star counts.
 
