@@ -22,6 +22,37 @@ The finally selected four Javascript repos are available here - https://github.c
 
 We selected four repository and 20 test cases from those as a proof of concept to see if our experiments can produce significant results. 
 
+## Terminologies
+1. Feature file contains one or more scenario
+2. Gherkin Scenario
+3. Step in a Gherkin Scenario
+4. Step-definitions: Also known as Glue code, step-implementation , LoC in step-definition
+5. Mapping of Feature:Scenario, Scenario:Step, and Step:LoC are all 1:many mapping. Step:Step definitions is a 1:1 mapping
+
+| TC | Scenarios | Steps | Dev LOC | Gen LOC |
+|---|---|---|---|---|
+| 1 | 1 | 6 | 38 | 38 |
+| 2 | 3 | 12 | 25 | 36 |
+| 3 | 2 | 10 | 40 | 31 |
+| 4 | 51 | 177 | 175 | 218 |
+| 5 | 15 | 39 | 82 | 99 |
+| 6 | 2 | 7 | 31 | 35 |
+| 7 | 1 | 4 | 28 | 36 |
+| 8 | 1 | 4 | 24 | 32 |
+| 9 | 18 | 82 | 101 | 124 |
+| 10 | 3 | 16 | 29 | 31 |
+| 11 | 5 | 28 | 72 | 132 |
+| 12 | 3 | 20 | 29 | 26 |
+| 13 | 6 | 30 | 25 | 27 |
+| 14 | 15 | 89 | 51 | 55 |
+| 15 | 14 | 43 | 18 | 20 |
+| 16 | 1 | 7 | 25 | 1 |
+| 17 | 2 | 15 | 98 | 56 |
+| 18 | 4 | 9 | 31 | 11 |
+| 19 | 2 | 29 | 56 | 0 |
+| 20 | 3 | 28 | 162 | 3 |
+| **Total** | **152** | **655** | **1,140** | **1,011** |
+
 ### Things that never count as a difference
 
 The report ignores these on every edge, in every test:
