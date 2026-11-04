@@ -28,6 +28,8 @@ We selected four repository and 20 test cases from those as a proof of concept t
 3. Step in a Gherkin Scenario
 4. Step-definitions: Also known as Glue code, step-implementation , LoC in step-definition
 5. Mapping of Feature:Scenario, Scenario:Step, and Step:LoC are all 1:many mapping. Step:Step definitions is a 1:1 mapping
+6. DSL Catalog – A catalog of supported Gherkin expressions and reusable step patterns.
+7. The World – The shared scenario execution context that holds state, data, and helper methods.
 
 | TC | Scenarios | Steps | Dev LOC | Gen LOC |
 |---|---|---|---|---|
