@@ -1,6 +1,6 @@
 # Natural language test smells in the 20 Gherkin test cases
 
-This report checks all **655 steps** in 152 scenarios (and their Backgrounds) against two smell catalogs. Soares et al. 2023 is the primary catalog and Hauptmann et al. 2013 is secondary. Line numbers refer to `all_gherkin_scenarios.md`.
+This report checks all **655 steps** in 152 scenarios (and their Backgrounds) against two smell catalogs. Soares et al. 2023 is the primary catalog and Hauptmann et al. 2013 is secondary. Line numbers refer to `all_gherkin_scenarios.md` in the same folder. The full CSV report can be found also under the name `gherkin_smell_flags.csv`.
 
 ## Results
 
@@ -9,7 +9,7 @@ This report checks all **655 steps** in 152 scenarios (and their Backgrounds) ag
 - **78 steps (12%) have no flag.**
 - **60 steps have a smell named in both papers.** All of them are Ambiguous Test. Conditional Test, the other shared smell, never occurs.
 - **Structural smells are rare but clear-cut:** 8 Misplaced Action, 4 Misplaced Verification, 5 Unverified Action and 1 Misplaced Precondition.
-- **The catalogs miss a common defect:** 22 steps put a user action in a Given, and neither paper names this. They are listed under [Issues neither catalog names](#issues-neither-catalog-names).
+- **The catalogs miss a common defect:** 22 steps put a user action in a Given, and neither paper names this. They are listed under [Issues neither catalog names](#Some-Issues-I-found-that-are-in-neither-of-the-test-cases).
 
 ### 2023 catalog (primary)
 
