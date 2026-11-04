@@ -36,7 +36,6 @@ A step can have more than one smell, so totals add up to more than the number of
 | Inconsistent Wording | 0 | 7 | 7 | 6 |
 | Badly Structured Test Suite | n/a | n/a | n/a | Not assessed |
 
-The last column applies your priority rule: a 2013-only smell becomes the final label only when the step has no 2023 smell. Badly Structured Test Suite can't be assessed because it compares a suite's folder structure, and the merged file has none.
 
 ### By test case
 
