@@ -2,6 +2,24 @@
 
 We prompted an LLM (Claude Opus 5.5) to rewrite the scenarios for Tests 1, 6, 7, and 14. For each test, we provided the original scenario and the developer's step definitions (linked to the steps of the scenario that we want to fix) and asked the LLM to make the scenario accurately describe the step definitions.
 
+## prompt used
+```
+Below is a Gherkin scenario and the step definitions that automate it.
+
+## Scenarios
+<the scenario to fix, with its Background if it has one>
+
+## Step definitions
+<the step definitions that the steps of this scenario bind to>
+
+## Problem
+The scenario does not accurately describe what the step definitions do. Some actions or checks performed by the step definitions are missing from the scenario, or are described imprecisely.
+
+## Task
+Rewrite the scenario so that it accurately describes what the step definitions do. Output only the fixed scenario.
+
+```
+
 ## Summary
 
 | # | Test | Problems with the original scenario | How the fixed scenario addresses them |
