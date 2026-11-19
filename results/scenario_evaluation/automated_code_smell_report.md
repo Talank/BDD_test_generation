@@ -40,3 +40,5 @@ Step keywords are removed before analysis. `<placeholders>` in Scenario Outlines
 ## Limitations
 
 The Eager Action and Misplaced Action rules look for commands like "Click Save". BDD steps are usually first person ("I click Save"), so these smells are close to undetectable here.
+
+The GWT dataset includes pair of scenario-step definitions but they are not all inclusive, they leave quite a bit of scenarios if no step definitions can be found through their tool but manual inspection shows that step definitions do exist
