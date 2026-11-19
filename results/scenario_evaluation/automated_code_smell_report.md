@@ -33,7 +33,7 @@ Step keywords are removed before analysis. `<placeholders>` in Scenario Outlines
 | martinschneider/justtestlah | 6 | 7 | 2 | 2 | 0 | 0 | 0 | 0 | **2** |
 | telekom/bdd-web-app | 3 | 4 | 1 | 1 | 0 | 0 | 0 | 0 | **1** |
 | 6 projects with no smells found¹ | 11 | 19 | 0 | 0 | 0 | 0 | 0 | 0 | **0** |
-| **Total** | **141** | **350 (308)** | **118** | **88** | **1** | **17** | **6** | **60** | **172** |
+| **Total** | **141** | **308** | **118** | **88** | **1** | **17** | **6** | **60** | **172** |
 
 ¹ cucumber-js, protractor-cucumber-framework, cukedoctor, react-redux-boilerplate, quarkus-cucumber, jfactory-cucumber
 
