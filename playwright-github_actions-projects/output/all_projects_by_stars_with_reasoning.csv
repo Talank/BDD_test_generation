@@ -1,56 +1,68 @@
 name,meets_criteria,reason,group,stars,forks,open_issues,language,archived,feature_file_count,scenario_count
 cucumber/cucumber-js,Yes,Cucumber's own repo and its test suite is written by gherkin,nodejs,5381,1115,37,TypeScript,FALSE,74,74
 cucumber/cucumber-jvm,Yes,Same as 1st,java,2830,2012,54,Java,FALSE,82,82
+marcoturi/fastify-boilerplate,Yes,"Active architecture template, but BDD is incidental not showcased: cucumber-js API scenarios for its user module, run in CI",nodejs,460,53,5,TypeScript,FALSE,2,2
+apickli/apickli,Yes,"still maintained, features genuinely test its own step DSL",nodejs,213,93,31,JavaScript,FALSE,4,4
+protractor-cucumber-framework/protractor-cucumber-framework,Yes,maintained; features are its own integration tests,nodejs,198,133,5,JavaScript,FALSE,5,5
+timjroberts/cucumber-js-tsflow,Yes,"Published cucumber-tsflow library, features are genuine acceptance specs of the binding layer",nodejs,137,36,8,TypeScript,FALSE,7,7
+sebaslogen/CleanGUITestArchitecture,Yes,"Sample Android GUI-test architecture demo, though it has only one feature",java,137,31,9,Java,FALSE,1,1
+rmpestano/cukedoctor,Yes,Real living-documentation tool (Cukedoctor) whose Gherkin tests its own funcions,java,130,23,33,Java,FALSE,23,23
+ctco/cukes,Yes,"active library, Gherkin tests its own step DSL",java,111,67,46,Java,FALSE,26,26
+znsio/teswiz,Yes,Actively developed company OSS automation framework; features are its own e2e regression suite,java,104,63,36,Java,FALSE,28,28
+marcoturi/react-redux-boilerplate,Yes,feature has a single e2e test ,nodejs,103,16,9,TypeScript,FALSE,2,2
+serenity-bdd/serenity-cucumber,Yes,package that has genuine feature files,java,80,73,70,Java,TRUE,71,71
+NoraUi/NoraUi,Yes,Real UI non-regression product (NoraUi) with its own Gherkin integration suite,java,60,27,9,Java,FALSE,4,4
+7ep/demo,Yes,"Coveros demonstration app, has genuine feature files",java,53,138,23,Java,FALSE,14,14
+Accenture/bdd-for-all,Yes,Real Accenture OSS library ,java,53,24,7,Java,FALSE,12,12
+martinschneider/justtestlah,Yes,Actively maintained UI test framework; Gherkin suites are its own integration tests,java,48,20,28,Java,FALSE,11,11
+selcukes/selcukes-java,Yes,Actively maintained automation library; features tests its own modules ,java,47,7,10,Java,FALSE,6,6
+arnaud-dezandee/cucumber-mink,Yes,"Published npm library (cucumber-mink); features are its own step-definition test suite, maintained",nodejs,39,14,12,JavaScript,FALSE,9,9
+qaPaschalE/playwright-cucumber-ts-steps,Yes,"Published npm step library, actively released; features test its own steps (borderline: single maintainer)",nodejs,30,1,0,TypeScript,FALSE,3,3
+Marketionist/testcafe-cucumber-steps,Yes,Published npm step library (testcafe-cucumber-steps) with its own executed Cucumber suite,nodejs,24,6,3,JavaScript,FALSE,4,4
+MiroslavRusev/cuppet,Yes,Maintained NodeJS BDD tool (cuppet) used for real site testing; features are its own executed suite,nodejs,22,2,12,JavaScript,FALSE,5,5
+quarkiverse/quarkus-cucumber,Yes,Maintained Quarkiverse extension; feature files are its integration-test suite (minimal features),java,21,19,37,Java,FALSE,3,3
+cjmarkham/Gherklin,Yes,Actively developed Gherkin linter (npm gherklin); acceptance features test its lint rules,nodejs,20,7,7,TypeScript,FALSE,30,30
+SuffolkLITLab/ALKiln,Yes,Actively maintained legal-tech testing tool; its Gherkin suite tests ALKiln itself,nodejs,18,4,71,JavaScript,FALSE,18,18
+telekom/bdd-web-app,Yes,Telekom OSS BDD framework maintained into 2024; real Gherkin suites for its demo web app,java,17,2,6,Java,FALSE,9,9
+muralco/pickled-cucumber,Yes,"Company OSS Gherkin library (npm pickled-cucumber); features/ tests its own steps, maintained",nodejs,15,14,6,TypeScript,FALSE,25,25
+osvaldjr/easy-cucumber,Yes,Maintained OSS library (easy-cucumber); example modules' features are its integration tests,java,13,7,8,Java,FALSE,9,9
+RedFroggy/spring-cucumber-rest-api,Yes,Maintained company OSS library (spring-cucumber-rest-api); features test its own REST steps,java,12,29,16,Java,FALSE,2,2
+webdriverio-community/wdio-rerun-service,Yes,Actively maintained WebdriverIO community service; Cucumber features run as part of its e2e suite,nodejs,11,13,5,TypeScript,FALSE,2,2
+leeonky/jfactory-cucumber,Yes,"Published library (jfactory-cucumber) whose features genuinely test its own steps (borderline: small, single author)",java,11,2,0,Java,FALSE,6,6
 AppiumTestDistribution/AppiumTestDistribution,No,"Real active tool, but its only 3 features are dummy samples",java,1040,366,45,Java,FALSE,3,3
 cucumber/cucumber-java-skeleton,No," template, not a real project",java,499,642,3,Java,FALSE,2,2
-marcoturi/fastify-boilerplate,Yes,"Active architecture template, but BDD is incidental not showcased: cucumber-js API scenarios for its user module, run in CI",nodejs,460,53,5,TypeScript,FALSE,2,2
 Tallyb/cucumber-playwright,No,Starter repo for learning Cucumber+Playwright,nodejs,437,110,19,TypeScript,FALSE,2,2
-apickli/apickli,Yes,"still maintained, features genuinely test its own step DSL",nodejs,213,93,31,JavaScript,FALSE,4,4
 gauravkarvir/cucumber_testng_java,No,template,java,212,171,0,Java,FALSE,6,6
 cucumber/cucumber-eclipse,No,"Active plugin, but the .feature files are bundled example projects, not the plugin's tests",java,203,150,27,Java,FALSE,6,6
 serenity-bdd/serenity-cucumber-starter,No,template,java,202,311,98,Java,FALSE,1,1
-protractor-cucumber-framework/protractor-cucumber-framework,Yes,maintained; features are its own integration tests,nodejs,198,133,5,JavaScript,FALSE,5,5
 naveenanimation20/CucumberSeleniumFramework,No,Course/tutorial framework repo,java,139,447,10,Java,FALSE,14,14
-timjroberts/cucumber-js-tsflow,Yes,"Published cucumber-tsflow library, features are genuine acceptance specs of the binding layer",nodejs,137,36,8,TypeScript,FALSE,7,7
-sebaslogen/CleanGUITestArchitecture,Yes,"Sample Android GUI-test architecture demo, though it has only one feature",java,137,31,9,Java,FALSE,1,1
 temyers/cucumber-jvm-parallel-plugin,No,Archived and deprecated,java,130,117,1,Java,TRUE,92,92
-rmpestano/cukedoctor,Yes,Real living-documentation tool (Cukedoctor) whose Gherkin tests its own funcions,java,130,23,33,Java,FALSE,23,23
 ortoniKC/Playwright_Cucumber_TS,No,starter repo for learning Cucumber+Playwright,nodejs,126,77,8,TypeScript,FALSE,3,3
 trivago/cucable-plugin,No,synthetic features,java,121,42,2,Java,FALSE,12,12
 machzqcq/CucumberJVMExamples,No,template,java,119,143,32,Java,FALSE,27,27
 cucumber/cucumber-electron,No,template,nodejs,118,18,9,JavaScript,TRUE,10,10
 naveenanimation20/LatestCucumber6WithPOM,No,YouTube-course demo framework,java,112,341,11,Java,FALSE,4,4
-ctco/cukes,Yes,"active library, Gherkin tests its own step DSL",java,111,67,46,Java,FALSE,26,26
 mechero/spring-boot-cucumber,No,Blog-post sample project,java,109,60,3,Java,FALSE,2,2
 emmasuzuki/CucumberEspressoDemo,No,Demo app,java,108,33,1,Java,FALSE,2,2
-znsio/teswiz,Yes,Actively developed company OSS automation framework; features are its own e2e regression suite,java,104,63,36,Java,FALSE,28,28
-marcoturi/react-redux-boilerplate,Yes,feature has a single e2e test ,nodejs,103,16,9,TypeScript,FALSE,2,2
 TestLeafInc/TestLeafSeleniumTraining,No,starter repo for selenium,java,102,58,0,Java,FALSE,3,3
 angiejones/restassured-with-cucumber-demo,No,Tutorial demo,java,81,85,1,Java,FALSE,1,1
-serenity-bdd/serenity-cucumber,Yes,package that has genuine feature files,java,80,73,70,Java,TRUE,71,71
 jomarnavarro/pepinazo,No,starter,java,72,84,1,Java,FALSE,2,2
 amiya-pattnaik/selenium-cucumber-java,No,Collection of sample projects demonstrating a BDD framework,java,67,80,2,Java,FALSE,1,1
 wenqiglantz/customer-service,No,Blog-demo,java,64,26,11,Java,FALSE,1,1
 RoRoche/AndroidTestingBox,No,"Personal experiment box for Android testing tools, stale",java,63,3,2,Java,FALSE,2,2
 anhtester/AutomationFrameworkCucumberTestNG,No,"Training-channel automation framework for cucumber, no feature file tests its functionalitty",java,62,56,2,Java,FALSE,3,3
-NoraUi/NoraUi,Yes,Real UI non-regression product (NoraUi) with its own Gherkin integration suite,java,60,27,9,Java,FALSE,4,4
 rajatt95/MasterSeleniumFramework_BDD,No,Udemy-course practice framework,java,57,35,0,Java,FALSE,2,2
 shankybnl/selenium_BDD_framework,No,"Personal demo framework, stale",java,56,50,2,Java,FALSE,2,2
-7ep/demo,Yes,"Coveros demonstration app, has genuine feature files",java,53,138,23,Java,FALSE,14,14
-Accenture/bdd-for-all,Yes,Real Accenture OSS library ,java,53,24,7,Java,FALSE,12,12
 hdorgeval/cucumber7-ts-starter,No,Starter template,nodejs,50,21,3,TypeScript,FALSE,1,1
 igniteram/testng-cucumber,No,Self-described boilerplate,java,50,61,2,Java,FALSE,3,3
 underc0delabs/Autoc0de-Hybrid,No,template,java,50,5,1,Java,FALSE,2,2
-martinschneider/justtestlah,Yes,Actively maintained UI test framework; Gherkin suites are its own integration tests,java,48,20,28,Java,FALSE,11,11
 serenity-bdd/serenity-cucumber4-starter,No,Archived starter template,java,48,72,22,Java,TRUE,1,1
-selcukes/selcukes-java,Yes,Actively maintained automation library; features tests its own modules ,java,47,7,10,Java,FALSE,6,6
 underc0delabs/Autoc0de-WEB,No,"Learning-lab framework template, single Example.feature",java,47,7,0,Java,FALSE,1,1
 akshayp7/playwright-java-cucumber,No,boilerplate/template,java,46,25,0,Java,FALSE,6,6
 rajatt95/MasterAppiumFramework_BDD,No,Udemy-course practice framework,java,44,20,2,Java,FALSE,2,2
 VinayKumarBM/API-Cucumber,No,"Personal sample API framework, stale since 2023",java,41,40,1,Java,FALSE,4,4
 bcarun/cucumber-samples,No,Sample project set for learning Cucumber,java,40,108,2,Java,FALSE,6,6
 cronn/cucumber-junit5-example,No,Example/tutorial repo (company-owned but explicitly an example),java,40,16,38,Java,FALSE,3,3
-arnaud-dezandee/cucumber-mink,Yes,"Published npm library (cucumber-mink); features are its own step-definition test suite, maintained",nodejs,39,14,12,JavaScript,FALSE,9,9
 extent-framework/extentreports-cucumber4-adapter,No,Unmaintained since 2020; features are copied stock Cucumber examples,java,39,21,30,Java,FALSE,3,3
 naveenanimation20/Cucumber7.xTestNGLatestPOC,No,Course POC repo,java,39,46,2,Java,FALSE,1,1
 pavanoltraining/CucumberSDETProject,No,Training-company course project,java,37,70,4,Java,FALSE,2,2
@@ -61,7 +73,6 @@ mpinardi/cucumber-performance,No,Stale since 2023 and its features are synthetic
 selenide-examples/cucumber,No,Sample project demonstrating Selenide with Cucumber,java,33,39,1,Java,FALSE,2,2
 VinayKumarBM/playwright-cucumber-sample,No,Sample framework by name and README,nodejs,32,18,1,TypeScript,FALSE,5,5
 serenity-js/serenity-js-cucumber-playwright-template,No,Official template repository,nodejs,32,15,8,TypeScript,FALSE,1,1
-qaPaschalE/playwright-cucumber-ts-steps,Yes,"Published npm step library, actively released; features test its own steps (borderline: single maintainer)",nodejs,30,1,0,TypeScript,FALSE,3,3
 PrinceSoni83/playwright-cucumber-js-e2e-boilerplate,No,Boilerplate by name and purpose,nodejs,30,17,0,JavaScript,FALSE,2,2
 kamil-nowocin/Test_Automation-automationpractice,No,Personal practice framework against the automationpractice demo site,java,30,16,0,Java,FALSE,7,7
 browserstack/cucumber-js-browserstack,No,Vendor integration sample repo,nodejs,29,32,16,JavaScript,FALSE,2,2
@@ -71,7 +82,6 @@ alexvictoor/pitest-cucumber-plugin,No,"Active plugin, but its features are stock
 reportportal/agent-java-cucumber,No,"Archived, end-of-support ReportPortal agent",java,26,17,0,Java,TRUE,21,21
 Book-Microservices-v2/cucumber-tests,No,Companion code for a book chapter,java,25,14,0,Java,FALSE,2,2
 machzqcq/cucumber-jvm-template,No,Template project by name,java,25,91,4,Java,FALSE,1,1
-Marketionist/testcafe-cucumber-steps,Yes,Published npm step library (testcafe-cucumber-steps) with its own executed Cucumber suite,nodejs,24,6,3,JavaScript,FALSE,4,4
 adamcegielka/playwright-cucumber-bdd-typescript,No,Author states it is a personal skill-practice project,nodejs,24,8,5,TypeScript,FALSE,2,2
 Cybertek-B15Local/fall-2019-va-cucumber-project,No,Bootcamp class project,java,24,73,6,Java,FALSE,13,13
 sahajamit/cucumber-jvm-testng-integration,No,"Blog-demo integration example, stale",java,24,31,3,Java,FALSE,2,2
@@ -80,33 +90,27 @@ reportportal/examples-java,No,Vendor examples repo,java,23,57,1,Java,FALSE,22,22
 Raghav-Pal/SeleniumCucumberBDD,No,YouTube tutorial framework,java,23,77,1,Java,FALSE,4,4
 cucumber/cucumber-jvm-groovy,No,Archived by Cucumber org,java,23,9,4,Java,TRUE,4,4
 luciemars/cucumber-java-selenium-webdriver-example,No,Example repo by name and README,java,23,52,3,Java,FALSE,2,2
-MiroslavRusev/cuppet,Yes,Maintained NodeJS BDD tool (cuppet) used for real site testing; features are its own executed suite,nodejs,22,2,12,JavaScript,FALSE,5,5
 serenity-js/serenity-js-cucumber-webdriverio-template,No,Official template repository,nodejs,22,5,8,TypeScript,FALSE,1,1
 jaganduraisamy/RestAssured-BDD-Java,No,"Personal simple framework, stale",java,22,41,0,Java,FALSE,2,2
-quarkiverse/quarkus-cucumber,Yes,Maintained Quarkiverse extension; feature files are its integration-test suite (minimal features),java,21,19,37,Java,FALSE,3,3
 sorin-costea/bdd,No,Tiny personal demo suite,java,21,22,0,Java,FALSE,1,1
-cjmarkham/Gherklin,Yes,Actively developed Gherkin linter (npm gherklin); acceptance features test its lint rules,nodejs,20,7,7,TypeScript,FALSE,30,30
 FortechRomania/android-ios-cucumber-example,No,"Company example repo, dead since 2019",java,20,10,0,Java,FALSE,2,2
 ashenwgt/awesome-bdd-with-cucumber,No,Sample project for a blog post,java,20,43,0,Java,FALSE,2,2
 mainfraame/cucumber-jest,No,Real npm transformer but abandoned since 2022; features are synthetic fixtures,nodejs,19,11,3,TypeScript,FALSE,11,11
 sneufeind/hexagonal-architecture-example-java,No,Architecture proof-of-concept example,java,19,7,1,Java,FALSE,3,3
 omprakashchavan01/appium-cucumberbdd,No,Course/tutorial framework,java,19,23,2,Java,FALSE,2,2
 omprakashchavan01/appium-cucumberbdd-testng,No,Course/tutorial framework (TestNG variant),java,19,21,2,Java,FALSE,2,2
-SuffolkLITLab/ALKiln,Yes,Actively maintained legal-tech testing tool; its Gherkin suite tests ALKiln itself,nodejs,18,4,71,JavaScript,FALSE,18,18
 deblockt/cucumber-report-annotations-action,No,"Real GitHub Action, but the features exist only as report-parsing fixtures",nodejs,18,11,6,JavaScript,FALSE,2,2
 gftf2011/clean-node-file-uploader-api-js,No,Archived personal clean-architecture study project,nodejs,18,3,19,JavaScript,TRUE,1,1
 tychobrailleur/cucumber-jvm-examples,No,Examples repo,java,18,47,0,Java,FALSE,3,3
 dev9com/cucumber-java-selenium-example,No,"Example repo, dead since 2014",java,18,15,0,Java,FALSE,2,2
 aws-samples/aws-device-farm-appium-cucumber-tests-for-sample-app,No,AWS sample repo,java,18,20,3,Java,FALSE,1,1
 excellentdrums/Cucumber-JVM-Spring-MVC-Test-HTMLUnit-Demo,No,Demo repo from 2015,java,18,2,0,Java,FALSE,1,1
-telekom/bdd-web-app,Yes,Telekom OSS BDD framework maintained into 2024; real Gherkin suites for its demo web app,java,17,2,6,Java,FALSE,9,9
 cmccarthyIrl/spring-cucumber-testng-parallel-test-harness,No,Personal test-harness template,java,17,7,3,Java,FALSE,4,4
 narottamgla/selenium-bdd-cucumber,No,Personal example project showing BDD + Jenkins setup,java,17,17,3,Java,FALSE,4,4
 tristanmccarthy/Cucumber-JVM-Parallel,No,Example project from 2013,java,17,43,3,Java,FALSE,2,2
 allure-examples/cucumberjvm-junit4-maven,No,Vendor example repo,java,16,20,0,Java,FALSE,3,3
 ghoshasish99/Playwright-Java-Cucumber,No,Personal demo repo,java,16,7,0,Java,FALSE,2,2
 allure-framework/allure-cucumberjvm,No,Deprecated/archived adapter,java,16,13,0,Java,TRUE,1,1
-muralco/pickled-cucumber,Yes,"Company OSS Gherkin library (npm pickled-cucumber); features/ tests its own steps, maintained",nodejs,15,14,6,TypeScript,FALSE,25,25
 Arjun-Ar91/Wdio7-appium-cucumber,No,Boilerplate project by name,nodejs,15,9,1,JavaScript,FALSE,1,1
 extrawest/BDD-Charge-Point-Tester-via-OCPP-J-,No,"Real OCPP charge-point test tool with genuine scenarios, but inactive since 2023",java,15,8,2,Java,FALSE,24,24
 jussaragranja/SeleniumEasyTest2,No,Personal practice project against a demo site,java,15,3,1,Java,FALSE,8,8
@@ -123,22 +127,18 @@ cedaniel200/appium-screenplay-pageobject,No,Small demo of the screenplay pattern
 underc0delabs/Autoc0de-Web-Playwrigth,No,Learning-lab framework template,java,14,3,0,Java,FALSE,1,1
 serenity-bdd/serenity-cucumber4,No,Retired module (README points to successor),java,13,9,14,Java,FALSE,64,64
 dougnoel/sentinel,No,"Real Selenium framework with genuine features, but inactive since 2023",java,13,14,120,Java,FALSE,21,21
-osvaldjr/easy-cucumber,Yes,Maintained OSS library (easy-cucumber); example modules' features are its integration tests,java,13,7,8,Java,FALSE,9,9
 naveenanimation20/Cucumber6LatestFeatures,No,Course demo repo,java,13,31,1,Java,FALSE,8,8
 vamsidarbhamulla/serenity-cucumber-bdd-screenplay,No,Tutorial project against a Prestashop demo site,java,13,26,0,Java,FALSE,4,4
 sreenigsd/cheetah,No,Framework's only features are playground samples; effectively dormant,java,13,12,11,Java,FALSE,2,2
 rubenjgarcia/cucumber-rest-steps,No,"Tiny library, dead since 2018",java,13,11,0,Java,FALSE,1,1
 copeautomation/wdio-cucumber-e2e-test,No,Demo e2e test project,nodejs,12,16,0,TypeScript,FALSE,5,5
-RedFroggy/spring-cucumber-rest-api,Yes,Maintained company OSS library (spring-cucumber-rest-api); features test its own REST steps,java,12,29,16,Java,FALSE,2,2
 AndyLPK247/cucumber-jvm-java8-example,No,Archived example project,java,12,10,0,Java,TRUE,1,1
 a11n/android-cucumber-espresso,No,Template demo project,java,12,2,0,Java,FALSE,1,1
 joaovictorino/cleanarch-automated-tests,No,Teaching sample for clean architecture,java,12,4,0,Java,FALSE,1,1
 seanfrenzel/java-gradle-selenium-cucumber-parallel-skeleton,No,Skeleton project by name,java,12,14,1,Java,FALSE,1,1
 anonymax25/cucumber-typescript-example,No,Example kata project,nodejs,11,5,1,TypeScript,FALSE,3,3
-webdriverio-community/wdio-rerun-service,Yes,Actively maintained WebdriverIO community service; Cucumber features run as part of its e2e suite,nodejs,11,13,5,TypeScript,FALSE,2,2
 serenity-bdd/serenity-cucumber6,No,Archived Serenity module,java,11,24,11,Java,TRUE,66,66
 connor-hitchcock/Leftovers-The-Ecommerce-Food-Web-App,No,University team course project,java,11,1,3,Java,FALSE,7,7
-leeonky/jfactory-cucumber,Yes,"Published library (jfactory-cucumber) whose features genuinely test its own steps (borderline: small, single author)",java,11,2,0,Java,FALSE,6,6
 sauce-archives/Java-CucumberJVM-JUnit-Selenium,No,Archived Sauce Labs demo,java,11,18,2,Java,TRUE,4,4
 estefafdez/selenium-cucumber,No,Personal integration example with sample features,java,11,31,2,Java,FALSE,2,2
 Cybertek-B15Local/CucumberWebOrdersFall2019,No,Bootcamp class project,java,11,13,3,Java,FALSE,1,1
