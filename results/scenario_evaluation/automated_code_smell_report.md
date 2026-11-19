@@ -21,18 +21,18 @@ Step keywords are removed before analysis. `<placeholders>` in Scenario Outlines
 
 ## Results
 
-| Project | Features | Scenarios (checked) | Scenarios with a smell | Ambiguous | Conditional | Misplaced Precondition | Misplaced Verification | Unverified Action | Total |
+| Project | Features | Scenarios | Scenarios with a smell | Ambiguous | Conditional | Misplaced Precondition | Misplaced Verification | Unverified Action | Total |
 |---|---|---|---|---|---|---|---|---|---|
-| cucumber/cucumber-jvm | 47 | 88 (69) | 30 | 11 | 1 | 17 | 3 | 21 | **53** |
-| 7ep/demo | 11 | 39 (39) | 24 | 25 | 0 | 0 | 3 | 0 | **28** |
-| serenity-bdd/serenity-cucumber | 37 | 81 (81) | 24 | 8 | 0 | 0 | 0 | 18 | **26** |
-| SuffolkLITLab/ALKiln | 3 | 35 (24) | 12 | 12 | 0 | 0 | 0 | 10 | **22** |
-| znsio/teswiz | 18 | 53 (46) | 13 | 10 | 0 | 0 | 0 | 9 | **19** |
-| osvaldjr/easy-cucumber | 1 | 8 (8) | 8 | 15 | 0 | 0 | 0 | 0 | **15** |
-| selcukes/selcukes-java | 4 | 10 (10) | 4 | 4 | 0 | 0 | 0 | 2 | **6** |
-| martinschneider/justtestlah | 6 | 8 (7) | 2 | 2 | 0 | 0 | 0 | 0 | **2** |
-| telekom/bdd-web-app | 3 | 4 (4) | 1 | 1 | 0 | 0 | 0 | 0 | **1** |
-| 6 projects with no smells found¹ | 11 | 23 (19) | 0 | 0 | 0 | 0 | 0 | 0 | **0** |
+| cucumber/cucumber-jvm | 47 | 69 | 30 | 11 | 1 | 17 | 3 | 21 | **53** |
+| 7ep/demo | 11 | 39 | 24 | 25 | 0 | 0 | 3 | 0 | **28** |
+| serenity-bdd/serenity-cucumber | 37 | 81 | 24 | 8 | 0 | 0 | 0 | 18 | **26** |
+| SuffolkLITLab/ALKiln | 3 | 24 | 12 | 12 | 0 | 0 | 0 | 10 | **22** |
+| znsio/teswiz | 18 | 46 | 13 | 10 | 0 | 0 | 0 | 9 | **19** |
+| osvaldjr/easy-cucumber | 1 | 8 | 8 | 15 | 0 | 0 | 0 | 0 | **15** |
+| selcukes/selcukes-java | 4 | 10 | 4 | 4 | 0 | 0 | 0 | 2 | **6** |
+| martinschneider/justtestlah | 6 | 7 | 2 | 2 | 0 | 0 | 0 | 0 | **2** |
+| telekom/bdd-web-app | 3 | 4 | 1 | 1 | 0 | 0 | 0 | 0 | **1** |
+| 6 projects with no smells found¹ | 11 | 19 | 0 | 0 | 0 | 0 | 0 | 0 | **0** |
 | **Total** | **141** | **350 (308)** | **118** | **88** | **1** | **17** | **6** | **60** | **172** |
 
 ¹ cucumber-js, protractor-cucumber-framework, cukedoctor, react-redux-boilerplate, quarkus-cucumber, jfactory-cucumber
